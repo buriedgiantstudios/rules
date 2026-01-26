@@ -1948,7 +1948,7 @@
             treasury.
 
     - name: Firms and Storms.
-      text: >
+      pretext: >
         When rolling for storms during the Events in India phase, treat all firm ships as if they
         were in the sea zone indicated by the firm's strategy. If the strategy was "Hobnob," firm
         ships will not be affected by storms.
