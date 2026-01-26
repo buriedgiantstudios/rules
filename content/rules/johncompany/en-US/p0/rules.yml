@@ -1180,7 +1180,7 @@
             turn.
 
     - name: Check Expectations.
-      text: >
+      pretext: >
         Next, lower the Company's Standing one space to the left if the Company Balance is less than
         the Expectations value listed beneath the Company's Standing.
 
