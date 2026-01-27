@@ -57,7 +57,7 @@
         There are 10 Crown AI cards and a Crown board which are used in the solo and two-player
         games.
 
-    - name: Enterprises (Small Cards)
+    - name: Enterprises *(Small Cards)*
       pretext: >
         There are 58 small enterprises in the three enterprise types: 22 shipyards (shipping), 20
         workshops (manufacturing), and 16 luxuries (social). Shipyards, workshops, and luxuries
@@ -81,7 +81,7 @@
         cards can change the fundamental rules of the game or present challenges which the players
         must all face together. If a law is passed, it is placed faceup near the board and the
         remainder are kept in a stack near the Prime Minister. One law card, the Deregulation card
-        (with Debtor's Prison on back), is used only in certain scenarios.
+        *(with Debtor's Prison on back)*, is used only in certain scenarios.
 
     - name: Company Failure Cards
       pretext: >
@@ -94,7 +94,7 @@
     - name: Setup Cards and Scenario Cards
       pretext: >
         John Company has several scenarios which are described on 3 scenario cards. Players use the
-        matching set of setup cards (18 each) to create their starting positions.
+        matching set of setup cards *(18 each)* to create their starting positions.
 
     - name: Ships
       pretext: >
@@ -186,7 +186,7 @@
 
         - name: Step 9.
           text: >
-            Place each loot token in the matching region (£ side face up).
+            Place each loot token in the matching region *(£ side face up)*.
 
         - name: Step 10.
           text: >
@@ -301,7 +301,7 @@
         - name: Region Strength.
           text: >
             Every region has strength, usually represented by its tower. The number of levels in the
-            tower dictates the strength of the region (the dome does not count as a tower level).
+            tower dictates the strength of the region *(the dome does not count as a tower level)*.
             This number is used to determine a region's attack and defense value.
 
         - name: Orders.
@@ -323,8 +323,8 @@
         - name: Political Alignment.
           text: >
             Every region has a political alignment: either sovereign or dominated. Sovereign regions
-            (those with a large flag or a dome without any flag) will attempt to invade their
-            neighbors. Dominated regions (those with a small flag or no dome) will attempt to rebel
+            *(those with a large flag or a dome without any flag)* will attempt to invade their
+            neighbors. Dominated regions *(those with a small flag or no dome)* will attempt to rebel
             to regain their sovereignty.
 
     - name: Empires
@@ -332,8 +332,8 @@
         - name: Formation.
           text: >
             When a region conquers another region, it either forms an empire or expands its existing
-            empire. All empires are composed of one capital region (marked by a flag with a star) and
-            at least one dominated region (marked by a smaller version of that flag). Empires combine
+            empire. All empires are composed of one capital region *(marked by a flag with a star)* and
+            at least one dominated region *(marked by a smaller version of that flag)*. Empires combine
             the strengths of their regions when attacking and defending in many situations, as
             described later in the rules.
 
@@ -342,7 +342,7 @@
             If an empire is ever reduced to only its capital region, return its flag to the supply.
             It is no longer an empire.
 
-    - name: The Looming Crisis (The Elephant)
+    - name: The Looming Crisis *(The Elephant)*
       pretext: >
         India is always faced with a looming Crisis. This is represented by the Elephant and its
         position and direction on the map. The Elephant is always in play. It indicates one of two
@@ -414,14 +414,14 @@
     - name: End of Game
       pretext: >
         Once the game is over, players may not negotiate, cash in promises, or play blackmail cards
-        (unless a card's text explicitly allows it). Then players perform the Final Scoring phase.
+        *(unless a card's text explicitly allows it)*. Then players perform the Final Scoring phase.
 
 - name: Final Scoring
   color: '#000000'
   pretext: >
     After scoring as described below, the player with the most victory points wins. Further ties are
     broken in favor of the player with the most window icons and then in Prime Minister order
-    (clockwise, starting with the Prime Minister).
+    *(clockwise, starting with the Prime Minister)*.
 
   children:
     - name: Power Award
@@ -431,7 +431,7 @@
       children:
         - name: Power Track.
           text: >
-            Each enterprise (remember: some prestige cards are enterprises) or Company share is worth
+            Each enterprise *(remember: some prestige cards are enterprises)* or Company share is worth
             the amount of power indicated next to its token on the Power track. The bottom two spaces
             are worth 0 power.
 
@@ -545,7 +545,7 @@
 
     - name: Retirements
       pretext: >
-        Starting with the Chairman (or former Chairman if the office is vacant) and going clockwise,
+        Starting with the Chairman *(or former Chairman if the office is vacant)* and going clockwise,
         each player may retire their pensioner(s). For each pensioner, choose a prize on the left
         side of the board, pay the cost indicated on the top left of the prize box, and move your
         pensioner to that box. Increase your victory point marker by the amount listed.<br><br>
@@ -606,7 +606,7 @@
           text: >
             Blackmails offer one-time effects. After they are used they are placed in your player
             area faceup and cannot be transferred. At the end of the game, all blackmail cards in a
-            player's area (faceup or down) count for power during Final Scoring.
+            player's area *(faceup or down)* count for power during Final Scoring.
 
 - name: Family
   color: '#000000'
@@ -724,7 +724,7 @@
 
         - name: Promotions.
           text: >
-            Some higher offices (like the Director of Trade) are hired from family members who
+            Some higher offices *(like the Director of Trade)* are hired from family members who
             already hold offices. Whenever a family member is promoted in this way, their previously
             held office card should be flipped over and added to the stack of vacant offices in the
             appropriate order (ascending). Any fatigue tokens on the promoted officeholder's previous
@@ -738,7 +738,7 @@
             new Chairman you need consent from players that control a majority of the current Company
             shares.<br><br>
             At the start of the election, the former Chairman should declare the number of Company
-            shares required to achieve a pure majority (more than half of total). Then, any player is
+            shares required to achieve a pure majority *(more than half of total)*. Then, any player is
             welcome to campaign for their candidacy. As soon as a candidate has the required number
             of supporting Company shares, the election is over, and that player is chosen as the new
             Chairman.<br><br>
@@ -835,7 +835,7 @@
             You may advance the Company Debt marker up to three times. For each advance, increase the
             Company Balance by £5. If you wish to advance the Debt marker additional times, you must
             have the consent of players who control a majority of Company shares for each additional
-            advancement (Remember: the Chairman counts as a share for this purpose!). The Chairman
+            advancement *(Remember: the Chairman counts as a share for this purpose!)*. The Chairman
             may not advance the debt beyond the end of the track.
 
         - name: Allocating Balance.
@@ -916,7 +916,7 @@
           text: >
             Commanders and Governors are not required to take any actions but they must be given the
             opportunity to act. Each position must finish all of its actions before the next one may
-            begin (players may flip their family members facedown after to track which have acted).
+            begin *(players may flip their family members facedown after to track which have acted)*.
             The Trade action can be taken anytime during a Presidency's operations so long as it does
             not interrupt another position.
 
@@ -949,14 +949,14 @@
                 If successful, place one writer on an open, empty order space for each ship in this
                 Presidency's sea zone. You must place as many writers as possible, but can only place
                 them in the declared regions. The first writer must be placed on the Presidency's
-                home port (marked with a thick black line). After that order is filled, additional
+                home port *(marked with a thick black line)*. After that order is filled, additional
                 writers must be adjacent to a writer you already placed. For each order filled,
                 increase the Company Balance by the amount listed on the order.
 
             - name: Out of Writers.
               text: >
                 If all writers have been placed and ships remain to fill additional orders, place
-                filled order tokens (on the reverse of the closed order token) on the orders to show
+                filled order tokens *(on the reverse of the closed order token)* on the orders to show
                 they have been filled.
 
             - name: Home Region Privileges.
@@ -1016,14 +1016,14 @@
             - name: Step 3. Check for Losses.
               text: >
                 Each player must roll a die for each of their officers that were exhausted in this
-                action (never regiments!). For each 6 rolled, they must return one of their officers
+                action *(never regiments!)*. For each 6 rolled, they must return one of their officers
                 to their supply.
 
             - name: If Successful.
               text: >
                 If successful, perform the following steps:<br>
                 \- **Take Trophies.** Take one trophy token for each level in the targeted region's
-                tower (since you are the Commander). Then, remove the tower and dome. If it was a
+                tower *(since you are the Commander)*. Then, remove the tower and dome. If it was a
                 capital, remove all matching flags.<br>
                 \- **Impose Order.** Open all orders and remove any unrest in the region.<br>
                 \- **Form Governorship.** If the region is not Company-controlled, move the region's
@@ -1041,7 +1041,7 @@
 
             - name: Catastrophic Failure.
               text: >
-                If the Deploy action is a catastrophic failure, first return half (rounding up) of
+                If the Deploy action is a catastrophic failure, first return half *(rounding up)* of
                 your trophies to the supply and return the Commander to your supply.
 
     - name: Governors
@@ -1094,7 +1094,7 @@
       pretext: >
         The Governor General is created by passing a law of the same name. When passed, all Governors
         immediately become pensioners. Remove any Governor overlays on the map and any partially-
-        built Company ships. No new Governors are created (or overlays placed) when additional
+        built Company ships. No new Governors are created *(or overlays placed)* when additional
         regions become Company-controlled.
 
       children:
@@ -1160,7 +1160,7 @@
         - name: Paying Expenses.
           text: >
             First, lower the Company Balance marker by £1 for each debt as indicated by the Company
-            Debt track, each regiment and officer in an Army (do not include Commanders), and each
+            Debt track, each regiment and officer in an Army *(do not include Commanders)*, and each
             ship in the three sea zones.
 
         - name: Emergency Loans.
@@ -1258,7 +1258,7 @@
       children:
         - name: Tarnish the Commander's Name.
           text: >
-            The Commander of the Army associated with this region returns half (rounding up) of the
+            The Commander of the Army associated with this region returns half *(rounding up)* of the
             trophies their family owns to the supply. Return the Commander to its supply.
 
         - name: Officer Rout.
@@ -1307,7 +1307,7 @@
             \- If the region is currently dominated by another region, place the Elephant on the
             border facing its current sovereign to indicate a looming Rebellion.<br>
             \- If the region is sovereign, place the Elephant on the border matching the shape
-            (circle, triangle, or square) printed on the tile to indicate a looming Invasion. The
+            *(circle, triangle, or square)* printed on the tile to indicate a looming Invasion. The
             Elephant should be facing towards the region on the other side of that border. If the
             Elephant faces a region that is already dominated by the acting region (with the
             Elephant's tail), use the first clockwise region from that border where this is not true.
@@ -1343,30 +1343,30 @@
           text: >
             If the region pictured on the top of the draw stack is sovereign, add a tower level to
             it. Otherwise, treat this event as a Rebellion in the pictured region with a strength
-            modifier equal to the number on the explosion symbol (see Crisis rules).<br><br>
+            modifier equal to the number on the explosion symbol *(see Crisis rules)*.<br><br>
             If the Elephant was fully within a Company-controlled region that successfully rebelled,
-            perform an Elephant's March. (Otherwise this event does not move the Elephant.)
+            perform an Elephant's March. *(Otherwise this event does not move the Elephant.)*
 
         - name: Peace.
           text: >
             Open any orders that are connected through the border the Elephant stands on. Then add
             one tower level to each region touching the Elephant that is not controlled by the
-            Company. If the Elephant was wholly within a region (indicating a potential Rebellion),
+            Company. If the Elephant was wholly within a region *(indicating a potential Rebellion)*,
             open all orders in that region and remove any unrest in this region. Then, perform the
             Elephant's March.
 
     - name: Crisis
       pretext: >
         Like Peace, the location of the Crisis is determined by the placement of the Elephant piece,
-        not by the top tile of the draw stack. The Elephant's tail (where it is walking from)
-        indicates the attacker. The Elephant's head (where it is walking to) indicates the defender.
+        not by the top tile of the draw stack. The Elephant's tail *(where it is walking from)*
+        indicates the attacker. The Elephant's head *(where it is walking to)* indicates the defender.
         After resolving a Crisis, perform the Elephant's March.
 
       children:
         - name: Invasion.
           text: >
             If the attacker is a sovereign region, resolve an Invasion. Determine whether the
-            attacker's strength (including the strength of any other regions in its empire) plus the
+            attacker's strength *(including the strength of any other regions in its empire)* plus the
             modifier listed on the event tile is greater than the defender's strength (including the
             strength of any other regions in its empire). If so, the Invasion is successful;
             otherwise, the Invasion fails.<br><br>
@@ -1391,8 +1391,8 @@
         - name: Rebellion.
           text: >
             If the attacker is a dominated region, resolve a Rebellion. In a Rebellion, the Crisis is
-            only between a dominated region and the region that dominates it (other regions in the
-            empire have no impact!). Determine whether the attacker's strength plus the modifier
+            only between a dominated region and the region that dominates it *(other regions in the
+            empire have no impact!)*. Determine whether the attacker's strength plus the modifier
             listed on the event tile is greater than the defender's strength. If so, the Rebellion is
             successful; otherwise it fails.<br><br>
             When a Rebellion is successful the attacking region is now sovereign. Return its flag to
@@ -1455,7 +1455,7 @@
         Cascade.<br>
         \- Return any flag on this region's dome to the supply. If it was a capital, return all flags
         of that color to the supply. If Company-controlled, return its dome to the board. In any
-        case, set the region's strength to half the Invasion die roll (round down).
+        case, set the region's strength to half the Invasion die roll *(round down)*.
 
 - name: Parliament Meets
   color: '#000000'
@@ -1469,7 +1469,7 @@
           text: >
             They do this by drawing and revealing, one at a time, up to three cards from the law deck
             and selecting one. The remainder are discarded. Players are welcome to discuss each law
-            before the next is drawn. However, if a dilemma (indicated at the top of the card) is
+            before the next is drawn. However, if a dilemma *(indicated at the top of the card)* is
             drawn, the Prime Minister must stop drawing and select that law.
 
         - name: Selecting a Policy.
@@ -1486,7 +1486,7 @@
         - name: Tax.
           text: >
             Each player must pay £1 to the bank for each target they own. For each they cannot pay
-            for, the target should be returned to its supply (this includes the Chairman!). Any
+            for, the target should be returned to its supply *(this includes the Chairman!)*. Any
             fitted ships connected to returned shipyards remain in play, but their attached shipyards
             may not be taken during the Family Action phase if the ship is in play.
 
@@ -1510,7 +1510,7 @@
     - name: Voting
       pretext: >
         Next, the Prime Minister reads the text of the law aloud and marks its starting support
-        (printed on bottom right of law) using the Votes marker on its track. The Prime Minister
+        *(printed on bottom right of law)* using the Votes marker on its track. The Prime Minister
         should allow some time for debate before proceeding to voting.
 
       children:
@@ -1606,7 +1606,7 @@
 
         - name: If Fails.
           text: >
-            If the law fails, increase the value of Company shares by placing (or flipping) the
+            If the law fails, increase the value of Company shares by placing *(or flipping)* the
             Company share victory point token in the Court. Shares cannot be worth more than +/-3
             victory points. Unlike other proposed laws, this law is not associated with a policy. If
             it fails, the current Prime Minister will remain in power and this law is not discarded.
@@ -1616,7 +1616,7 @@
   color: '#000000'
   pretext: >
     Everyone must pay for their family members on prizes. Each is paid for individually, using the
-    indicated amount on that prize (printed to the right of the prize's cost). If a player cannot pay
+    indicated amount on that prize *(printed to the right of the prize's cost)*. If a player cannot pay
     for a prize's expense, instead return the family member to its supply and lower their owner's
     victory point marker by that prize's value.<br><br>
     Remember, players can transfer funds to each other at any time. If you're having trouble meeting
@@ -1800,7 +1800,7 @@
                 shares must be returned to their owner's supply with their owner's consent.<br><br>
                 In order for a negotiated merger to take place, all involved firms must have the full
                 consent of every shareholder. All merger negotiations are considered a single
-                immediate transfer (and therefore binding).<br><br>
+                immediate transfer *(and therefore binding)*.<br><br>
                 After a merger is agreed to, all secondary firms transfer and consolidate their
                 treasuries, shareholders, and ships into a single firm. Then, the secondary firms
                 flip to their family side.
@@ -1824,7 +1824,7 @@
               text: >
                 Firm managers that do not wish to trade may select the "Hobnob" strategy. No cash may
                 be placed on this strategy. A firm with this strategy will not trade or pay dividends
-                (it must still pay expenses!), but it will allow a firm to keep its previous dividend
+                *(it must still pay expenses!)*, but it will allow a firm to keep its previous dividend
                 marker for the purposes of special retirements.
 
             - name: Revealing.
@@ -1838,19 +1838,19 @@
       children:
         - name: Initiative.
           text: >
-            At the start of a Presidency's Operations (before any actions are taken), any firm with a
+            At the start of a Presidency's Operations *(before any actions are taken)*, any firm with a
             strategy that is associated with that Presidency reveals their strategy and makes a check
             with dice equal to the cash allocated to their strategy. The cash is then paid to the
             bank. If at least one success is rolled, the firm may trade. Each firm that successfully
             trades has an initiative value equal to the total of their ships minus the number of
-            successful dice (1s and 2s) they rolled. This number can be negative.<br><br>
+            successful dice *(1s and 2s)* they rolled. This number can be negative.<br><br>
             Orders are filled after the President has made a successful roll while taking the Trade
             action. A President's roll determines their initiative like a firm and counts all ships
             in their Presidency's sea zone.
 
         - name: Vacant Presidency or Failure to Trade.
           text: >
-            If the President is vacant or does not trade (for any reason), ties in initiative are
+            If the President is vacant or does not trade *(for any reason)*, ties in initiative are
             decided by the Chairman marker. Firms with strategies associated with this Presidency
             fill orders after its Commander or Governors have had a chance to act.
 
@@ -1927,7 +1927,7 @@
           text: >
             Unlike Company dividends, any shareholder may elect to not be paid for any number of
             their shares on any dividend, so long as the manager consents. For example, a firm has
-            the following shareholders Blue (2 + Manager) and Yellow (2) and £8 to payout. Normally
+            the following shareholders Blue *(2 + Manager)* and Yellow *(2)* and £8 to payout. Normally
             each dividend would pay out £5, but that doesn't allow the manager to pay out all £8. If
             Blue forgoes a share of dividends twice, all £8 could be paid out. Blue and Yellow would
             take £4 each.
@@ -2024,7 +2024,7 @@
 
         - name: Hard.
           text: >
-            As Normal, but also give 4 more promise cubes to the Crown (2 from each player in 2P).
+            As Normal, but also give 4 more promise cubes to the Crown *(2 from each player in 2P)*.
 
         - name: Expert.
           text: >
@@ -2085,8 +2085,8 @@
       pretext: >
         In most phases, promise cubes can be exchanged to/from the Crown in a closed economy via a
         favor. There are two kinds of favors: favors that require you to pay promise cubes to the
-        Crown (indicated with a red box) and favors that force the Crown to give you promise cubes
-        (indicated with a blue box). Most favors are listed in the Crown Handbook. Favors have two
+        Crown *(indicated with a red box)* and favors that force the Crown to give you promise cubes
+        *(indicated with a blue box)*. Most favors are listed in the Crown Handbook. Favors have two
         critical restrictions:
 
       children:
@@ -2116,5 +2116,5 @@
         The word "most" refers to having comparatively more or equal of something, with a minimum of
         1. The word "fewest" refers to having comparatively less or equal of something, and includes
         zero.<br><br>
-        If the Crown faces more than one option, the soloist (or the player holding the Button) may
+        If the Crown faces more than one option, the soloist *(or the player holding the Button)* may
         make a free choice between them when the rules do not otherwise make a distinction.
