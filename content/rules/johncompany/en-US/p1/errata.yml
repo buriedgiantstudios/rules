@@ -1,0 +1,23 @@
+- text: >
+    Added victory condition. (4th printing)
+  versions:
+    - v1
+  rules:
+    - '5.'
+
+- text: >
+    Edited 'half the Invasion strength' to 'half the Invasion die roll'. (4th printing)
+    *This clarifies that it does not include strength added by unrest.*
+  versions:
+    - v1
+  rules:
+    - '13.9'
+
+
+- text: >
+    Added clarification that a set of multiple Foreign Invasions only prompt 
+    a single set of Rebellions from unrest, not one per Foreign Invasion. (4th printing)
+  versions:
+    - v1
+  rules:
+    - '13.9'
