@@ -57,7 +57,7 @@
         There are 10 Crown AI cards and a Crown board which are used in the solo and two-player
         games.
 
-    - name: Enterprises *(Small Cards)*
+    - name: Enterprises (Small Cards)
       pretext: >
         There are 58 small enterprises in the three enterprise types: 22 shipyards (shipping), 20
         workshops (manufacturing), and 16 luxuries (social). Shipyards, workshops, and luxuries
@@ -173,8 +173,8 @@
         - name: Step 6.
           text: >
             Every player should take a set of player pieces including their family board. Place each
-            family's victory point marker on the "0" space of the Victory Point track (top left of
-            the board).
+            family's victory point marker on the "0" space of the Victory Point track *(top left of
+            the board)*.
 
         - name: Step 7.
           text: >
@@ -269,8 +269,8 @@
 
     - name: Your Play Area and Hidden Information
       pretext: >
-        Players maintain a play area that contains everything they own. All information (including
-        the contents of discard piles) is public except facedown blackmail cards.
+        Players maintain a play area that contains everything they own. All information *(including
+        the contents of discard piles)* is public except facedown blackmail cards.
 
     - name: Cash Flow
       pretext: >
@@ -342,7 +342,7 @@
             If an empire is ever reduced to only its capital region, return its flag to the supply.
             It is no longer an empire.
 
-    - name: The Looming Crisis *(The Elephant)*
+    - name: The Looming Crisis (The Elephant)
       pretext: >
         India is always faced with a looming Crisis. This is represented by the Elephant and its
         position and direction on the map. The Elephant is always in play. It indicates one of two
@@ -351,8 +351,8 @@
       children:
         - name: Impending Invasions.
           text: >
-            When the Elephant is placed on a border between two regions, the acting region (with the
-            Elephant's tail) is getting ready to invade the region the Elephant faces.
+            When the Elephant is placed on a border between two regions, the acting region *(with the
+            Elephant's tail)* is getting ready to invade the region the Elephant faces.
 
         - name: Impending Rebellions.
           text: >
@@ -560,9 +560,9 @@
       pretext: >
         Beginning with the player who spent the most total cash on retirements this turn, each player
         who retired at least one pensioner this turn must take or discard one card from the London
-        Season Display. Any ties are broken in favor of most total window icons (including from
-        retirements this turn!) and then in Prime Minister order (clockwise, starting with the Prime
-        Minister).
+        Season Display. Any ties are broken in favor of most total window icons *(including from
+        retirements this turn!)* and then in Prime Minister order *(clockwise, starting with the Prime
+        Minister)*.
 
       children:
         - name: Taking Cards.
@@ -619,8 +619,8 @@
       pretext: >
         Starting with the player with the Chairman title and proceeding clockwise, each player
         selects one family action from those listed in this section and places their opportunity
-        marker on the action they choose. (Note: at the start of the game, this marker is not on any
-        action.)
+        marker on the action they choose. *(Note: at the start of the game, this marker is not on any
+        action.)*
 
       children:
         - name: Opportunity Marker Bonus.
@@ -744,8 +744,8 @@
             Chairman.<br><br>
             The newly-elected Chairman takes the Chairman marker and moves one of their Company
             shares to the Chairman slot on the board. This piece still counts as a Company share, but
-            cannot be traded in a negotiation or used for firm investments (if playing with
-            Deregulation).<br><br>
+            cannot be traded in a negotiation or used for firm investments *(if playing with
+            Deregulation)*.<br><br>
             If no candidate can receive the necessary support, the former Chairman picks any player
             with at least one Company share to become the new Chairman, including themselves. This
             choice is not subject to the Nepotism rule.
@@ -961,8 +961,8 @@
 
             - name: Home Region Privileges.
               text: >
-                A President may not fill an order in another President's home region (even if that
-                President is vacant).
+                A President may not fill an order in another President's home region *(even if that
+                President is vacant)*.
 
             - name: One Trade.
               text: >
@@ -1124,10 +1124,10 @@
             Make a check. Each £1 you spend gives you one die. There is no penalty. For each 6
             rolled, place one unrest in each Company-controlled region.<br><br>
             If you are successful, take £1 for each region that is Company-controlled. Then, for each
-            region that is Company-controlled, choose one of the following (note: you must choose an
-            option!):<br>
-            \- **Governor General's Shipbuilding.** Place a Company ship in any sea zone (including
-            China).<br>
+            region that is Company-controlled, choose one of the following *(note: you must choose an
+            option!)*:<br>
+            \- **Governor General's Shipbuilding.** Place a Company ship in any sea zone *(including
+            China)*.<br>
             \- **Governor General's Commission Regiment.** Place a regiment from the supply in any
             Army.<br>
             \- **Governor General's Tax.** Either increase the Company Balance by £2 or place £2 in
@@ -1274,18 +1274,18 @@
         - name: Restore Local Authority.
           text: >
             Remove the Governor overlay, any Company ship, and any unrest in the region, and place a
-            dome back in the region with one tower level (place the appropriate flag if this region
-            fell as part of a successful Invasion Crisis). Place the region's control token back in
-            its region with the loot side facedown (it will not generate additional loot in the
-            future and is no longer associated with the Presidency). If triggered by an Invasion
+            dome back in the region with one tower level *(place the appropriate flag if this region
+            fell as part of a successful Invasion Crisis)*. Place the region's control token back in
+            its region with the loot side facedown *(it will not generate additional loot in the
+            future and is no longer associated with the Presidency)*. If triggered by an Invasion
             Crisis, close every open order in the region, resolving a Cascade if all are already
             closed. Note: this closing only occurs in an Invasion Crisis because a Foreign Invasion
             and Rebellion close orders by default.
 
         - name: Company Humiliation.
           text: >
-            Lower the Company's Standing by one to the left for each region lost this turn (including
-            this region). E.g. The first lost region lowers Standing by 1 space, the second lowers
+            Lower the Company's Standing by one to the left for each region lost this turn *(including
+            this region)*. E.g. The first lost region lowers Standing by 1 space, the second lowers
             Standing an additional 2 spaces, etc. This can cause Company failure. If this happens the
             game is over. Finish the Events in India phase, then resolve Final Scoring.
 
@@ -1309,8 +1309,8 @@
             \- If the region is sovereign, place the Elephant on the border matching the shape
             *(circle, triangle, or square)* printed on the tile to indicate a looming Invasion. The
             Elephant should be facing towards the region on the other side of that border. If the
-            Elephant faces a region that is already dominated by the acting region (with the
-            Elephant's tail), use the first clockwise region from that border where this is not true.
+            Elephant faces a region that is already dominated by the acting region *(with the
+            Elephant's tail)*, use the first clockwise region from that border where this is not true.
 
         - name: Fully-Formed Empires.
           text: >
@@ -1367,8 +1367,8 @@
           text: >
             If the attacker is a sovereign region, resolve an Invasion. Determine whether the
             attacker's strength *(including the strength of any other regions in its empire)* plus the
-            modifier listed on the event tile is greater than the defender's strength (including the
-            strength of any other regions in its empire). If so, the Invasion is successful;
+            modifier listed on the event tile is greater than the defender's strength *(including the
+            strength of any other regions in its empire)*. If so, the Invasion is successful;
             otherwise, the Invasion fails.<br><br>
             If the Invasion succeeded, remove any flag on the defending region's dome and place a
             flag matching the attacker.
@@ -1403,8 +1403,8 @@
     - name: Attacks Against the Company
       pretext: >
         Invasions and Rebellions against Company-controlled regions are resolved the same way.
-        Whenever attacked by any type of Crisis, the Company must resolve the Crisis (called the
-        primary Crisis) and then must resolve an extra Rebellion Crisis in each other region with
+        Whenever attacked by any type of Crisis, the Company must resolve the Crisis *(called the
+        primary Crisis)* and then must resolve an extra Rebellion Crisis in each other region with
         unrest cubes.
 
       children:
@@ -1416,14 +1416,14 @@
 
         - name: Vacant Commander.
           text: >
-            If the Commander is vacant, Military Affairs will act in its stead (choosing which pieces
-            to exhaust etc.) If that office is also vacant, the Chairman will choose. The player
+            If the Commander is vacant, Military Affairs will act in its stead *(choosing which pieces
+            to exhaust etc.)* If that office is also vacant, the Chairman will choose. The player
             acting as Commander will not lose or gain trophies.
 
         - name: Attack Strength.
           text: >
-            In the primary Crisis, calculate strength depending on the Crisis type (Invasion or
-            Rebellion). In addition, add one to the strength for every unrest in this region. In
+            In the primary Crisis, calculate strength depending on the Crisis type *(Invasion or
+            Rebellion)*. In addition, add one to the strength for every unrest in this region. In
             other regions, the strength of each Rebellion is equal to the number of unrest in that
             region.
 
@@ -1444,11 +1444,11 @@
     - name: Foreign Invasion
       pretext: >
         Roll the storm die and resolve an Invasion Crisis and/or Attack against the Company in each
-        region linked to a storm (Bombay for West Indian, Madras for South Indian, and Bengal for
-        East Indian). If all storms are rolled, resolve this event once in each. If no storms are
-        rolled, resolve this event in the region on the top card of the draw stack instead. (Resolve
+        region linked to a storm *(Bombay for West Indian, Madras for South Indian, and Bengal for
+        East Indian)*. If all storms are rolled, resolve this event once in each. If no storms are
+        rolled, resolve this event in the region on the top card of the draw stack instead. *(Resolve
         extra Rebellions in other regions with unrest after all Foreign Invasions, not after each
-        one.)<br><br>
+        one.)*<br><br>
         For each event, roll a die. Treat this like an Invasion with strength equal to the roll. In
         addition to those rules, if the Foreign Invasion is successful:<br>
         \- Close every open order in the region. If all orders are already closed, perform a
@@ -1478,8 +1478,8 @@
             arm either clockwise or counter-clockwise. The Prime Minister must stop at the first
             space that matches the icon printed on the bottom of the law card.<br><br>
             Each space on the Policy track has two elements, a policy consequence and a target. If
-            the law passes, the selected policy consequence will affect the target (either an
-            enterprise type, Company share or a prize as indicated by the space's color and icon).
+            the law passes, the selected policy consequence will affect the target *(either an
+            enterprise type, Company share or a prize as indicated by the space's color and icon)*.
 
     - name: Policy Consequences
       children:
@@ -1542,8 +1542,8 @@
             Any player who votes against the law is part of the opposition. Once a player votes
             against a law, they may not vote in favor of it later during that vote. All members of
             the opposition should count how many votes they have cast against this law using any
-            method (for instance, they could group all of their cards used to vote plus any money
-            spent). A player who previously voted for the law may change their mind and join the
+            method *(for instance, they could group all of their cards used to vote plus any money
+            spent)*. A player who previously voted for the law may change their mind and join the
             opposition with later votes.
 
         - name: The Opposition Leader.
@@ -1729,9 +1729,9 @@
             - name: Immature Company Shares.
               text: >
                 You may not invest with a Company share that was created this turn. You may not avoid
-                this rule by trading your share to another player. (Players may find it helpful to
+                this rule by trading your share to another player. *(Players may find it helpful to
                 flip over any newly-created Company shares until the end of the turn to show that
-                they cannot be invested.)
+                they cannot be invested.)*
 
             - name: Forming a Firm.
               text: >
@@ -1740,8 +1740,8 @@
                 family board over to its firm charter side. Place your opportunity marker on the same family action that it was on. 
                 Place one family member from your supply
                 on the firm's Shares box to represent the firm's first share. Place one of your cubes
-                on the leftmost space of the Value track (the other will be used to record the total
-                dividends paid). Add £5 from the bank to this firm's London treasury. Your family is
+                on the leftmost space of the Value track *(the other will be used to record the total
+                dividends paid)*. Add £5 from the bank to this firm's London treasury. Your family is
                 now considered a firm and you are the firm manager.
 
             - name: Court and Workshop Investment.
@@ -1791,8 +1791,8 @@
               text: >
                 Firm managers may consolidate any number of firms into a single firm through a
                 negotiated merger.<br><br>
-                In a merger, the highest value firm among those merging will be the primary firm (if
-                there is a tie, the players will pick from among those tied). This firm will remain
+                In a merger, the highest value firm among those merging will be the primary firm *(if
+                there is a tie, the players will pick from among those tied)*. This firm will remain
                 after the merger is completed. The other firms in the merger are called secondary
                 firms.<br><br>
                 As part of a merger, players may negotiate for the transfer of firm shares to other
@@ -1896,8 +1896,8 @@
         - name: Dissolution.
           text: >
             If a firm cannot pay expenses it must be dissolved. Move each share piece to the Debtor's
-            Prison box on the Deregulation card (pieces here lower a player's score by one victory
-            point). All ships owned by the firm are returned to their matching shipyard. The manager
+            Prison box on the Deregulation card *(pieces here lower a player's score by one victory
+            point)*. All ships owned by the firm are returned to their matching shipyard. The manager
             of the firm then flips their firm's charter back to the family side. Note: any workshops
             invested in the firm will remain on their invested side for the rest of the game!
 
@@ -1912,8 +1912,8 @@
         - name: Emergency Mergers.
           text: >
             A firm facing dissolution may participate in a negotiated merger with one other firm at
-            this time. As part of the merger, the other firm must first pay their own expenses (if it
-            hasn't already done so), and pay any outstanding expenses owed by the firm facing
+            this time. As part of the merger, the other firm must first pay their own expenses *(if it
+            hasn't already done so)*, and pay any outstanding expenses owed by the firm facing
             dissolution.
 
         - name: Firm Dividends.
@@ -1978,8 +1978,8 @@
             The Crown uses the family board titled "The Crown."<br><br>
             Give the Crown the family members of two players, so they have 36 pieces instead of 18.
             They will first use all of one color when placing family members.<br><br>
-            Divide the 12 Crown promise cubes equally between the Crown and the human players (i.e. 6
-            each in a solo game, 4 each in a 2-player game).<br><br>
+            Divide the 12 Crown promise cubes equally between the Crown and the human players *(i.e. 6
+            each in a solo game, 4 each in a 2-player game)*.<br><br>
             The Crown sits last in order in respect to whoever was Chairman during setup, or before
             whichever player is next in the order of offices if the Crown is themselves the Chairman.
 
@@ -1999,14 +1999,14 @@
 
     - name: The Player Button
       pretext: >
-        Designate one component or object as the Player Button (this could be an unused Crown firm
-        cube or any unused game component). Give the Player Button to the player sitting to the right
+        Designate one component or object as the Player Button *(this could be an unused Crown firm
+        cube or any unused game component)*. Give the Player Button to the player sitting to the right
         (counter-clockwise) or left (clockwise) of the Crown, according to the direction pointed at
         by the finger on the current AI card.<br><br>
         Each time the Crown must decide between the two players, they will select the player holding
         the Player Button. Likewise, if there is disagreement over which of the two players gets to
-        act in a certain situation (e.g. if both wish to perform the same favor with the Crown at the
-        same time), the decision goes to the player holding the Player Button. In both cases, that
+        act in a certain situation *(e.g. if both wish to perform the same favor with the Crown at the
+        same time)*, the decision goes to the player holding the Player Button. In both cases, that
         player must then immediately pass the Player Button to the other player.<br><br>
         A player holding the Player Button may transfer it to the other player as part of a
         negotiation.
@@ -2015,8 +2015,8 @@
       children:
         - name: Easy.
           text: >
-            5 promise cards are available to each player, which can be traded for promise cubes (see
-            Crown family board).
+            5 promise cards are available to each player, which can be traded for promise cubes *(see
+            Crown family board)*.
 
         - name: Normal.
           text: >
@@ -2033,8 +2033,8 @@
     - name: Before You Begin Play
       pretext: >
         Shuffle the AI cards and place the deck facedown; draw and reveal the topmost card, placing
-        it faceup to the right of the facedown deck. Set the climate marker (use an unused
-        opportunity marker) on the Crown family board, according to the icon on the revealed AI card.
+        it faceup to the right of the facedown deck. Set the climate marker *(use an unused
+        opportunity marker)* on the Crown family board, according to the icon on the revealed AI card.
 
     - name: Gameplay
       pretext: >
