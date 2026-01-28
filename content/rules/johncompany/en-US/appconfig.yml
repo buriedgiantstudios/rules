@@ -2,7 +2,7 @@ App:
   NavTitle: 4th Printing (Work in Progress)
   NavTitleShort: 4th (WIP)
   NoItemsFound: No items found.
-  NoRulesAvailable: No rules available.
+  NoRulesAvailable: No rules available. Click the settings button to restore.
   SearchPlaceholder: Search Rules
   Locale:
     ShowRules: Show Rules

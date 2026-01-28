@@ -2,7 +2,7 @@ App:
   NavTitle: 1st Edition
   NavTitleShort: 1st Ed.
   NoItemsFound: No items found.
-  NoRulesAvailable: No rules available.
+  NoRulesAvailable: No rules available. Click the settings button to restore.
   SearchPlaceholder: Search Rules
   Locale:
     ShowRules: Show Rules
