@@ -2108,7 +2108,7 @@
 
         - name: Mandatory Favors.
           text: >
-            Some favors have darker boxes with a bold outline. These favors are mandatory and must be
+            Some favors have darker boxes. These favors are mandatory and must be
             performed if the conditions are met.
 
     - name: Clarifications for the Crown
