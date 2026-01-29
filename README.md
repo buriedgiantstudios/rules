@@ -1,6 +1,10 @@
 # RULE
 
-One app to RULE them all!
+Hello! If you are interested in contributing to the Rules Library for Buried Giant, you can do so in two ways:
+- If you have a rules issue, please open up an Issue.
+- If you have a fix to propose, please open up a Pull Request. All of the relevant rulebooks are contained in `content/rules` 
+
+If you're interested in forking this code and using it yourself, you'll find what you need below.
 
 ## Getting Started
 
