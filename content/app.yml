@@ -8,6 +8,9 @@ products:
   johncompany:
     name: John Company
 
+  paxpamir:
+    name: Pax Pamir
+
 languages:
   de-DE:
     name: Deutsch
