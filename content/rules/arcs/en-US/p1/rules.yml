@@ -869,7 +869,7 @@
       children:
         - name: Discard Cards.
           text: >
-            Discard all played action cards, and any action card used to seize the initiative, into
+            Discard all played action cards, including any action card used to seize the initiative, into
             the action discard pile on the map ***face down***.
 
         - name: End of Round.
