@@ -1767,7 +1767,7 @@
             - name: Acquiring Ships as a Firm.
               text: >
                 A firm manager may spend cash from the firm's London treasury to the bank to fit
-                ships on shipyards which are placed on the firm's charter. Each costs £3. Unlike the
+                ships on shipyards which are placed on their firm charter board. Each costs £3. Unlike the
                 Company, a firm manager may only fit ships with the consent of shipyard owner.
 
             - name: Player-owned Company Ship Buyback.
@@ -1781,11 +1781,11 @@
             - name: Hostile Takeovers.
               text: >
                 If you do not manage a firm and have the consent of players who collectively hold a
-                majority of a firm's shares, you may initiate a hostile takeover. Flip your board to
+                majority of a firm's shares, you may initiate a hostile takeover. Flip your family board to
                 its firm charter side. Place your two firm cubes on the tracks in the matching spaces
                 as the firm you are taking over. Move any ships, treasury funds, and shares to your
-                board. The previous owner then returns their cubes to their supply and returns their
-                firm charter to the family side.
+                board. The previous owner then returns their cubes to their supply and flips their
+                firm charter board back to its family side.
 
             - name: Mergers.
               text: >
@@ -1888,7 +1888,7 @@
         - name: Firm Expenses.
           text: >
             Each firm must pay for the following expenses:<br>
-            \- Pay £1 for each ship on the firm's charter.<br>
+            \- Pay £1 for each ship on their firm charter board.<br>
             \- Pay £1 for each share in the firm's Share box or pay £ equal to the firm value,
             whichever is higher.<br><br>
             Expenses can be paid from a firm's London and/or India treasury.
@@ -1898,7 +1898,7 @@
             If a firm cannot pay expenses it must be dissolved. Move each share piece to the Debtor's
             Prison box on the Deregulation card *(pieces here lower a player's score by one victory
             point)*. All ships owned by the firm are returned to their matching shipyard. The manager
-            of the firm then flips their firm's charter back to the family side. Note: any workshops
+            of the firm then flips their firm charter board back to the family side. Note: any workshops
             invested in the firm will remain on their invested side for the rest of the game!
 
         - name: Emergency Investments.
