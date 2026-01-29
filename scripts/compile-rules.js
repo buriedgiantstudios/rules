@@ -19,6 +19,8 @@ const finalErrataJSON = {};
 
 const games = fs.readdirSync('content/rules');
 games.forEach((game) => {
+  if (!fs.lstatSync(`content/rules/${game}`).isDirectory()) return;
+
   finalRulesJSON[game] = {};
   finalConfigJSON[game] = {};
   finalErrataJSON[game] = {};
