@@ -72,7 +72,7 @@
 
     - name: Build the Draw Deck
       pretext: >
-        Build the draw deck using the following steps:<br><br>
+        Build the draw deck using the following steps:<br>
 
         1. Separate the court cards and the event cards.<br><br>
 
@@ -124,14 +124,14 @@
         correspond to a different mode of power: economic, military, political, and intelligence.
         Each suit has its own advantages. Generally speaking...<br><br>
 
-        The economic suit controls the flow of rupees and the movement of pieces. It also
+        - The economic suit controls the flow of rupees and the movement of pieces. It also
         protects wealth from taxation in the game.<br><br>
 
-        The military suit commands armies and helps secure a coalition's dominance.<br><br>
+        - The military suit commands armies and helps secure a coalition's dominance.<br><br>
 
-        The political suit consolidates power and controls which cards are able to be played.<br><br>
+        - The political suit consolidates power and controls which cards are able to be played.<br><br>
 
-        The intelligence suit grants diplomatic flexibility and the ability to compromise enemies.
+        - The intelligence suit grants diplomatic flexibility and the ability to compromise enemies.
 
     - name: Your Court
       pretext: >
@@ -156,13 +156,13 @@
         Second, a card's rank is also added to your total stars in a specific suit. Each sum
         of stars in a suit expands an important privilege:<br><br>
 
-        Economic Stars prevent your rupees from being taxed.<br><br>
+        - Economic Stars prevent your rupees from being taxed.<br><br>
 
-        Military Stars serve as a final score tie-breaker.<br><br>
+        - Military Stars serve as a final score tie-breaker.<br><br>
 
-        Political Stars enable you to maintain a larger court.<br><br>
+        - Political Stars enable you to maintain a larger court.<br><br>
 
-        Intelligence Stars allow you to hold more cards in your hand.
+        - Intelligence Stars allow you to hold more cards in your hand.
 
     - name: Loyalty and Influence
       pretext: >
@@ -234,7 +234,7 @@
 
     - name: Discarding a Card in Your Court
       pretext: >
-        Whenever a card in your court is discarded, the following rules always take effect:<br><br>
+        Whenever a card in your court is discarded, the following rules always take effect:<br>
 
         - Any spies on the card are lost and returned to their owner's supply.<br><br>
 
@@ -263,31 +263,37 @@
   children:
     - name: Cleanup
       pretext: >
-        Cleanup has four steps:<br><br>
-
-        **First,** if you have more cards than three plus the sum of the purple stars on cards
-        in your court, discard cards in your court until you are within your limit.<br><br>
-
-        **Second,** if you have more cards than two plus the sum of the blue stars on cards in
-        your court, discard cards in your hand until you are within your limit.<br><br>
-
-        **Third,** discard any event cards that are in the leftmost column of the market. Any
-        rupees on the discarded event will remain in their position. The top row is always
-        discarded first, followed by the bottom row. When an event card is discarded, all
-        players are affected by the text or impact icon at the top of the card.<br><br>
-
-        **Fourth,** fill any empty spaces in the market by moving all cards in that market row
-        (along with their rupees) to their leftmost position. If a card moves into a space with
-        rupees from a previously-discarded event card, those rupees are placed on the new card
-        taking that position. Then draw new cards to fill in any empty spaces starting with the
-        leftmost and returning the market to its normal size, if possible. In each empty column,
-        fill the top row first.<br><br>
-
-        **Instability.** If a Dominance Check card is revealed and there is already a Dominance
-        Check card in the market, immediately perform a Dominance Check and then discard both
-        Dominance Check cards and fill the empty spaces in the market as described above. If
-        the final Dominance Check card was discarded in this way, the Dominance Check will
-        count as the final check.
+        Cleanup has four steps:
+      children:
+        - name: First,
+          text: >
+            if you have more cards than three plus the sum of the purple stars on cards
+            in your court, discard cards in your court until you are within your limit.
+        - name: Second,
+          text: >
+            if you have more cards than two plus the sum of the blue stars on cards in
+            your court, discard cards in your hand until you are within your limit.
+        - name: Third,
+          text: >
+            discard any event cards that are in the leftmost column of the market. Any
+            rupees on the discarded event will remain in their position. The top row is always
+            discarded first, followed by the bottom row. When an event card is discarded, all
+            players are affected by the text or impact icon at the top of the card.
+        - name: Fourth,
+          text: >
+            fill any empty spaces in the market by moving all cards in that market row
+            (along with their rupees) to their leftmost position. If a card moves into a space with
+            rupees from a previously-discarded event card, those rupees are placed on the new card
+            taking that position. Then draw new cards to fill in any empty spaces starting with the
+            leftmost and returning the market to its normal size, if possible. In each empty column,
+            fill the top row first.
+        - name: Instability.
+          text: >
+            If a Dominance Check card is revealed and there is already a Dominance
+            Check card in the market, immediately perform a Dominance Check and then discard both
+            Dominance Check cards and fill the empty spaces in the market as described above. If
+            the final Dominance Check card was discarded in this way, the Dominance Check will
+            count as the final check.
 
     - name: Game End and Victory
       pretext: >
@@ -356,27 +362,32 @@
         and prizes, and remove any gifts. Then adjust your loyalty dial to match that of the
         patriot.<br><br>
 
-        After a card is played, resolve each impact icon on the right side of the card from
-        top to bottom.
+        After a card is played, resolve each **impact icon** on the right side of the card from
+        top to bottom:
       children:
-        - name: Impact Icons.
+        - name: Road.
           text: >
-            **Road:** Place one coalition block of your loyalty on any border of this region.
-            This piece is now a road.<br><br>
-
-            **Army:** Place one coalition block of your loyalty in this region. This piece is
-            now an army.<br><br>
-
-            **Leveraged:** Take two rupees from the bank. This card is leveraged. *Reminder: If
-            you ever discard this card, you must pay back the rupees.*<br><br>
-
-            **Spy:** Place one of your cylinders on a card in any player's court that matches
-            the played card's region. This piece is now a spy.<br><br>
-
-            **Tribe:** Place one of your cylinders in this region. This piece is now a
-            tribe.<br><br>
-
-            **Favored Suit:** Move the favored suit marker to the suit indicated. *Reminder: If
+            Place one coalition block of your loyalty on any border of this region.
+            This piece is now a road.
+        - name: Army.
+          text: >
+            Place one coalition block of your loyalty in this region. This piece is
+            now an army.
+        - name: Leveraged.
+          text: >
+            Take two rupees from the bank. This card is leveraged. *Reminder: If
+            you ever discard this card, you must pay back the rupees.*
+        - name: Spy.
+          text: >
+            Place one of your cylinders on a card in any player's court that matches
+            the played card's region. This piece is now a spy.
+        - name: Tribe.
+          text: >
+            Place one of your cylinders in this region. This piece is now a
+            tribe.
+        - name: Favored Suit.
+          text: >
+            Move the favored suit marker to the suit indicated. *Reminder: If
             the favored suit is military, the cost to take the purchase action is doubled.*
 
 - name: Card-Based Actions
@@ -474,7 +485,7 @@
       pretext: >
         Start a battle in a single region or on a court card. At the site of the battle, remove
         any combination of tribes, spies, roads, or armies equal to the acting card's rank.
-        There are three restrictions to this rule:<br><br>
+        There are three restrictions to this rule:<br>
 
         - You cannot remove more units than you yourself have armies or spies in that
         battle.<br><br>
@@ -498,7 +509,7 @@
     - name: Unsuccessful Check
       pretext: >
         Players will score points based on the number of cylinders they have in play (even
-        zero). A cylinder is considered to be in play if it is not on a player board.<br><br>
+        zero). A cylinder is considered to be in play if it is not on a player board.<br>
 
         - The player with the most cylinders in play scores three victory points.<br><br>
 
@@ -544,7 +555,7 @@
   children:
     - name: Setting Up
       pretext: >
-        When setting up a game with Wakhan, make the following adjustments:<br><br>
+        When setting up a game with Wakhan, make the following adjustments:<br>
 
         - Include Wakhan as a player when determining the size of the deck.<br><br>
 
