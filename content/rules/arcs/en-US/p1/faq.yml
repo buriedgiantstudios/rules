@@ -9,7 +9,7 @@
     - '7.7.1'
 
 - q: Can I Cede Control while I am a Flagship?
-  a: You can Cede Control of buildings on the map, but not buildings on your Flagship, and not your Flagship itself.
+  a: You can Cede Control of buildings on the map, but not buildings on your Flagship, and not your Flagship itself. Other players can also Cede buildings to you.
   rules:
     - '17.2.1.1'
 
