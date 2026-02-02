@@ -92,7 +92,7 @@
     - name: Denizen Cards
       children:
         - name: Suit.
-          text: 'In its top-left corner, a denizen has a suit: Arcane `suit:arcane`, Beast `suit:beast`, Discord `suit:discord`, Hearth `suit:hearth`, Nomad `suit:nomad`, Order `suit:order`.'
+          text: 'In its top-left corner, a denizen has a suit: Arcane `symbol:suit-arcane`, Beast `symbol:suit-beast`, Discord `symbol:suit-discord`, Hearth `symbol:suit-hearth`, Nomad `symbol:suit-nomad`, Order `symbol:suit-order`.'
 
         - name: Restriction Banner.
           text: Under its suit, a denizen may have a restriction banner (`rule:7.2`).
@@ -625,7 +625,7 @@
       pretext: >
         Find the most common suit in your advisers. You choose among tied suits—if you have no advisers, choose any suit. Take the following cards at random from the Archive stacks, and add them to the world deck:
 
-        `suit:discord` > `suit:arcane` > `suit:order` > `suit:hearth` > `suit:beast` > `suit:nomad` > `suit:discord`
+        `symbol:suit-discord` > `symbol:suit-arcane` > `symbol:suit-order` > `symbol:suit-hearth` > `symbol:suit-beast` > `symbol:suit-nomad` > `symbol:suit-discord`
 
           - Add three cards of the most common suit.
           - Add two cards of the next clockwise suit.
