@@ -2304,11 +2304,10 @@
 
             - name: Taking Hits as Attacker.
               text: >
-                While attacking, Upgrades and Armor are hit like ***ships***:
-
-                  - You must take hits from `symbol:selfhit` and `symbol:intercept` with
-                    Upgrades and Armor if no other attacking ships remain.
-                  - You can choose to take hits with Upgrades and Armor instead of other attacking
+                While attacking, Upgrades and Armor are hit like ***ships***:<br>
+                  \- You must take hits from `symbol:selfhit` and `symbol:intercept` with
+                    Upgrades and Armor if no other attacking ships remain.<br>
+                  \- You can choose to take hits with Upgrades and Armor instead of other attacking
                     ships.
 
         - name: Defending.
