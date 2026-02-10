@@ -699,10 +699,9 @@
     - name: '**Burn**'
       plainName: Burn
       pretext: Move the favor or secret from your board, or from another location if prompted, to the shared bank.
-    - name: '**Cradle**'
-      plainName: Cradle
-      pretext: >
-        **Discard**: Place the prompted cards in an order of your choice, facedown, on top of the Provinces discard pile if your pawn is in the Cradle, the Hinterland discard pile if your pawn is in the Provinces, or the Cradle discard pile if your pawn is in the Hinterland; if discarding cards in a different region from your pawn, discard based on the region of the card instead. Move any favor on it immediately to the matching favor bank. Move any secrets on it to the acting player's board and flip them facedown.
+    - name: '**Discard**'
+      plainName: Discard
+      pretext: Place the prompted cards in an order of your choice, facedown, on top of the Provinces discard pile if your pawn is in the Cradle, the Hinterland discard pile if your pawn is in the Provinces, or the Cradle discard pile if your pawn is in the Hinterland; if discarding cards in a different region from your pawn, discard based on the region of the card instead. Move any favor on it immediately to the matching favor bank. Move any secrets on it to the acting player's board and flip them facedown.
     - name: '**Draw**'
       plainName: Draw
       pretext: Take cards from the top of the prompted draw source, following the drawing rules in the Search action (`rule:5.1.2`).
