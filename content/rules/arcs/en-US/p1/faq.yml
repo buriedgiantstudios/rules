@@ -70,7 +70,7 @@
   rules:
     - '7.6'
 
-- q: When exactly do I need to stop with a Catapult move
+- q: When exactly do I need to stop with a Catapult move?
   a: > 
     When you reach a planet (regardless of control) or a gate that is controlled 
     by a Rival (counted just before your ships move in). As long as you have not 
@@ -93,7 +93,7 @@
     - '5.'
 
 - q: In my Prelude, can I regain a resource that I spent in my Prelude? 
-  a: No. Reesources only return to their supplies at the end of Prelude.
+  a: No. Resources only return to their supplies at the end of Prelude.
   rules:
     - '9.1'
 
