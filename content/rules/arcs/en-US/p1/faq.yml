@@ -88,7 +88,7 @@
     Here is the turn structure:<br>
     1. Play an action card.<br>
     2. If you're leading, you may declare an ambition. If you're not leading, you may seize the initiative.<br>
-    (You may declare or seize in either order.) <br>
+    (In rare situations where you can do both, you may declare and seize in either order.) <br>
     3. Prelude window begins. You may use the Prelude actions of cards and resources.<br>
     4. Prelude window ends. Return spent resources to the supply.<br>
     5. Perform actions by spending action pips from your played card.<br><br>
@@ -204,63 +204,61 @@
     - '20.3.1'
 
 - q: If I can put resources on a card, is it in a "resource slot?"
-   a: >
+  a: >
       Yes, other than for Cartels or Monopolies that hold supplies. These cards that "hold" or let you "place" resources 
       on them effectively “have resource slots” reserved only for those resources. This is mostly relevant for 
       interactions with Golems, particularly the Golem Hearth, or the Pirate Hoard.
   rules:
     - '9.3.1'
 
-  - q: What happens if an effect tells me to replace, but I can't either return and/or place the corresponding pieces?
-    a: >
+- q: What happens if an effect tells me to replace, but I can't either return and/or place the corresponding pieces?
+  a: >
       You don't do anything to the piece. You cannot replace if the targeted piece cannot be removed, and/or if the 
       corresponding supply to place a piece from is empty.
   rules:
     - '22.3.5'
 
-  - q: What are some examples of multiple things happening at the same time that must be resolved in order?
-    a: >
+- q: What are some examples of multiple things happening at the same time that must be resolved in order?
+  a: >
         - After rolling dice in battle: Skirmishers and Empath’s Vision<br>
-        - After a battle: Repair Drones and the Quartermaster’s Resilient ability<br>
-        - After a battle: Repair Drones and the Quartermaster’s Resilient ability<br>
+        - After a battle: Repair Drones and the Quartermaster’s Resilient ability
   rules:
     - '22.1.2'
     
-  - q: If I wish to trigger build modifiers, can I build even if the corresponding building or ship supply is empty?
-   a: >
+- q: If I wish to trigger build modifiers, can I build even if the corresponding building or ship supply is empty?
+  a: >
      Yes, since you do the maximum possible when you can't place enough pieces ('rule:22.3.4').
   rules:
     - '7.2.1'
 
-  - q: It looks like several keywords (steal, gain, and give) also add a piece to my play area. Are these all
-  considered a form of "take" as well?
-   a: >
+- q: It looks like several keywords (steal, gain, and give) also add a piece to my play area. Are these all considered a form of 'take' as well?
+  a: >
      Yes, stealing, gaining and giving overlap with you "taking" the piece for the purposes of cards or rules that mention it.
   rules:
     - '23.1.30'
 
- - q: Do you refill the Council's slot with a newly drawn card when it is secured? What about sliding down an attached card?
-   a: >
+- q: Do you refill the Council's slot with a newly drawn card when it is secured? What about sliding down an attached card?
+  a: >
      No to both. It does not technically leave the Court at all; it only leaves as a reminder.
   rules:
     - '16.3.3'
 
- - q: Can you advance your objective below 0, into the negatives?
-   a: >
+- q: Can you advance your objective below 0, into the negatives?
+  a: >
      No. You can only advance "toward" zero.
   rules:
     - '12.5.1'
     
- - q: Who decides what resource each Regent contributes to the Imperial Demand if they have more than 1 resource that could fulfill it?
-   a: >
-     For each Regent, the First Regent alone decides which 1 resource to take from any slot. They can take a different resource 
-     type for each Regent. When enforcing Policy of Peace, for example, the First Regent can take a Relic from a Regent with a 
+- q: Who decides what resource each Regent contributes to the Imperial Demand if they have more than 1 resource that could fulfill it?
+  a: >
+     For each Regent, the First Regent alone decides which resource to take from any slot. They can take a different resource 
+     type for each Regent. When enforcing the Policy of Peace, for example, the First Regent can take a Relic from a Regent with a 
      Relic and a Psionic, then take any Psionic from another Regent who has 2 Psionics.
-     
   rules:
     - '19.2'
 
- - q: Can I take, give or steal a resource directly from a supply (including a supply held on a Cartel or a Monopoly in the campaign?
-   a: >
+- q: Can I take, give, or steal a resource directly from a supply, including a supply held on a Cartel or a Monopoly in the campaign?
+  a: >
      No. Gain is the only keyword that lets you add a piece to your play area directly from a supply.
+  rules: 
     - '23.1.12'
