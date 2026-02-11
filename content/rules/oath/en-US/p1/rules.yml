@@ -687,130 +687,91 @@
 - name: Glossary
   color: '#000000'
   children:
-    - name: '**Adviser**'
-      plainName: Adviser
+    - name: Adviser
       pretext: See `rule:2.2.2`.
-    - name: '**After**'
-      plainName: After
+    - name: After
       pretext: Immediately following - nothing happens between.
-    - name: '**Bandit**'
-      plainName: Bandit
+    - name: Bandit
       pretext: See `rule:2.8.3` _(Bandits are not warbands!)_
-    - name: '**Burn**'
-      plainName: Burn
+    - name: Burn
       pretext: Move the favor or secret from your board, or from another location if prompted, to the shared bank.
     - name: '**Discard**'
-      plainName: Discard
       pretext: Place the prompted cards in an order of your choice, facedown, on top of the Provinces discard pile if your pawn is in the Cradle, the Hinterland discard pile if your pawn is in the Provinces, or the Cradle discard pile if your pawn is in the Hinterland; if discarding cards in a different region from your pawn, discard based on the region of the card instead. Move any favor on it immediately to the matching favor bank. Move any secrets on it to the acting player's board and flip them facedown.
     - name: '**Draw**'
       plainName: Draw
       pretext: Take cards from the top of the prompted draw source, following the drawing rules in the Search action (`rule:5.1.2`).
-    - name: '**Enemy**'
-      plainName: Enemy
+    - name: Enemy
       pretext: Any Exile if you are the Chancellor or a Citizen. Any other player if you are an Exile or a Citizen who is currently not an Imperial player in some Campaigns (`rule:5.5.1`). Bandits are enemies to all players and vice versa.
-    - name: '**Exchange**'
-      plainName: Exchange
+    - name: Exchange
       pretext: You may **Give** to the prompted player and vice versa.
-    - name: '**Force**'
-      plainName: Force
+    - name: Force
       pretext: As the attacker, the warbands on your board. As the defender, the warbands that are adding to your defense.
-    - name: '**Gain**'
-      plainName: Gain
+    - name: Gain
       pretext: Put the prompted piece on your board. Warbands come from your personal bank, secrets come from the shared bank, and favor comes from the prompted favor bank.
-    - name: '**Give**'
-      plainName: Give
+    - name: Give
       pretext: Same as **Take**, but in the reverse direction.
-    - name: '**Imperial Player**'
-      plainName: Imperial Player
+    - name: Imperial Player
       pretext: The Chancellor is always one. A Citizen is one except during some Campaigns (`rule:5.5.1`).
-    - name: '**Kill**'
-      plainName: Kill
+    - name: Kill
       pretext: Move the warband to the personal bank of the player of the same color. _(Purple warbands go to the Chancellor.)_
-    - name: '**Match**'
-      plainName: Match
+    - name: Match
       pretext: Has the same suit. _(Ignore cards that show no suit.)_
-    - name: '**Move**'
-      plainName: Move
+    - name: Move
       pretext: Change the location of the prompted piece, following restrictions (`rule:2.8.1`, `rule:5.1.4`, `rule:7.2`).
-    - name: '**Locked**'
-      plainName: Locked
+    - name: Locked
       pretext: See `rule:7.2.2`.
-    - name: '**Peek**'
-      plainName: Peek
+    - name: Peek
       pretext: You look at the front of the prompted card.
-    - name: '**Personal Bank**'
-      plainName: Personal Bank
+    - name: Personal Bank
       pretext: See `rule:2.2.3`.
-    - name: '**Play**'
-      plainName: Play
+    - name: Play
       pretext: Put the prompted card at a site, in your advisers, or in your personal bank following restrictions (`rule:2.8.1`, `rule:5.1.4`, `rule:7.2`).
-    - name: '**Reveal**'
-      plainName: Reveal
+    - name: Reveal
       pretext: Show the front of the prompted card to everyone.
-    - name: '**Rule**'
-      plainName: Rule
+    - name: Rule
       pretext: A player rules each face-up site that has any of their warbands on it, rules any cards at sites that they rule, and rules their advisers. Bandits rule face-up sites that have no warbands.
-    - name: '**Sacrifice**'
-      plainName: Sacrifice
+    - name: Sacrifice
       pretext: Choose to kill your own warbands.
-    - name: '**Seize**'
-      plainName: Seize
+    - name: Seize
       pretext: Take in any way except Recover. See `rule:2.5.3`.
-    - name: '**Shared Bank**'
-      plainName: Shared Bank
+    - name: Shared Bank
       pretext: See `rule:2.1.7`.
-    - name: '**Swap**'
-      plainName: Swap
+    - name: Swap
       pretext: Move the two prompted pieces to each other's location.
-    - name: '**Take**'
-      plainName: Take
+    - name: Take
       pretext: Move the prompted favor or secrets from the prompted player's board to yours, cards from their advisers to yours, or relics from their personal bank, or the prompted site or draw source, to your personal bank."
-    - name: '**Travel Cost**'
-      plainName: Travel Cost
+    - name: Travel Cost
       pretext: See `rule:5.6.1`. Some powers (`rule:7.6.2`) ignore this.
-    - name: '**You**'
-      plainName: You
+    - name: You
       pretext: You alone, not including any Imperial Allies (`rule:5.5.2`).
-    - name: '**Your Enemy**'
-      plainName: Your Enemy
+    - name: Your Enemy
       pretext: If you're the attacker, the defender and any Imperial Allies (5.5.2). If you're the defender, the attacker.
-    - name: '**Your Site/Region**'
-      plainName: Your Site/Region
+    - name: Your Site/Region
       pretext: The site/region that your pawn is in.
 
 - name: Site Reference
   color: '#000000'
   children:
-    - name: '**Opportunity Sites**.'
-      plainName: Opportunity Sites
+    - name: Opportunity Sites
       pretext: 'At the end of your Wake Phase, if your pawn is here, you may take one favor or secret from this site.'
-    - name: '**Homeland Sites**.'
-      plainName: Homeland Sites
+    - name: Homeland Sites
       pretext: 'If you play a card of this suit to this site, and you have not discarded a card here of this suit during this turn, you get what is shown, gain `symbol:secret`, or `symbol:favor` from the corresponding favor bank, or 2 warbands, or take the relic here, treating this as recovering it.'
-    - name: '**Coast Sites**.'
-      plainName: Coast Sites
+    - name: Coast Sites
       pretext: 'When traveling from here to a Coast site, the Travel cost is 1 Supply and you **ignore** the Narrow Pass power.'
-    - name: '**Plains, Mountain**.'
-      plainName: Plains, Mountain
+    - name: Plains, Mountain
       pretext: 'You **must** add _(Plains)_ or subtract _(Mountain)_ one attack die if you declare any number of targets at this site _(even if you rule)_.'
-    - name: '**River**.'
-      plainName: River
+    - name: River
       pretext: 'When mustering from a card at this site, you gain one more warband if you rule this site.'
-    - name: '**Charming Valley**.'
-      plainName: Charming Valley
+    - name: Charming Valley
       pretext: 'When traveling from here, increase the Travel cost by 1 Supply. _(For example, traveling from the Provinces costs 3 Supply, not 2 Supply.)_'
-    - name: '**Shrouded Wood**.'
-      plainName: Shrouded Wood
+    - name: Shrouded Wood
       pretext: When traveling from here, the Travel cost is 2 Supply, and you **ignore** the Narrow Pass and The Hidden Place powers. If an enemy rules here, you travel to the site of the ruler's choice _(Chancellor's choice if ruled by the Empire)_, even if another player is making you travel.
-    - name: '**Narrow Pass**.'
-      plainName: Narrow Pass
+    - name: Narrow Pass
       pretext: 'When traveling from another region to this region, you **must** travel to this site. When campaigning, if you declare any targets in this region and your pawn is in a different region, you **must** target this site unless you rule it.'
-    - name: '**Shrouded Wood**.'
-      plainName: Shrouded Wood
+    - name: Shrouded Wood
       pretext: When traveling from here, the Travel cost is 2 Supply, and you **ignore** the Narrow Pass and The Hidden Place powers. If an enemy rules here, you travel to the site of the ruler's choice _(Chancellor's choice if ruled by the Empire)_, even if another player is making you travel.
-    - name: '**Narrow Pass**.'
-      plainName: Narrow Pass
+    - name: Narrow Pass
       pretext: 'When traveling from another region to this region, you **must** travel to this site. When campaigning, if you declare any targets in this region and your pawn is in a different region, you **must** target this site unless you rule it.'
-    - name: '**The Tribunal**.'
-      plainName: The Tribunal
-      pretext: '**Action**: If you rule this site or your pawn is here, negotiate a binding exchange of `symbol:favor` and `symbol:secret` as well as binding actions at any future time, in any combination, with any player. _(Be as creative as you want with your agreement and your agreed-upon penalties if someone breaks it!)_'
+    - name: The Tribunal
+      pretext: >
+        **Action**: If you rule this site or your pawn is here, negotiate a binding exchange of `symbol:favor` and `symbol:secret` as well as binding actions at any future time, in any combination, with any player. _(Be as creative as you want with your agreement and your agreed-upon penalties if someone breaks it!)_'
