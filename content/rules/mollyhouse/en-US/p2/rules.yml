@@ -4,56 +4,56 @@
     This section contains an accounting of all components as well as their general function.
   children:
     - name: Board and Playmat
-      text: >
+      pretext: >
         Molly House uses a four-panel board as well as a playmat.
 
     - name: Rules and Aids
-      text: >
+      pretext: >
         There are two rulebooks: this one and the solo rules. In addition there are two large aid
         sheets and ten poker-sized aid cards.
 
     - name: Game State Markers
-      text: >
+      pretext: >
         There are seven game state markers. The gold octagon marks the current week. The black disc
         is used to mark community joy. The candelabra is used to indicate the current festivity
-        runner and to determine the start player at the beginning of a week.
+        runner and to determine the start player at the beginning of a week.<br>
 
         In addition, each molly house has a token to indicate that it has been raided and a pair of
         tokens used to mark the adjacent cruising sites to show that they are now more dangerous.
 
     - name: Suit Tokens
-      text: >
+      pretext: >
         There are 64 tokens, 16 in each of the four suits. These tokens represent permanent
         reputation while on a player's board or evidence against a molly house while on the central
         board.
 
     - name: Draw and Multiplier Tokens
-      text: >
+      pretext: >
         There are ten draw tokens. These tokens indicate that a player will draw a card at the start
         of the next week. There are five multiplier tokens. **Suit and draw tokens are not piece
         limited.** You may place either on a multiplier to indicate that it counts as three of that
         piece.
 
     - name: Player Pieces
-      text: >
+      pretext: >
         Each player has a joy marker, a pawn, a player board, and four encounter tokens in their
         color (one informer and three loyal). The joy marker indicates joy on the star side or
         hanged on the reverse.
 
     - name: Dice
-      text: >
+      pretext: >
         There are two custom six-sided dice, which are used for movement, and four ten-sided dice
         with numbers from 0 to 9, which are used to record the values of rogues and resolve
         indictments.
 
     - name: Small Cards
-      text: >
+      pretext: >
         There are 24 item cards, eight major indictments, and eight minor indictments.
 
     - name: Solo Game Components
-      text: |
+      pretext: |
         For the solo game, there are four standard six-sided dice, a 25-card orchestration deck,
-        five play/pass tokens, and four joker tokens.
+        five play/pass tokens, and four joker tokens.<br>
 
         *The solo game requires only four play/pass tokens, but we have included a fifth so that
         players may use them as an aid in multiplayer games to show who has passed.*
@@ -64,36 +64,36 @@
         vice cards are described here, along with their general game function. Many concepts and
         rules that are discussed in greater detail later are mentioned here in passing.
       children:
-        - name: Desires
+        - name: Desires.
           text: |
             These cards represent the different gestures, desires, and encounters that were frowned
             upon by the Society for the Reformation of Manners. All desire cards have three important
             attributes: value, suit, and joy. A card's suit and value are used to build festivities
-            at molly houses.
+            at molly houses.<br>
 
             The stars on a card indicate the amount of joy gained when the card is scored during
-            festivities.
+            festivities.<br>
 
             *Desire cards also feature a fragment drawn from a period source and a citation. We have
             preserved the original spelling, punctuation, and capitalization.*
 
-        - name: Threats
+        - name: Threats.
           text: |
             There are two types of threats: constables (C) and rogues (R). If players ignore them,
             they can lead to the collapse of the community. However, by scoring them in festivities,
             you can protect the community and clear cards in your reputation to the left of your
-            player board.
+            player board.<br>
 
             Unlike desires, these cards do not score joy. They also have a special effect when
-            played during festivities.
+            played during festivities.<br>
 
             *Constables feature the names of officials, while rogues are the names of known
             informers.*
 
-        - name: Mollies
+        - name: Mollies.
           text: |
             There are two types of mollies: jacks (J) and queens (Q). Mollies have a joy amount,
-            which is used only in specific circumstances. In addition, mollies offer a scoring bonus.
+            which is used only in specific circumstances. In addition, mollies offer a scoring bonus.<br>
 
             Both mollies and threats also include a reminder on the bottom right to place in the
             gossip pile if a market discard removes them from the market.
@@ -103,65 +103,65 @@
   children:
     - name: General Setup
       children:
-        - name: Place the Board and Markers
+        - name: Place the Board and Markers.
           text: >
             Place the board and the playmat in the center of the play area. Place the house raided
             markers, dangerous cruising markers, dice, multiplier tokens, suit tokens, and draw
             tokens nearby.
 
-        - name: Create the Vice Deck
+        - name: Create the Vice Deck.
           text: |
             Create the **vice deck** as follows. Gather molly cards (jacks and queens) and threat
-            cards (constables and rogues), then add numbered desire cards as indicated below.
+            cards (constables and rogues), then add numbered desire cards as indicated below.<br>
 
             | Two Players | Three Players | Four Players | Five Players |
             |-------------|---------------|--------------|--------------|
             | 1–6         | 1–7           | 1–8          | 1–9          |
 
-            Shuffle this deck and place it to the right of the top slot on the board's right side.
+            <br>Shuffle this deck and place it to the right of the top slot on the board's right side.
 
-        - name: Deal the Market
+        - name: Deal the Market.
           text: >
             Deal four vice cards, face up, to the four slots below the vice deck. This is the
             market.
 
-        - name: Start the Gossip Pile
+        - name: Start the Gossip Pile.
           text: >
             Deal one vice card, face down, to the card space in the bottom-right corner of the
             board. This is the gossip pile.
 
-        - name: Set the Trackers
+        - name: Place Markers.
           text: >
             Place the community joy marker on the "0" space of the joy track and the current week
             marker on the "1" space of the week track.
 
-        - name: Prepare the Indictments
+        - name: Prepare Indictments.
           text: >
             Shuffle the 8 major and 8 minor indictment cards and place them in two stacks near the
             board.
 
-        - name: Stock the Shops
+        - name: Stock Shops.
           text: >
             Shuffle the 24 item cards to create the item deck. Deal one item card, face up, on each
             shop site on the board.
 
-        - name: Choose the First Player
+        - name: Set First Player.
           text: >
             Give a random player the candelabra. They will be the first player.
 
     - name: Player Setup
-      text: |
+      pretext: |
         Take a matching player board, pawn, and set of four encounter tokens. Keep the encounter
-        tokens face down near your board. You may always look at them.
+        tokens face down near your board. You may always look at them.<br>
 
         Draw four vice cards. If playing with two players, draw five vice cards instead. This is
-        your starting hand.
+        your starting hand.<br>
 
-        Place your joy marker on the "0" space of the winding joy track.
+        Place your joy marker on the "0" space of the winding joy track.<br>
 
         Secretly select one card from your hand and place it face down in your reputation area to
         the left of your player board. Then, all players simultaneously reveal their card, place
-        their pawn on the molly house that matches the card's suit, then:
+        their pawn on the molly house that matches the card's suit, then:<br>
 
         - If it was a desire card, they score the amount of joy indicated on the card by the number
           of stars.
@@ -174,7 +174,7 @@
   color: '#000000'
   children:
     - name: Sharing Information
-      text: >
+      pretext: >
         Players are free to talk about the game and their hands, but they may never directly reveal
         cards in their hands to other players unless instructed. As an example, any player may
         freely declare that they have two sevens, but may not directly reveal those cards to verify
@@ -182,47 +182,47 @@
         should trust are two of the central challenges of the game!
 
     - name: Matching Pieces
-      text: >
+      pretext: >
         Various rules in the game will refer to a "matching" game piece. Matching pieces are those
         that have or are associated with the same suit and color.
 
     - name: Hand Limits
-      text: >
+      pretext: >
         Players must observe a hand size limit of six cards. Additional cards may be taken into your
         hand, but you must add any excess cards to the gossip pile face down at the end of your
         turn.
 
     - name: The Gossip and Safe Piles
-      text: >
+      pretext: >
         Throughout the game, cards are often added to the gossip pile, located in the bottom-right
         corner of the board. All cards in this pile are face down; the order in which cards are
-        added does not matter.
+        added does not matter.<br>
 
         The gossip pile is examined at the end of each week. If threats are discovered in the pile,
         it can lead to the gathering of evidence, the raiding of houses, the indictment of players,
-        and the destruction of the wider community.
+        and the destruction of the wider community.<br>
 
         In contrast to cards in the gossip pile, cards in the safe pile will not harm players or
         the community. Cards in it are face up and can be freely inspected at any time. The safe
         pile may be placed anywhere near the area of play.
 
     - name: Reputation
-      text: >
+      pretext: >
         Throughout the game, players will add cards and suit tokens to their reputation, storing
         cards to the left of their player board and tokens on the player board itself. These cards
-        and tokens measure a player's reputation in each of the game's four suits.
+        and tokens measure a player's reputation in each of the game's four suits.<br>
 
         To determine a player's reputation in a specific suit, add up the total number of tokens
         and cards matching that suit in their reputation. A player's reputation boosts their actions
         at matching sites but also makes them more vulnerable to indictments if that house is
-        raided.
+        raided.<br>
 
         Reputations are public information, and any cards there should remain face up. During the
         game, cards will often leave a player's reputation. In contrast, tokens in a reputation are
         never lost.
 
     - name: Getting Exposed by Threats
-      text: >
+      pretext: >
         Throughout the game, threats will sometimes be added to the gossip pile. When this publicly
         happens, a specific player or players will be exposed. When a player is exposed, they must
         add all cards in their reputation matching the threat that triggered exposure to the gossip
@@ -230,9 +230,9 @@
         exposed are described throughout the rules.
 
     - name: Joy and Molly Bonuses
-      text: >
+      pretext: >
         Players and the community can score joy throughout play, most often during festivities. Joy
-        cannot go below zero, but it can go above 40.
+        cannot go below zero, but it can go above 40.<br>
 
         Players can also score joy from molly bonuses: If a player has a molly in their reputation,
         they will score bonus joy when a desire (numbered card) in the matching suit is added to
@@ -241,7 +241,7 @@
         Cruise action.
 
     - name: Loyalty and Informing
-      text: >
+      pretext: >
         Players begin loyal to the molly houses. However, as houses are raided by the Society for
         the Reformation of Manners, players will be given opportunities to inform on other
         still-active houses. If an informer's assigned house is raided before the end of the game,
@@ -254,7 +254,7 @@
     A game of Molly House is composed of up to five weeks. Each week is composed of several rounds
     of player turns. On a player's turn, they will usually move their pawn around the board and
     then take an action. Many of these actions deplete a central deck of cards, called the vice
-    deck.
+    deck.<br>
 
     If the vice deck is empty at the start of a player's turn, they take the candelabra and then
     resolve the End of the Week. That player will take their turn after resolving these phases so
@@ -268,7 +268,7 @@
     losers.
   children:
     - name: Community Infiltration
-      text: >
+      pretext: >
         Community Infiltration occurs if all four houses have been raided or if at least one raided
         house has accumulated seven or more evidence. All players are hanged except those who became
         successful informers. The informer who was most useful to the Society for the Reformation of
@@ -276,7 +276,7 @@
         by keeping a low profile.
 
     - name: Community Survival
-      text: >
+      pretext: >
         Community Survival occurs if the community joy marker has equaled or surpassed the threshold
         corresponding to the number of players as indicated on the joy track (e.g. 30 with four
         players). In that event, the player(s) with the most joy win(s). Though players will have
@@ -284,7 +284,7 @@
         thrive despite persecution.
 
     - name: Community Atrophy
-      text: >
+      pretext: >
         Community Atrophy occurs if neither of the above conditions has been met by the end of the
         game's fifth week. All players lose. This ending represents the erosion of the molly houses:
         although the Society failed to persecute the mollies, their culture failed to become
@@ -296,7 +296,7 @@
     Roll the two movement dice and resolve market discard(s). For each market discard icon you
     roll, take the card from the market that is farthest from the vice deck and add it to the safe
     pile. If it is a molly or threat card, add it to the gossip pile instead. Remember that the
-    safe pile is face up and can be inspected freely, while the gossip pile is always face down.
+    safe pile is face up and can be inspected freely, while the gossip pile is always face down.<br>
 
     - **The Most Infamous is Exposed.** Whenever a threat from the market is added to the gossip
       pile, the most infamous player is exposed. They add all matching cards in their reputation to
@@ -309,16 +309,16 @@
     rolled. Move your pawn that exact number of sites along the board in either direction, without
     backtracking. If one of the dice rolled was a market discard (no boots), you may remain at the
     same site. If you rolled two market discards, you may choose to be picked up by a fancy fellow
-    in a carriage and place your pawn on any site.
+    in a carriage and place your pawn on any site.<br>
 
     Then, you must take one action. You always have access to the three basic actions and your
-    site's action. Actions are described below.
+    site's action. Actions are described below.<br>
 
     Finally, refill the market and check hand size. Shift the remaining cards in the market down to
     fill any empty slots, and refill the market from the vice deck, if possible. If your hand has
     more than 6 cards, add the excess to the gossip pile. Do not reveal the excess cards added to
     the gossip pile. Threats added now do not expose players, but may add evidence to molly houses
-    at the End of the Week.
+    at the End of the Week.<br>
 
     After this, the next clockwise player takes their turn. If the vice deck is empty, the next
     clockwise player will take the candelabra and resolve the End of the Week before taking their
@@ -329,21 +329,21 @@
         These actions can be taken on any site so long as the action's requirement is met. For
         instance, you can indulge only if there is a market card matching your site.
       children:
-        - name: Lie Low
+        - name: Lie Low.
           text: >
             Draw the top card of the vice deck and add it to your hand.
 
-        - name: Indulge
+        - name: Indulge.
           text: >
             Select a card in the market matching the suit of your current site and add it to your
             hand. You cannot take this action if you are at one of the four shop sites, since they
             do not match any suit.
 
-        - name: Accuse
+        - name: Accuse.
           text: |
             If another player's pawn is at your site, you may reveal one of their un-revealed
             encounter tokens at any house. Encounter tokens are often placed during the End of the
-            Week. You don't need to be at the same site as the token.
+            Week. You don't need to be at the same site as the token.<br>
 
             - If it shows loyal, you lose three joy.
             - If it shows an informer, you score three joy and three community joy. The accused
@@ -351,40 +351,36 @@
 
     - name: Site Actions
       pretext: |
-        These actions can only be taken if your pawn is at the corresponding site.
+        These actions can only be taken if your pawn is at the corresponding site.<br>
 
         If a molly house is raided, players may not take its Throw Festivity action.
-
-        Many molly houses were public coffee shops or boarding houses that offered access to the
-        molly community for trusted patrons. In the game, it is assumed that all players have
-        already earned the trust necessary to enter these communities.
       children:
-        - name: Cruise
+        - name: Cruise.
           text: |
-            The cruising sites are located adjacent to each molly house.
+            The cruising sites are located adjacent to each molly house.<br>
 
             While there, take one desire card (not a threat or a molly) that matches the site from
             your hand and add it to your reputation. You don't score joy for the stars on this
-            desire, but you do score molly bonuses if it matches mollies in your reputation.
+            desire, but you do score molly bonuses if it matches mollies in your reputation.<br>
 
             After adding the desire, draw cards from the vice deck equal to your reputation in the
             site's suit, but no more than four. If there are not enough cards in the deck, take a
             draw token for each card that you could not draw. You must add the desire to draw cards,
-            even if you already have matching reputation.
+            even if you already have matching reputation.<br>
 
             - **Dangerous Cruising.** If the cruising site has a dangerous cruising marker (from
               the adjacent molly house being raided), add the card you just played to the gossip
               pile and gain one matching suit token. You still draw cards and score any molly bonuses
               from mollies in your reputation.
 
-        - name: Shop
+        - name: Shop.
           text: |
-            The shop sites are located at the mid-point along each edge of the board.
+            The shop sites are located at the mid-point along each edge of the board.<br>
 
             While there, take the item from the site and place it, face up, on an item slot of your
             player board. If you already have two items, you must discard either the item just taken
             or one of your other two. The powers of items are described in the Item Powers section.
-            Do not refill the shop; new items will be placed during the End of the Week phase.
+            Do not refill the shop; new items will be placed during the End of the Week phase.<br>
 
             After taking the item, resolve a market discard. Add the farthest card from the vice
             deck to the safe pile if the card is a desire, to the gossip pile if it is a molly, or
@@ -394,26 +390,26 @@
           pretext: >
             You can throw a festivity at a molly house that has not been raided. They are located
             at each corner of the board. You must have at least two cards in your hand to take this
-            action (or three if playing with just two players).
+            action (or three if playing with just two players).<br>
 
             This action offers players their primary way of scoring joy. Unlike other actions, this
             action is resolved over a number of phases, which are described below.
           children:
-            - name: Bring the Party to Order
+            - name: Bring the Party to Order.
               text: >
                 Take the candelabra and place it in front of you. You are the festivity runner.
 
-            - name: Play Cards
+            - name: Play Cards.
               text: |
                 Cards are played over two rounds (or over three rounds in a game with two players).
-                In each round, the community plays, then each player takes a turn.
+                In each round, the community plays, then each player takes a turn.<br>
 
                 To play a card for the community, reveal the top card of the vice deck and place it
                 in the center of the board. If the vice deck is empty, shuffle the gossip pile and
-                draw from it instead.
+                draw from it instead.<br>
 
                 After the community plays, each player takes a turn, starting with the runner and
-                proceeding clockwise. On a player's turn, they must either pass or play:
+                proceeding clockwise. On a player's turn, they must either pass or play:<br>
 
                 - If they pass, their turn is skipped for the remainder of the festivity.
                 - If they play, they place any card from their hand on the table in front of them.
@@ -424,10 +420,10 @@
                   community plays a rogue, determine its value randomly by rolling a ten-sided die.
                   A rogue may take a value, such as zero, that is not otherwise in the game.
 
-            - name: Score the Best Festivity
+            - name: Score the Best Festivity.
               text: |
                 After all rounds have been played, score the best set of four cards from among
-                those played, using the following ranking:
+                those played, using the following ranking:<br>
 
                 | Rank | Name | Description |
                 |------|------|-------------|
@@ -438,35 +434,36 @@
                 Break ties in rank with the highest value. If multiple sets of the same rank (such
                 as multiple Dances) could be made, score the one with the desire of highest value.
                 If this set could be made in multiple ways (such as with either a "4" rogue or a
-                "4" desire), the festivity runner decides how to make it.
+                "4" desire), the festivity runner decides how to make it.<br>
 
                 If no set of the above ranks can be made, a Quiet Gathering occurs. The four lowest
                 desires are scored as the winning set. If there were fewer than four desires played,
-                score only those.
+                score only those.<br>
 
-                - **Constables are Intimidating.** During Quiet Gatherings, constables are treated
-                  as 0-value desires, so they are always scored.
-                - **Rogues get Bored.** During Quiet Gatherings, rogues are ignored and never
-                  scored.
+                **Constables are Intimidating.** During Quiet Gatherings, constables are treated
+                  as 0-value desires, so they are always scored.<br>
+                
+                **Rogues get Bored.** During Quiet Gatherings, rogues are ignored and never
+                  scored.<br>
 
                 Then, each scored molly and desire is added to the reputation of the player who
                 played it. Each card scores its player the joy indicated by its stars (or lack
                 thereof). Remember to score molly bonuses—add mollies before desires, so that the
-                most joy is scored. Do not score the community joy shown on these mollies.
+                most joy is scored. Do not score the community joy shown on these mollies.<br>
 
                 Scored mollies and desires played by the community are added to the safe pile.
                 Score community joy for each one as indicated by its stars. Scored mollies are
-                worth four community joy. Players never score this joy!
+                worth four community joy. Players never score this joy!<br>
 
-                **Foiling Threats**
+                **Foiling Threats**<br>
 
                 Scoring a threat at a festivity represents a successful effort to outfox the
-                Society and protect one's own reputation and the wider community.
+                Society and protect one's own reputation and the wider community.<br>
 
                 After resolving scored mollies and desires, each scored threat is foiled: Add it to
                 the safe pile, and the player who played it adds all matching cards in their
                 reputation to the safe pile. If it was played by the community, all players do this
-                in turn order, starting with the festivity runner.
+                in turn order, starting with the festivity runner.<br>
 
                 - **The Pride Rule.** Any player who adds cards from their reputation to the safe
                   pile at this time may take a matching suit token for each card they add. They may
@@ -475,12 +472,12 @@
                 If multiple threats are scored, the festivity runner decides the order in which
                 they are foiled.
 
-            - name: Generate Gossip
+            - name: Generate Gossip.
               text: |
                 The festivity runner adds the remaining unscored cards, one at a time, to the
                 gossip pile. For each card, the player who played it draws one card from the vice
                 deck, or gains a draw token if the vice deck is empty. Don't draw cards to replace
-                community cards.
+                community cards.<br>
 
                 - **The Party-goer is Exposed.** If a player played a threat that was added to the
                   gossip pile, that player is exposed: they add all cards in their reputation
@@ -505,7 +502,7 @@
       text: |
         Each player must reveal all threat cards in their hand and add them to the gossip pile.
         Revealed informers do not reveal threats matching their informed house. Any player who
-        reveals one or more threat cards gains a single draw token.
+        reveals one or more threat cards gains a single draw token.<br>
 
         - **The Hesitant Players are Exposed.** Each time a player adds a threat to the gossip
           pile, they are exposed.
@@ -520,21 +517,21 @@
         obtained from its many spies. During this phase the Society may raid houses and undermine
         the community.
       children:
-        - name: First, Prepare the Gossip Pile
+        - name: Prepare the Gossip Pile.
           text: >
             Shuffle the gossip pile. Add one third of the cards to the safe pile, rounding down.
             Reveal the remainder.
 
-        - name: Second, Gather Evidence
+        - name: Gather Evidence.
           text: >
             Examine the revealed cards. Each threat generates one matching evidence for each
             matching desire or molly. Place this evidence on the matching molly house.
 
-        - name: Third, Check for Raids
+        - name: Check for Raids.
           text: >
             If an open molly house has seven or more evidence, it is raided! Place a house raided
             marker on that site and a dangerous cruising marker at the two adjacent sites. Then
-            return seven evidence from that house to the supply, leaving any remainder.
+            return seven evidence from that house to the supply, leaving any remainder.<br>
 
             When a house is raided, the player(s) with the most reputation in the matching house
             gain(s) a major indictment. The player(s) with the second most reputation in the
@@ -542,20 +539,20 @@
             the same type of indictment. This means that if there are three players tied for first
             and two players tied for second, the three players will each get major indictments and
             the two players will both get minor indictments. Players with no reputation matching the
-            raided house are not considered.
+            raided house are not considered.<br>
 
             Any indictments gained are placed, face down, below their player's board. Players may
             inspect their indictments at any time. There is no limit to the number of indictments a
-            player may have.
+            player may have.<br>
 
             In the very unlikely case that a stack of indictment cards runs out, no cards of that
             type are gained. Instead, any players who would have gained that indictment lose four
             joy for a minor indictment and lose eight joy for a major indictment. Joy cannot go
             below zero.
 
-        - name: Fourth, Check for Game End
+        - name: Check for Game End.
           text: |
-            Check to see if the game has ended.
+            Check to see if the game has ended.<br>
 
             - If all four houses have been raided or a raided house has accumulated seven or more
               evidence, the game ends with Community Infiltration.
@@ -568,19 +565,19 @@
             scoring.
 
     - name: Encounter the Society
-      text: >
+      pretext: >
         Simultaneously, all players who gained indictment cards this week must select one of their
         encounter tokens and place it, face down, on the nearest open molly house to that player's
-        pawn (going clockwise if tied).
+        pawn (going clockwise if tied).<br>
 
         Players may inspect their own encounter tokens at any time. The same player can have
-        multiple encounter tokens on a single house.
+        multiple encounter tokens on a single house.<br>
 
         If a player has already placed three or four encounter tokens, they may skip this phase.
 
     - name: Cleanup
-      text: |
-        Perform the following steps to prepare for the next week.
+      pretext: |
+        Perform the following steps to prepare for the next week.<br>
 
         1. Form a new vice deck by shuffling together the gossip pile and safe pile. All other vice
            cards remain where they are.
@@ -596,13 +593,13 @@
   color: '#000000'
   pretext: |
     Historically, the molly houses were brought down by a network of informers who were coerced
-    into helping the Society for the Reformation of Manners.
+    into helping the Society for the Reformation of Manners.<br>
 
     Players often become informers by playing their informer encounter token during the Encounter
-    the Society phase.
+    the Society phase.<br>
 
     An informer succeeds if the house where they placed their informer token has been raided by the
-    end of the game. There are two potential benefits to being a successful informer:
+    end of the game. There are two potential benefits to being a successful informer:<br>
 
     - **Indictments Pardoned.** If the game ends with Community Survival, successful informers
       discard all of their indictments.
@@ -617,25 +614,25 @@
       pretext: >
         If a player's informer token is revealed during the game, they become a revealed informer.
         They must immediately add all cards in their reputation matching the molly house with their
-        informer token to the safe pile.
+        informer token to the safe pile.<br>
 
         Also, they must follow the benefits and restrictions listed below.
       children:
-        - name: A Social Pariah
+        - name: A Social Pariah.
           text: >
             At the end of their turn, a revealed informer must add any cards in excess of their
             hand size to the safe pile (instead of the gossip pile).
 
-        - name: A Known Threat
+        - name: A Known Threat.
           text: >
             After scoring the set in a festivity, any cards in a revealed informer's reputation
             that match the molly house with their informer token are added to the safe pile. This
-            happens before adding cards to gossip, exposing players!
+            happens before adding cards to gossip, exposing players!<br>
 
             During the End of the Week, they do not reveal threats matching the molly house with
             their informer token.
 
-        - name: Unwelcome near the Molly House
+        - name: Unwelcome near the Molly House.
           text: >
             Revealed informers can no longer take the Throw Festivity action at the molly house
             matching their informer token or the Cruise action at the adjacent sites. If someone
@@ -643,7 +640,7 @@
             community plays one card on that turn. The informer also cannot play items during
             festivities at that house.
 
-        - name: A Rush to Resolution
+        - name: A Rush to Resolution.
           text: >
             If all players are revealed informers in the last open house, the week ends immediately
             and is treated as the fifth week. This rule allows the game to end at the moment when
@@ -656,114 +653,114 @@
     If the game end is triggered, follow the corresponding resolution below.
   children:
     - name: Community Infiltration
-      text: |
-        All players reveal their encounter tokens.
+      pretext: |
+        All players reveal their encounter tokens.<br>
 
         Players without informer tokens and those with an informer token at an open house are found
-        guilty of sodomy and hanged; flip their joy marker over to its hanged side.
+        guilty of sodomy and hanged; flip their joy marker over to its hanged side.<br>
 
         Players with an informer token at a raided house are not hanged. Instead, they set their
-        joy to zero.
+        joy to zero.<br>
 
         Each of these informers will now tally their score. They score two victory points per
         evidence at the house with their informer token, plus two victory points for each reputation
         point of all other players that matches that house. They then lose one point for their own
         reputation in all suits. This includes the suit they informed against! Points can go below
-        zero.
+        zero.<br>
 
         *Successful informers may wish to tally points on the joy track, but some groups may find
-        it in poor taste.*
+        it in poor taste.*<br>
 
         The game is now over, and the informer with the highest positive number of victory points
         wins. If any informers are tied for the highest score or no informer has a score greater
         than zero, all lose.
 
     - name: Community Survival
-      text: |
-        All players reveal their indictments and encounter tokens on the board.
+      pretext: |
+        All players reveal their indictments and encounter tokens on the board.<br>
 
         Pardon successful informers. If a player's informer token is at a raided house, they
         discard all their indictments and all loyal tokens they played at molly houses. They have
-        successfully collaborated with the Society.
+        successfully collaborated with the Society.<br>
 
         Prosecute failed informers. If a player's informer token is at an open house, they draw one
-        major indictment card. Their failure to collaborate is punished by the Society.
+        major indictment card. Their failure to collaborate is punished by the Society.<br>
 
         Score loyal tokens. Each player scores 2 joy for each of their loyal tokens at an open
-        house.
+        house.<br>
 
         Finally, in turn order, each player with at least one indictment must face a trial,
         resolving each of their indictment cards in any order as follows: Roll a ten-sided die and
         lose joy as indicated on the card for that die result. If the amount shows a noose icon, the
-        player has been hanged and must flip their joy marker.
+        player has been hanged and must flip their joy marker.<br>
 
         The game is now over, and the player with the highest joy who hasn't been hanged wins. If
         there is a tie, tied players share the victory.
 
     - name: Community Atrophy
-      text: >
+      pretext: >
         All players lose.
 
 - name: Item Powers
   color: '#000000'
   pretext: >
     Players may have up to two items stored in the slots on their player board. These items do not
-    count as part of a player's reputation.
+    count as part of a player's reputation.<br>
 
-    When players use an item, they resolve its effect and then discard it.
+    When players use an item, they resolve its effect and then discard it.<br>
 
     Items use a variety of timing windows. Molly House is not a real-time game, and players should
     allow one another a little grace if a timing window is narrowly missed. Any timing conflicts are
     resolved clockwise, starting with the player with the candelabra.
   children:
     - name: Bottle of Gin
-      text: |
+      pretext: |
         In a festivity, you may spend this after the last vice card is played but before the winning
         set is scored. All players—even those who passed—play an additional round. Do not play an
         additional card for the community. Players, including the runner, may pass during this
-        additional round.
+        additional round.<br>
 
         Revealed informers who were previously barred from playing may play during this round as if
         the festivity were at another house.
 
     - name: Bribe
-      text: >
+      pretext: >
         On your turn, you may spend this instead of taking an action. Examine the gossip pile and
         secretly add one card of your choice to your hand.
 
     - name: Doll
-      text: >
+      pretext: >
         As the festivity runner, when you play your first vice card, you may also spend this. This
         festivity will score as a Quiet Gathering, but you and the community do not lose joy from
         the runner and community bonus.
 
     - name: Domino
-      text: >
+      pretext: >
         When you play a vice card in a festivity, you may spend this. Swap the card you played with
         a community card of matching suit.
 
     - name: Dress
-      text: |
+      pretext: |
         When you play a vice card in a festivity, you may play the dress of matching suit. For this
         festivity, the Surprise Ball now only requires four desires of the dress suit. These desires
         can have any number—they do not need to be consecutive! If more than four desires are played
         of the dress suit, the highest ones are scored, as normal. Remember too that rogues count as
-        desires.
+        desires.<br>
 
         If multiple dresses are played, all of the played dress suits can be used to build a
         Surprise Ball. For instance, if the cups and hearts dresses are both played, a Surprise Ball
-        could be formed with one cups and three hearts.
+        could be formed with one cups and three hearts.<br>
 
         Discard played dresses at the end of the festivity, even if a Surprise Ball was not scored.
 
     - name: Newspaper Notice
-      text: >
+      pretext: >
         On your turn, you may spend this instead of taking an action. Add all desires in the market
         to the gossip pile, or add all of them to your reputation. If adding to your reputation,
         score any molly bonuses.
 
     - name: Violin
-      text: >
+      pretext: >
         In a festivity, you may spend this anytime before the set is scored. Draw an additional two
         cards for the community. If the vice deck is empty, shuffle the gossip pile and draw from
         it.
