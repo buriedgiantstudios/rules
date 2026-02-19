@@ -312,7 +312,7 @@
             as tens. On a tie, all tied players are exposed. If no one has a matching card in
             their reputation, no player is exposed.
 
-    - name: Step 1 - Move Your Pawn.
+    - name: Step 1 - Move Your Pawn
       pretext: >
         Count the number of boot icons on exactly one or both of the dice you rolled. Move your
         pawn that exact number of sites along the board in either direction, without backtracking.
@@ -320,19 +320,19 @@
         If you rolled two market discards, you may choose to be picked up by a fancy fellow in a
         carriage and place your pawn on any site.
 
-    - name: Step 2 - Take an Action.
+    - name: Step 2 - Take an Action
       pretext: >
         You must take one action. You always have access to the three basic actions and your
         site's action. Actions are described below.
 
-    - name: Step 3 - Refill Market and Check Hand Size.
+    - name: Step 3 - Refill Market and Check Hand Size
       pretext: >
         Shift the remaining cards in the market down to fill any empty slots, and refill the
         market from the vice deck, if possible. If your hand has more than 6 cards, add the excess
         to the gossip pile. Do not reveal the excess cards added to the gossip pile. Threats added
         now do not expose players, but may add evidence to molly houses at the End of the Week.
 
-    - name: Step 4 - Pass the Turn.
+    - name: Step 4 - Pass the Turn
       pretext: >
         The next clockwise player takes their turn. If the vice deck is empty, the next clockwise
         player will take the candelabra and resolve the End of the Week before taking their turn.

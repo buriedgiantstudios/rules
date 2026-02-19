@@ -1,0 +1,20 @@
+- text: >
+    This is a new item included in the second printing and beyond, and is available in the Molly House update kit.
+  versions:
+    - v2
+  rules:
+    - '12.3'
+
+- text: >
+    This is the new item effect included in the second printing and beyond, and is available in the Molly House update kit.
+  versions:
+    - v2
+  rules:
+    - '12.4'
+
+- text: >
+    This is the new item effect included in the second printing and beyond, and is available in the Molly House update kit.
+  versions:
+    - v2
+  rules:
+    - '12.6'
