@@ -2,11 +2,14 @@ products:
   arcs:
     name: Arcs
 
-  oath:
-    name: Oath
-
   johncompany:
     name: John Company
+
+  mollyhouse:
+    name: Molly House
+
+  oath:
+    name: Oath
 
   paxpamir:
     name: Pax Pamir

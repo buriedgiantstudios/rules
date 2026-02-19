@@ -339,22 +339,23 @@
 
 
 - name: Basic Actions
+  color: '#000000'
   pretext: >
     These actions can be taken on any site so long as the action's requirement is met. For
     instance, you can indulge only if there is a market card matching your site.
   children:
-    - name: Lie Low.
-      text: >
+    - name: Lie Low
+      pretext: >
         Draw the top card of the vice deck and add it to your hand.
 
-    - name: Indulge.
-      text: >
+    - name: Indulge
+      pretext: >
         Select a card in the market matching the suit of your current site and add it to your
         hand. You cannot take this action if you are at one of the four shop sites, since they
         do not match any suit.
 
-    - name: Accuse.
-      text: |
+    - name: Accuse
+      pretext: |
         If another player's pawn is at your site, you may reveal one of their un-revealed
         encounter tokens at any house. Encounter tokens are often placed during the End of the
         Week. You don't need to be at the same site as the token.<br><br>
@@ -364,13 +365,14 @@
           player is now a revealed informer.
 
 - name: Site Actions
+  color: '#000000'
   pretext: |
     These actions can only be taken if your pawn is at the corresponding site.<br><br>
 
     If a molly house is raided, players may not take its Throw Festivity action.
   children:
-    - name: Cruise.
-      text: |
+    - name: Cruise
+      pretext: |
         The cruising sites are located adjacent to each molly house.<br><br>
 
         While there, take one desire card (not a threat or a molly) that matches the site from
@@ -387,8 +389,8 @@
           pile and gain one matching suit token. You still draw cards and score any molly bonuses
           from mollies in your reputation.
 
-    - name: Shop.
-      text: |
+    - name: Shop
+      pretext: |
         The shop sites are located at the mid-point along each edge of the board.<br><br>
 
         While there, take the item from the site and place it, face up, on an item slot of your
@@ -448,7 +450,7 @@
             | 2nd | Christening | Queen and 3 desire cards of the same value (such as 3, 3, 3). |
             | 3rd | Dance | Jack and 3 desire cards in consecutive order (ignore suit). |
 
-            Break ties in rank with the highest value. If multiple sets of the same rank (such
+            <br>Break ties in rank with the highest value. If multiple sets of the same rank (such
             as multiple Dances) could be made, score the one with the desire of highest value.
             If this set could be made in multiple ways (such as with either a "4" rogue or a
             "4" desire), the festivity runner decides how to make it.<br><br>
@@ -472,29 +474,33 @@
             Score community joy for each one as indicated by its stars. Scored mollies are
             worth four community joy. Players never score this joy!<br><br>
 
-            **Foiling Threats**<br><br>
+          children:
+            - name: Foiling Threats
+              text: |
+                Scoring a threat at a festivity represents a successful effort to outfox the
+                Society and protect one's own reputation and the wider community.<br><br>
 
-            Scoring a threat at a festivity represents a successful effort to outfox the
-            Society and protect one's own reputation and the wider community.<br><br>
+                After resolving scored mollies and desires, each scored threat is foiled: Add it to
+                the safe pile, and the player who played it adds all matching cards in their
+                reputation to the safe pile. If it was played by the community, all players do this
+                in turn order, starting with the festivity runner.<br><br>
 
-            After resolving scored mollies and desires, each scored threat is foiled: Add it to
-            the safe pile, and the player who played it adds all matching cards in their
-            reputation to the safe pile. If it was played by the community, all players do this
-            in turn order, starting with the festivity runner.<br><br>
-
-            - **The Pride Rule.** Any player who adds cards from their reputation to the safe
-              pile at this time may take a matching suit token for each card they add. They may
-              not do this partially: it is all or nothing.
-
-            If multiple threats are scored, the festivity runner decides the order in which
-            they are foiled.
+                If multiple threats are scored, the festivity runner decides the order in which
+                they are foiled.
+              
+              children:
+                - name: The Pride Rule.
+                  text: |
+                    Any player who adds cards from their reputation to the safe
+                    pile at this time may take a matching suit token for each card they add. They may
+                    not do this partially: it is all or nothing.
 
         - name: Generate Gossip.
           text: |
             The festivity runner adds the remaining unscored cards, one at a time, to the
             gossip pile. For each card, the player who played it draws one card from the vice
             deck, or gains a draw token if the vice deck is empty. Don't draw cards to replace
-            community cards.<br><br>
+            community cards.
 
           children:
             - name: The Party-goer is Exposed. 
@@ -703,9 +709,7 @@
         evidence at the house with their informer token, plus two victory points for each reputation
         point of all other players that matches that house. They then lose one point for their own
         reputation in all suits. This includes the suit they informed against! Points can go below
-        zero.<br><br>
-
-        *Successful informers may wish to tally points on the joy track, but some groups may find
+        zero. *Successful informers may wish to tally points on the joy track, but some groups may find
         it in poor taste.*<br><br>
 
         The game is now over, and the informer with the highest positive number of victory points
