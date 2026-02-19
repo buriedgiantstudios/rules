@@ -18,3 +18,10 @@
     - v2
   rules:
     - '12.6'
+
+- text: >
+    This text has been updated to clarify that the festivity runner determines who draws and who gains draw tokens.
+  versions:
+    - v2
+  rules:
+    - '8.3'
