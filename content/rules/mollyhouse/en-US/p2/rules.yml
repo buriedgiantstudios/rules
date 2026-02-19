@@ -163,7 +163,7 @@
           text: |
             Secretly select one card from your hand and place it face down in your reputation area to
             the left of your player board. Then, all players simultaneously reveal their card, place
-            their pawn on the molly house that matches the card's suit, then:<br><br>
+            their pawn on the molly house that matches the card's suit, then:<br>
 
             - If it was a desire card, they score the amount of joy indicated on the card by the number
               of stars.
@@ -312,207 +312,207 @@
             as tens. On a tie, all tied players are exposed. If no one has a matching card in
             their reputation, no player is exposed.
 
-    - name: Move Your Pawn
-      text: >
+    - name: Step 1 - Move Your Pawn.
+      pretext: >
         Count the number of boot icons on exactly one or both of the dice you rolled. Move your
         pawn that exact number of sites along the board in either direction, without backtracking.
         If one of the dice rolled was a market discard (no boots), you may remain at the same site.
         If you rolled two market discards, you may choose to be picked up by a fancy fellow in a
         carriage and place your pawn on any site.
 
-    - name: Take an Action
-      text: >
+    - name: Step 2 - Take an Action.
+      pretext: >
         You must take one action. You always have access to the three basic actions and your
         site's action. Actions are described below.
 
-    - name: Refill Market and Check Hand Size
-      text: >
+    - name: Step 3 - Refill Market and Check Hand Size.
+      pretext: >
         Shift the remaining cards in the market down to fill any empty slots, and refill the
         market from the vice deck, if possible. If your hand has more than 6 cards, add the excess
         to the gossip pile. Do not reveal the excess cards added to the gossip pile. Threats added
         now do not expose players, but may add evidence to molly houses at the End of the Week.
 
-    - name: Pass the Turn
-      text: >
+    - name: Step 4 - Pass the Turn.
+      pretext: >
         The next clockwise player takes their turn. If the vice deck is empty, the next clockwise
         player will take the candelabra and resolve the End of the Week before taking their turn.
 
 
-    - name: Basic Actions
+- name: Basic Actions
+  pretext: >
+    These actions can be taken on any site so long as the action's requirement is met. For
+    instance, you can indulge only if there is a market card matching your site.
+  children:
+    - name: Lie Low.
+      text: >
+        Draw the top card of the vice deck and add it to your hand.
+
+    - name: Indulge.
+      text: >
+        Select a card in the market matching the suit of your current site and add it to your
+        hand. You cannot take this action if you are at one of the four shop sites, since they
+        do not match any suit.
+
+    - name: Accuse.
+      text: |
+        If another player's pawn is at your site, you may reveal one of their un-revealed
+        encounter tokens at any house. Encounter tokens are often placed during the End of the
+        Week. You don't need to be at the same site as the token.<br><br>
+
+        - If it shows loyal, you lose three joy.
+        - If it shows an informer, you score three joy and three community joy. The accused
+          player is now a revealed informer.
+
+- name: Site Actions
+  pretext: |
+    These actions can only be taken if your pawn is at the corresponding site.<br><br>
+
+    If a molly house is raided, players may not take its Throw Festivity action.
+  children:
+    - name: Cruise.
+      text: |
+        The cruising sites are located adjacent to each molly house.<br><br>
+
+        While there, take one desire card (not a threat or a molly) that matches the site from
+        your hand and add it to your reputation. You don't score joy for the stars on this
+        desire, but you do score molly bonuses if it matches mollies in your reputation.<br><br>
+
+        After adding the desire, draw cards from the vice deck equal to your reputation in the
+        site's suit, but no more than four. If there are not enough cards in the deck, take a
+        draw token for each card that you could not draw. You must add the desire to draw cards,
+        even if you already have matching reputation.<br><br>
+
+        - **Dangerous Cruising.** If the cruising site has a dangerous cruising marker (from
+          the adjacent molly house being raided), add the card you just played to the gossip
+          pile and gain one matching suit token. You still draw cards and score any molly bonuses
+          from mollies in your reputation.
+
+    - name: Shop.
+      text: |
+        The shop sites are located at the mid-point along each edge of the board.<br><br>
+
+        While there, take the item from the site and place it, face up, on an item slot of your
+        player board. If you already have two items, you must discard either the item just taken
+        or one of your other two. The powers of items are described in the Item Powers section.
+        Do not refill the shop; new items will be placed during the End of the Week phase.<br><br>
+
+        After taking the item, resolve a market discard. Add the farthest card from the vice
+        deck to the safe pile if the card is a desire, to the gossip pile if it is a molly, or
+        to the gossip pile and resolve exposure if it was a threat.
+
+    - name: Throw Festivity
       pretext: >
-        These actions can be taken on any site so long as the action's requirement is met. For
-        instance, you can indulge only if there is a market card matching your site.
+        You can throw a festivity at a molly house that has not been raided. They are located
+        at each corner of the board. You must have at least two cards in your hand to take this
+        action (or three if playing with just two players).<br><br>
+
+        This action offers players their primary way of scoring joy. Unlike other actions, this
+        action is resolved over a number of phases, which are described below.
       children:
-        - name: Lie Low.
+        - name: Bring the Party to Order.
           text: >
-            Draw the top card of the vice deck and add it to your hand.
+            Take the candelabra and place it in front of you. You are the festivity runner.
 
-        - name: Indulge.
-          text: >
-            Select a card in the market matching the suit of your current site and add it to your
-            hand. You cannot take this action if you are at one of the four shop sites, since they
-            do not match any suit.
-
-        - name: Accuse.
+        - name: Play Cards.
           text: |
-            If another player's pawn is at your site, you may reveal one of their un-revealed
-            encounter tokens at any house. Encounter tokens are often placed during the End of the
-            Week. You don't need to be at the same site as the token.<br><br>
+            Cards are played over two rounds (or over three rounds in a game with two players).
+            In each round, the community plays, then each player takes a turn.<br><br>
 
-            - If it shows loyal, you lose three joy.
-            - If it shows an informer, you score three joy and three community joy. The accused
-              player is now a revealed informer.
+            To play a card for the community, reveal the top card of the vice deck and place it
+            in the center of the board. If the vice deck is empty, shuffle the gossip pile and
+            draw from it instead.<br><br>
 
-    - name: Site Actions
-      pretext: |
-        These actions can only be taken if your pawn is at the corresponding site.<br><br>
+            After the community plays, each player takes a turn, starting with the runner and
+            proceeding clockwise. On a player's turn, they must either pass or play:<br><br>
 
-        If a molly house is raided, players may not take its Throw Festivity action.
-      children:
-        - name: Cruise.
+            \- If they pass, their turn is skipped for the remainder of the festivity.
+            \- If they play, they place any card from their hand on the table in front of them.
+              The festivity runner must play a card each round.
+          children: 
+            - name: Rogues Are Fickle.
+              text: |
+                If a player plays a rogue, they must set its value to any
+                number from zero to nine, indicating the value with a ten-sided die. This card
+                will act as a desire of that value when determining the festivity rank. If the
+                community plays a rogue, determine its value randomly by rolling a ten-sided die.
+                A rogue may take a value, such as zero, that is not otherwise in the game.
+
+        - name: Score the Best Festivity.
           text: |
-            The cruising sites are located adjacent to each molly house.<br><br>
+            After all rounds have been played, score the best set of four cards from among
+            those played, using the following ranking:<br><br>
 
-            While there, take one desire card (not a threat or a molly) that matches the site from
-            your hand and add it to your reputation. You don't score joy for the stars on this
-            desire, but you do score molly bonuses if it matches mollies in your reputation.<br><br>
+            | Rank | Name | Description |
+            |------|------|-------------|
+            | 1st | Surprise Ball | Four desire cards of the same suit in consecutive order (such as 3, 4, 5, 6). |
+            | 2nd | Christening | Queen and 3 desire cards of the same value (such as 3, 3, 3). |
+            | 3rd | Dance | Jack and 3 desire cards in consecutive order (ignore suit). |
 
-            After adding the desire, draw cards from the vice deck equal to your reputation in the
-            site's suit, but no more than four. If there are not enough cards in the deck, take a
-            draw token for each card that you could not draw. You must add the desire to draw cards,
-            even if you already have matching reputation.<br><br>
+            Break ties in rank with the highest value. If multiple sets of the same rank (such
+            as multiple Dances) could be made, score the one with the desire of highest value.
+            If this set could be made in multiple ways (such as with either a "4" rogue or a
+            "4" desire), the festivity runner decides how to make it.<br><br>
 
-            - **Dangerous Cruising.** If the cruising site has a dangerous cruising marker (from
-              the adjacent molly house being raided), add the card you just played to the gossip
-              pile and gain one matching suit token. You still draw cards and score any molly bonuses
-              from mollies in your reputation.
+            If no set of the above ranks can be made, a Quiet Gathering occurs. The four lowest
+            desires are scored as the winning set. If there were fewer than four desires played,
+            score only those.<br><br>
 
-        - name: Shop.
+            **Constables are Intimidating.** During Quiet Gatherings, constables are treated
+              as 0-value desires, so they are always scored.<br><br>
+            
+            **Rogues get Bored.** During Quiet Gatherings, rogues are ignored and never
+              scored.<br><br>
+
+            Then, each scored molly and desire is added to the reputation of the player who
+            played it. Each card scores its player the joy indicated by its stars (or lack
+            thereof). Remember to score molly bonuses—add mollies before desires, so that the
+            most joy is scored. Do not score the community joy shown on these mollies.<br><br>
+
+            Scored mollies and desires played by the community are added to the safe pile.
+            Score community joy for each one as indicated by its stars. Scored mollies are
+            worth four community joy. Players never score this joy!<br><br>
+
+            **Foiling Threats**<br><br>
+
+            Scoring a threat at a festivity represents a successful effort to outfox the
+            Society and protect one's own reputation and the wider community.<br><br>
+
+            After resolving scored mollies and desires, each scored threat is foiled: Add it to
+            the safe pile, and the player who played it adds all matching cards in their
+            reputation to the safe pile. If it was played by the community, all players do this
+            in turn order, starting with the festivity runner.<br><br>
+
+            - **The Pride Rule.** Any player who adds cards from their reputation to the safe
+              pile at this time may take a matching suit token for each card they add. They may
+              not do this partially: it is all or nothing.
+
+            If multiple threats are scored, the festivity runner decides the order in which
+            they are foiled.
+
+        - name: Generate Gossip.
           text: |
-            The shop sites are located at the mid-point along each edge of the board.<br><br>
+            The festivity runner adds the remaining unscored cards, one at a time, to the
+            gossip pile. For each card, the player who played it draws one card from the vice
+            deck, or gains a draw token if the vice deck is empty. Don't draw cards to replace
+            community cards.<br><br>
 
-            While there, take the item from the site and place it, face up, on an item slot of your
-            player board. If you already have two items, you must discard either the item just taken
-            or one of your other two. The powers of items are described in the Item Powers section.
-            Do not refill the shop; new items will be placed during the End of the Week phase.<br><br>
-
-            After taking the item, resolve a market discard. Add the farthest card from the vice
-            deck to the safe pile if the card is a desire, to the gossip pile if it is a molly, or
-            to the gossip pile and resolve exposure if it was a threat.
-
-        - name: Throw Festivity
-          pretext: >
-            You can throw a festivity at a molly house that has not been raided. They are located
-            at each corner of the board. You must have at least two cards in your hand to take this
-            action (or three if playing with just two players).<br><br>
-
-            This action offers players their primary way of scoring joy. Unlike other actions, this
-            action is resolved over a number of phases, which are described below.
           children:
-            - name: Bring the Party to Order.
-              text: >
-                Take the candelabra and place it in front of you. You are the festivity runner.
-
-            - name: Play Cards.
+            - name: The Party-goer is Exposed. 
               text: |
-                Cards are played over two rounds (or over three rounds in a game with two players).
-                In each round, the community plays, then each player takes a turn.<br><br>
-
-                To play a card for the community, reveal the top card of the vice deck and place it
-                in the center of the board. If the vice deck is empty, shuffle the gossip pile and
-                draw from it instead.<br><br>
-
-                After the community plays, each player takes a turn, starting with the runner and
-                proceeding clockwise. On a player's turn, they must either pass or play:<br><br>
-
-                \- If they pass, their turn is skipped for the remainder of the festivity.
-                \- If they play, they place any card from their hand on the table in front of them.
-                  The festivity runner must play a card each round.
-              children: 
-                - name: Rogues Are Fickle.
-                  text: |
-                    If a player plays a rogue, they must set its value to any
-                    number from zero to nine, indicating the value with a ten-sided die. This card
-                    will act as a desire of that value when determining the festivity rank. If the
-                    community plays a rogue, determine its value randomly by rolling a ten-sided die.
-                    A rogue may take a value, such as zero, that is not otherwise in the game.
-
-            - name: Score the Best Festivity.
+                If a player played a threat that was added to the
+                gossip pile, that player is exposed: they add all cards in their reputation
+                matching that threat to the gossip pile and take a matching suit token for each.
+            - name: The Community is Exposed. 
               text: |
-                After all rounds have been played, score the best set of four cards from among
-                those played, using the following ranking:<br><br>
+                If the community played a threat that was added to
+                the gossip pile, all players are exposed.
 
-                | Rank | Name | Description |
-                |------|------|-------------|
-                | 1st | Surprise Ball | Four desire cards of the same suit in consecutive order (such as 3, 4, 5, 6). |
-                | 2nd | Christening | Queen and 3 desire cards of the same value (such as 3, 3, 3). |
-                | 3rd | Dance | Jack and 3 desire cards in consecutive order (ignore suit). |
-
-                Break ties in rank with the highest value. If multiple sets of the same rank (such
-                as multiple Dances) could be made, score the one with the desire of highest value.
-                If this set could be made in multiple ways (such as with either a "4" rogue or a
-                "4" desire), the festivity runner decides how to make it.<br><br>
-
-                If no set of the above ranks can be made, a Quiet Gathering occurs. The four lowest
-                desires are scored as the winning set. If there were fewer than four desires played,
-                score only those.<br><br>
-
-                **Constables are Intimidating.** During Quiet Gatherings, constables are treated
-                  as 0-value desires, so they are always scored.<br><br>
-                
-                **Rogues get Bored.** During Quiet Gatherings, rogues are ignored and never
-                  scored.<br><br>
-
-                Then, each scored molly and desire is added to the reputation of the player who
-                played it. Each card scores its player the joy indicated by its stars (or lack
-                thereof). Remember to score molly bonuses—add mollies before desires, so that the
-                most joy is scored. Do not score the community joy shown on these mollies.<br><br>
-
-                Scored mollies and desires played by the community are added to the safe pile.
-                Score community joy for each one as indicated by its stars. Scored mollies are
-                worth four community joy. Players never score this joy!<br><br>
-
-                **Foiling Threats**<br><br>
-
-                Scoring a threat at a festivity represents a successful effort to outfox the
-                Society and protect one's own reputation and the wider community.<br><br>
-
-                After resolving scored mollies and desires, each scored threat is foiled: Add it to
-                the safe pile, and the player who played it adds all matching cards in their
-                reputation to the safe pile. If it was played by the community, all players do this
-                in turn order, starting with the festivity runner.<br><br>
-
-                - **The Pride Rule.** Any player who adds cards from their reputation to the safe
-                  pile at this time may take a matching suit token for each card they add. They may
-                  not do this partially: it is all or nothing.
-
-                If multiple threats are scored, the festivity runner decides the order in which
-                they are foiled.
-
-            - name: Generate Gossip.
-              text: |
-                The festivity runner adds the remaining unscored cards, one at a time, to the
-                gossip pile. For each card, the player who played it draws one card from the vice
-                deck, or gains a draw token if the vice deck is empty. Don't draw cards to replace
-                community cards.<br><br>
-
-              children:
-                - name: The Party-goer is Exposed. 
-                  text: |
-                    If a player played a threat that was added to the
-                    gossip pile, that player is exposed: they add all cards in their reputation
-                    matching that threat to the gossip pile and take a matching suit token for each.
-                - name: The Community is Exposed. 
-                  text: |
-                    If the community played a threat that was added to
-                    the gossip pile, all players are exposed.
-
-            - name: Score the Runner's and Community's Bonuses
-              text: >
-                If a Surprise Ball, Christening, or Dance occurred, the festivity runner scores joy
-                equal to their reputation matching their pawn's site. If a Quiet Gathering
-                occurred, the runner loses this amount of joy instead. The community scores
-                +3/+2/+1/–1 joy if a Surprise Ball/Christening/Dance/Quiet Gathering occurred.
+        - name: Score the Runner's and Community's Bonuses
+          text: >
+            If a Surprise Ball, Christening, or Dance occurred, the festivity runner scores joy
+            equal to their reputation matching their pawn's site. If a Quiet Gathering
+            occurred, the runner loses this amount of joy instead. The community scores
+            +3/+2/+1/–1 joy if a Surprise Ball/Christening/Dance/Quiet Gathering occurred.
 
 - name: End of the Week
   color: '#000000'
@@ -636,7 +636,7 @@
     the Society phase.<br><br>
 
     An informer succeeds if the house where they placed their informer token has been raided by the
-    end of the game. There are two potential benefits to being a successful informer:<br><br>
+    end of the game. There are two potential benefits to being a successful informer:<br>
 
     - **Indictments Pardoned.** If the game ends with Community Survival, successful informers
       discard all of their indictments.
