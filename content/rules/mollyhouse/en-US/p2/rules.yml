@@ -117,12 +117,12 @@
         - name: Deal the Market.
           text: >
             Deal four vice cards, face up, to the four slots below the vice deck. This is the
-            market.
+            **market**.
 
         - name: Start the Gossip Pile.
           text: >
             Deal one vice card, face down, to the card space in the bottom-right corner of the
-            board. This is the gossip pile.
+            board. This is the **gossip pile**.
 
         - name: Place Markers.
           text: >
@@ -165,11 +165,11 @@
             the left of your player board. Then, all players simultaneously reveal their card, place
             their pawn on the molly house that matches the card's suit, then:<br>
 
-            - If it was a desire card, they score the amount of joy indicated on the card by the number
+            - If it was a **desire** card, they score the amount of joy indicated on the card by the number
               of stars.
-            - If it was a threat card, add it to the safe pile (a face-up discard pile placed anywhere
+            - If it was a **threat** card, add it to the safe pile (a face-up discard pile placed anywhere
               near the area of play).
-            - If it was a molly card, nothing further happens. Players often choose this option to score
+            - If it was a **molly** card, nothing further happens. Players often choose this option to score
               molly bonuses later.
 
 - name: General Rules and Concepts
@@ -295,7 +295,7 @@
 - name: Your Turn
   color: '#000000'
   children:
-    - name: Roll Dice and Resolve Market Discards
+    - name: Step 1 - Roll Dice and Resolve Market Discards
       pretext: >
         Roll the two movement dice and resolve market discard(s). For each market discard icon you
         roll, take the card from the market that is farthest from the vice deck and add it to the
@@ -312,7 +312,7 @@
             as tens. On a tie, all tied players are exposed. If no one has a matching card in
             their reputation, no player is exposed.
 
-    - name: Step 1 - Move Your Pawn
+    - name: Step 2 - Move Your Pawn
       pretext: >
         Count the number of boot icons on exactly one or both of the dice you rolled. Move your
         pawn that exact number of sites along the board in either direction, without backtracking.
@@ -320,19 +320,19 @@
         If you rolled two market discards, you may choose to be picked up by a fancy fellow in a
         carriage and place your pawn on any site.
 
-    - name: Step 2 - Take an Action
+    - name: Step 3 - Take an Action
       pretext: >
         You must take one action. You always have access to the three basic actions and your
         site's action. Actions are described below.
 
-    - name: Step 3 - Refill Market and Check Hand Size
+    - name: Step 4 - Refill Market and Check Hand Size
       pretext: >
         Shift the remaining cards in the market down to fill any empty slots, and refill the
         market from the vice deck, if possible. If your hand has more than 6 cards, add the excess
         to the gossip pile. Do not reveal the excess cards added to the gossip pile. Threats added
         now do not expose players, but may add evidence to molly houses at the End of the Week.
 
-    - name: Step 4 - Pass the Turn
+    - name: Step 5 - Pass the Turn
       pretext: >
         The next clockwise player takes their turn. If the vice deck is empty, the next clockwise
         player will take the candelabra and resolve the End of the Week before taking their turn.
@@ -358,10 +358,10 @@
       pretext: |
         If another player's pawn is at your site, you may reveal one of their un-revealed
         encounter tokens at any house. Encounter tokens are often placed during the End of the
-        Week. You don't need to be at the same site as the token.<br><br>
+        Week. You don't need to be at the same site as the token.<br>
 
-        - If it shows loyal, you lose three joy.
-        - If it shows an informer, you score three joy and three community joy. The accused
+        - If it shows **loyal**, you lose three joy.
+        - If it shows an **informer**, you score three joy and three community joy. The accused
           player is now a revealed informer.
 
 - name: Site Actions
@@ -384,10 +384,13 @@
         draw token for each card that you could not draw. You must add the desire to draw cards,
         even if you already have matching reputation.<br><br>
 
-        - **Dangerous Cruising.** If the cruising site has a dangerous cruising marker (from
-          the adjacent molly house being raided), add the card you just played to the gossip
-          pile and gain one matching suit token. You still draw cards and score any molly bonuses
-          from mollies in your reputation.
+      children:
+        - name: Dangerous Cruising.
+          text: |
+            If the cruising site has a dangerous cruising marker (from
+            the adjacent molly house being raided), add the card you just played to the gossip
+            pile and gain one matching suit token. You still draw cards and score any molly bonuses
+            from mollies in your reputation.
 
     - name: Shop
       pretext: |
@@ -427,8 +430,8 @@
             After the community plays, each player takes a turn, starting with the runner and
             proceeding clockwise. On a player's turn, they must either pass or play:<br><br>
 
-            \- If they pass, their turn is skipped for the remainder of the festivity.
-            \- If they play, they place any card from their hand on the table in front of them.
+            \- If they **pass**, their turn is skipped for the remainder of the festivity.<br>
+            \- If they **play**, they place any card from their hand on the table in front of them.
               The festivity runner must play a card each round.
           children: 
             - name: Rogues Are Fickle.
@@ -467,15 +470,15 @@
 
             Then, each scored molly and desire is added to the reputation of the player who
             played it. Each card scores its player the joy indicated by its stars (or lack
-            thereof). Remember to score molly bonuses—add mollies before desires, so that the
-            most joy is scored. Do not score the community joy shown on these mollies.<br><br>
+            thereof). *Remember to score molly bonuses—add mollies before desires, so that the
+            most joy is scored. Do not score the community joy shown on these mollies.*<br><br>
 
             Scored mollies and desires played by the community are added to the safe pile.
             Score community joy for each one as indicated by its stars. Scored mollies are
-            worth four community joy. Players never score this joy!<br><br>
+            worth four community joy. Players never score this joy!
 
           children:
-            - name: Foiling Threats
+            - name: Foiling Threats.
               text: |
                 Scoring a threat at a festivity represents a successful effort to outfox the
                 Society and protect one's own reputation and the wider community.<br><br>
