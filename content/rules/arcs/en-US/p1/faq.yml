@@ -9,8 +9,17 @@
     and Ransack for the first city before Outrage, then Ransack for the next. In the campaign, resolve all hits first
     before resolving effects that trigger from **harm**.
   rules:
-    - '7.7.1'
+ 
+  - q: Do I still deal all hits to the defender if all my attacking ships are destroyed?
+  a: >
+    Yes. The only penalty is the inability to raid if your ships are all destroyed.
+   - '7.7.1.4'
 
+  - q: May I still raid if all defending buildings are destroyed?
+  a: >
+    Yes.
+   - '7.7.1.4'
+   
 - q: Can I Cede Control while I am a Flagship?
   a: You can Cede Control of buildings on the map, but not buildings on your Flagship, and not your Flagship itself. Other players can also Cede buildings to you.
   rules:
@@ -288,8 +297,22 @@
 
 - q: When exactly is an attachment "forced"?
   a: >
-     Generally, it is forced when an Edict or Crisis causes the attachment, like with the Claims of Nobility Crisis.
-     Conversely, when a player chooses to cause an attachment, like when they Claim a Fief with Claims of Nobility on their turn, that is not forced.
-     Crisis 
+      An attach is forced when an automatic effect like an Edict or Crisis causes a card to attach, without giving players
+     a choice not to attach. Conversely, when a player chooses to resolve an effect whose text includes attaching a card,
+     that is not forced. Therefore, the Claims of Nobility Crisis is a forced attach, but its When Secured action is not. 
+     The first requirement to ignore is the requirement to attach to a card that has no attached cards. Thus, when forced,
+     you attach a second card to the card with an attached card.
+  
+  - q: What exactly is meant here by "ignoring the fewest requirements to attach it"?
+  a: >
+     To date, all forced attachments are resolved by ignoring the rule that you attach to a card without a previously attached card.
+     Therefore, when forced to attach to a card that already has an attached card, simply attach the new card as a second attachment.
   rules: 
     - '13.2.3'
+    
+  - q: Does this mean I can or must conceal how many cards are in my hand?
+  a: >
+     No. It only prevents revealing the face of your action cards, not their backs or how many you have. Card backs in your hand
+     are important public information in the campaign. 
+    - '22.6.1'
+    
