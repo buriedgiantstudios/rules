@@ -314,5 +314,17 @@
   a: >
      No. It only prevents revealing the face of your action cards, not their backs or how many you have. Card backs in your hand
      are important public information in the campaign. 
+   - q: Does this imply everything else not face down or in a deck is public information?
+  a: >
+     Yes, unless otherwise specified.
     - '22.6.1'
-    
+
+  - q: Do damaged buildings still perform actions like taxing or building ships?
+  a: >
+      Yes. Those rules are not restricted to fresh pieces.
+    - '4.6.2'
+
+  - q: Do I still flip ambition markers between chapters in the campaign.
+  a: >
+      Yes. This does not change that rule at all.
+    - '3.3.1'
