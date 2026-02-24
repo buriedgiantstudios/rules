@@ -9,16 +9,19 @@
     and Ransack for the first city before Outrage, then Ransack for the next. In the campaign, resolve all hits first
     before resolving effects that trigger from **harm**.
   rules:
+ - '7.7.1'
  
   - q: Do I still deal all hits to the defender if all my attacking ships are destroyed?
   a: >
     Yes. The only penalty is the inability to raid if your ships are all destroyed.
-   - '7.7.1.4'
+    rules:
+   - '7.7.1.4.3'
 
   - q: May I still raid if all defending buildings are destroyed?
   a: >
     Yes.
-   - '7.7.1.4'
+    rules:
+   - '7.7.1.4.5'
    
 - q: Can I Cede Control while I am a Flagship?
   a: You can Cede Control of buildings on the map, but not buildings on your Flagship, and not your Flagship itself. Other players can also Cede buildings to you.
@@ -317,14 +320,17 @@
    - q: Does this imply everything else not face down or in a deck is public information?
   a: >
      Yes, unless otherwise specified.
+     rules:
     - '22.6.1'
 
   - q: Do damaged buildings still perform actions like taxing or building ships?
   a: >
       Yes. Those rules are not restricted to fresh pieces.
+    rules:
     - '4.6.2'
 
   - q: Do I still flip ambition markers between chapters in the campaign.
   a: >
       Yes. This does not change that rule at all.
+     rules:
     - '3.3.1'
