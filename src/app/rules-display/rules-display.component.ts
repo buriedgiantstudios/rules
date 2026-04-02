@@ -21,10 +21,8 @@ import { FaqErrataHeaderDisplayComponent } from '../faq-errata-header-display/fa
   ],
 })
 export class RulesDisplayComponent {
-  private rulesService = inject(RulesService);
+  public rulesService = inject(RulesService);
   public paramService = inject(ParamService);
-
-  public search = this.rulesService.search;
 
   public allRules = computed(() => this.rulesService.formattedRules());
   public ruleIndexes = computed(() => this.rulesService.indexRuleHash());
@@ -52,7 +50,7 @@ export class RulesDisplayComponent {
   }
 
   public isVisible(index: number[]): boolean {
-    const searchTerm = this.search().trim();
+    const searchTerm = this.rulesService.search().trim();
     if (!searchTerm) {
       return true;
     }
