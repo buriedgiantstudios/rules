@@ -88,6 +88,10 @@ export class AppComponent implements OnInit {
         baseParams.get('compareToPrinting')!,
       );
 
+    if (baseParams.has('search')) {
+      this.rulesService.search.set(baseParams.get('search')!);
+    }
+
     this.paramService.init();
 
     const hash = window.location.hash;
