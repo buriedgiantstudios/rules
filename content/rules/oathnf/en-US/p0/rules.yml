@@ -1054,20 +1054,20 @@
   color: '#000000'
   pretext: Sites have the following elements.
   children:
-    - name: 'Starting Resources:'
-      text: Favor or secrets placed on the site in setup. _(With the Wide Horizons foundation, it is placed when the site is Explored.)_ During your Wake Phase, you may use Take Wealth to take one favor `symbol:favor` or secret `symbol:secret` from your site if no enemy pawns are there (`rule:6.1.3`).
+    - name: 'Starting Resources'
+      pretext: Favor or secrets placed on the site in setup. _(With the Wide Horizons foundation, it is placed when the site is Explored.)_ During your Wake Phase, you may use Take Wealth to take one favor `symbol:favor` or secret `symbol:secret` from your site if no enemy pawns are there (`rule:6.1.3`).
 
-    - name: 'Defense Dice:'
-      text: The number of defense dice it adds when targeted in a Campaign.
+    - name: 'Defense Dice'
+      pretext: The number of defense dice it adds when targeted in a Campaign.
 
-    - name: 'Capacity:'
-      text: The number of denizens that the site can hold—it cannot hold more denizens in any way. After any action, if a site has no warbands on it, immediately place bandit warbands on it equal to its capacity.
+    - name: 'Capacity'
+      pretext: The number of denizens that the site can hold—it cannot hold more denizens in any way. After any action, if a site has no warbands on it, immediately place bandit warbands on it equal to its capacity.
 
-    - name: 'Relic Slots:'
-      text: The number of relics the site can hold.
+    - name: 'Relic Slots'
+      pretext: The number of relics the site can hold.
 
-    - name: 'Site Power:'
-      text: See the list of powers below.
+    - name: 'Site Power'
+      pretext: See the list of powers below.
       children:
         - name: Plains
           text: This site has no power.
