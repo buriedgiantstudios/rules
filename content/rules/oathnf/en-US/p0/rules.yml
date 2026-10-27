@@ -640,10 +640,8 @@
 - name: Major Actions
   color: '#000000'
   children:
-    - name: Search
+    - name: Search `symbol:action-search`
       pretext: >
-        `symbol:action-search` For denizens and Visions
-        <br><br>
         **Cost: 2–4 Supply**
       children:
         - name: Choose draw source.
@@ -691,10 +689,8 @@
                 - name: The Chancellor and Citizens cannot reveal Visions.
                   text: The one exception is the Conspiracy (`rule:9.9`)!
 
-    - name: Travel
+    - name: Travel `symbol:action-travel`
       pretext: >
-        `symbol:action-travel` To a new site
-        <br><br>
         **Cost: 1–4 Supply**
       children:
         - name: Choose destination site.
@@ -726,10 +722,8 @@
             - name: Pass
               text: You **cannot** travel to other sites in this region if your pawn is outside this region, unless you have the consent of the Pass's ruler. _Ignore this power if you rule the Pass. The bandits never consent. The Pass also limits targeting sites in campaigns (`rule:10.5.6`)._
 
-    - name: Campaign
+    - name: Campaign `symbol:action-campaign`
       pretext: >
-        `symbol:action-campaign` Against an enemy's sites or pawn
-        <br><br>
         **Cost: 2 Supply**
       children:
         - name: Choose campaign type and targets.
@@ -808,10 +802,8 @@
           - **Attack:** hollow sword `symbol:swordh` (x3), sword `symbol:sword` (x2), skull and two swords `symbol:skull` `symbol:sword` `symbol:sword` (x1)
           - **Defense:** blank (x2), shield `symbol:shield` (x2), two shields `symbol:shield` `symbol:shield` (x1), doubler `symbol:x2` (x1)
 
-    - name: Muster
+    - name: Muster `symbol:action-muster`
       pretext: >
-        `symbol:action-muster` Warbands
-        <br><br>
         **Cost: 1 Supply**
       children:
         - name: Place favor.
@@ -820,10 +812,8 @@
         - name: Gain warbands.
           text: Gain one warband on your board, and gain **another** warband for each faceup adviser you have matching the card you placed the favor on. _"Matching" means it has the same suit._
 
-    - name: Trade
+    - name: Trade `symbol:action-trade`
       pretext: >
-        `symbol:action-trade` For favor or secrets
-        <br><br>
         **Cost: 1 Supply**
         <br><br>
         You can either trade for favor or for secrets, as follows:
@@ -831,10 +821,8 @@
           - **To trade for favor,** place a secret `symbol:secret` on an empty denizen at your site. Gain one favor `symbol:favor`, and gain **another** favor `symbol:favor` for each faceup adviser you have matching the card you placed the secret on. This favor comes from the favor bank matching the card you placed the secret on.
           - **To trade for secrets,** place a favor `symbol:favor` on an empty denizen at your site and burn one favor `symbol:favorb`. _("Burn" returns it to the shared bank beside the map, not to a favor bank on the map!)_ Take one secret `symbol:secret` from the shared bank for each faceup adviser you have matching the card you placed the favor on.
 
-    - name: Forge
+    - name: Forge `symbol:action-forge`
       pretext: >
-        `symbol:action-forge` A relic
-        <br><br>
         **Cost: 1 Supply**
         <br><br>
         To take this action, you must rule your site, the site must have a Forge icon in its bottom-right corner, and it must have 3 empty denizens.
@@ -848,10 +836,8 @@
             <br><br>
             _Facedown relics can be revealed with a minor action (`rule:8.3`)._
 
-    - name: Recover
+    - name: Recover `symbol:action-recover`
       pretext: >
-        `symbol:action-recover` A relic at your site
-        <br><br>
         **Cost: 1 Supply**
       children:
         - name: Roll dice.
@@ -867,10 +853,8 @@
 
           - **Defense:** blank (x2), shield `symbol:shield` (x2), two shields `symbol:shield` `symbol:shield` (x1), doubler `symbol:x2` (x1)
 
-    - name: Challenge
+    - name: Challenge `symbol:action-challenge`
       pretext: >
-        `symbol:action-challenge` For a banner
-        <br><br>
         **Cost: 1 Supply**
       children:
         - name: Choose a banner.
