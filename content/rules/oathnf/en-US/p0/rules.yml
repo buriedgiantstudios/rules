@@ -4,132 +4,132 @@
     These are all of the components used in Oath: New Foundations. **Before continuing, you must set up the box as described at the start of the Welcome to New Foundations booklet. Please read it first!**
   children:
     - name: The Map
-      text: The map of this land holds many sites, the world and relic decks, the banks of favor tokens you will take from as you play, and various tracks.
+      pretext: The map of this land holds many sites, the world and relic decks, the banks of favor tokens you will take from as you play, and various tracks.
 
     - name: 7 Player Boards (Double-Sided)
-      text: Every player begins as an Exile, leaders of subjugated peoples who seek to regain a voice in society. In later games, they might become Citizens, flipping their board.
+      pretext: Every player begins as an Exile, leaders of subjugated peoples who seek to regain a voice in society. In later games, they might become Citizens, flipping their board.
 
     - name: Chancellor Board
-      text: In later games, one player will be the Chancellor, ruler of the Empire. They hope to keep hold on power and pass on their authority to their descendants.
+      pretext: In later games, one player will be the Chancellor, ruler of the Empire. They hope to keep hold on power and pass on their authority to their descendants.
 
     - name: 8 Pawns, Each of a Different Color
-      text: Your pawn is the character you're playing. Most of the time, you take actions at the site where your pawn is.
+      pretext: Your pawn is the character you're playing. Most of the time, you take actions at the site where your pawn is.
 
     - name: 122 Warbands (24 Purple, 14 Each of Seven Colors)
-      text: Warbands are your loyal followers that you'll use to campaign against your enemies and rule sites.
+      pretext: Warbands are your loyal followers that you'll use to campaign against your enemies and rule sites.
 
     - name: 24 Bandit Warbands
-      text: These warbands rule sites that are not ruled by a player.
+      pretext: These warbands rule sites that are not ruled by a player.
 
     - name: 10 Attack Dice, 6 Defense Dice, 1 End Die, and 10 Track Markers
-      text: These decide the fate of uncertain actions and track play. The dice are not limited by the amount in the box.
+      pretext: These decide the fate of uncertain actions and track play. The dice are not limited by the amount in the box.
 
     - name: 36 Favor Tokens
-      text: Favor represents your influence with the various denizens of this land.
+      pretext: Favor represents your influence with the various denizens of this land.
 
     - name: 20 Secret Tokens
-      text: Secrets represent your knowledge of ancient truths or well-cloaked lies.
+      pretext: Secrets represent your knowledge of ancient truths or well-cloaked lies.
 
     - name: 12 x3 Favor
 
     - name: 12 x3 Secrets
 
     - name: Banner of the Darkest Secret (Double-Sided)
-      text: This banner represents your mysterious aura that intrigues and seduces everyone.
+      pretext: This banner represents your mysterious aura that intrigues and seduces everyone.
 
     - name: Banner of the People's Favor (Double-Sided)
-      text: This banner represents the support for your mission from all around the land.
+      pretext: This banner represents the support for your mission from all around the land.
 
     - name: Oathkeeper Title (Double-Sided)
-      text: The player who currently fulfills the Oathkeeper goal holds this title. If an Exile holds this title long enough, they win the game.
+      pretext: The player who currently fulfills the Oathkeeper goal holds this title. If an Exile holds this title long enough, they win the game.
 
     - name: 4 Oathkeeper Goals (Double-Sided)
-      text: Each game has one of four Oathkeeper goals, showing one way to win. In games with Citizens, the Successor goal on the bottom shows how Citizens can win.
+      pretext: Each game has one of four Oathkeeper goals, showing one way to win. In games with Citizens, the Successor goal on the bottom shows how Citizens can win.
 
     - name: Grand Scepter Relic
-      text: The Chancellor starts with this relic, which gives them the power to turn Exiles into Citizens and to exile Citizens.
+      pretext: The Chancellor starts with this relic, which gives them the power to turn Exiles into Citizens and to exile Citizens.
 
     - name: First Player Marker
-      text: In games with no Empire, including the very first, this marker shows the player who is first to take a turn in each round.
+      pretext: In games with no Empire, including the very first, this marker shows the player who is first to take a turn in each round.
 
     - name: Usurper Limiter Marker
-      text: In games with no Empire, including the very first, this marker is placed on the round track as a reminder that the Oathkeeper title cannot be flipped to Usurper until the fourth round or later.
+      pretext: In games with no Empire, including the very first, this marker is placed on the round track as a reminder that the Oathkeeper title cannot be flipped to Usurper until the fourth round or later.
 
     - name: 24 Site Cards
-      text: Sites are locations around the map that you can travel to and rule.
+      pretext: Sites are locations around the map that you can travel to and rule.
 
     - name: 195 Denizen Cards
-      text: Denizens are the peoples, places, and ideas of this land.
+      pretext: Denizens are the peoples, places, and ideas of this land.
 
     - name: 5 Vision Cards
-      text: Visions are fresh ways to govern this land. Exiles can win by completing one.
+      pretext: Visions are fresh ways to govern this land. Exiles can win by completing one.
 
     - name: 47 Relic Cards
-      text: Relics are lost artifacts you can recover. They grant amazing powers and contribute to winning in some ways.
+      pretext: Relics are lost artifacts you can recover. They grant amazing powers and contribute to winning in some ways.
 
     - name: 30 Edifice Cards (Double-Sided)
-      text: Edifices are special denizens that are often placed at the end of the game.
+      pretext: Edifices are special denizens that are often placed at the end of the game.
 
     - name: 36 Legacy Cards
-      text: Each game, you can earn legacies by fulfilling specific goals. Active legacies give you special powers in later games.
+      pretext: Each game, you can earn legacies by fulfilling specific goals. Active legacies give you special powers in later games.
 
     - name: 11 Setup Cards (Including 6 Foundations)
-      text: These cards describe setup after the very first game. Its six foundations can change from game to game.
+      pretext: These cards describe setup after the very first game. Its six foundations can change from game to game.
 
     - name: 5 Chronicle Task Cards
-      text: These cards describe how to resolve the Chronicle Phase at the end of the game.
+      pretext: These cards describe how to resolve the Chronicle Phase at the end of the game.
 
     - name: 6 Player Aid Booklets
-      text: These aids have helpful action and turn summaries.
+      pretext: These aids have helpful action and turn summaries.
 
     - name: Festival Marker (Double-Sided)
-      text: This marker is used while the Darkest Secret is on its Festival side as a reminder of its power.
+      pretext: This marker is used while the Darkest Secret is on its Festival side as a reminder of its power.
 
     - name: Era Scorepad (Double-Sided)
-      text: Use this to record lineage points across an era, and draw constellations on the back.
+      pretext: Use this to record lineage points across an era, and draw constellations on the back.
 
     - name: 12 Dividers
-      text: These divide card types in the box and parts of the map in the Atlas box, as described in the Welcome to New Foundations booklet.
+      pretext: These divide card types in the box and parts of the map in the Atlas box, as described in the Welcome to New Foundations booklet.
 
     - name: Atlas Box
-      text: This box holds all of the sites and any cards stored with them.
+      pretext: This box holds all of the sites and any cards stored with them.
 
     - name: Reliquary Tile
-      text: This marks the relics that are held in the Reliquary. The Chancellor, if they're in play, starts with one relic from the Reliquary.
+      pretext: This marks the relics that are held in the Reliquary. The Chancellor, if they're in play, starts with one relic from the Reliquary.
 
 - name: Introduction
   color: '#000000'
   pretext: >
     _Oath_ is a game about history. It's about what gets forgotten, who gets left behind, and how power moves from one part of society to another. In each game, players will steer the fate of the land, affecting all the games to come. Like history, a campaign of _Oath_ has no end.
-    <br>
+    <br><br>
     _Decades or even centuries might pass between the games. The time between games is a period of relative stability for the Empire, and the start of a game marks a crisis that threatens to upend it._
-    <br>
+    <br><br>
     In your first game, the players take on the role of **Exiles**, leaders and schemers who come from the long-forgotten hinterlands. As Exiles, you can win _Oath_ in one of two ways: by becoming a **Usurper** or completing a **Vision**, which you will learn more about a little later.
-    <br>
+    <br><br>
     At the end of your first game, the winner will be crowned **Chancellor** to rule over the **Empire** for the next game. As you keep playing, the Chancellor may offer to let the Exiles become **Citizens** of the Empire.
-    <br>
+    <br><br>
     _Even though we call it the Empire in this book, you can call it anything that feels right to fit its politics._
   children:
     - name: Lineages and Legacies
       pretext: >
         During a game of _Oath_, each player will play a character belonging to one of the game's **lineages**. The different lineages are denoted by the color of the pieces.
-        <br>
+        <br><br>
         _You can think of the lineage like a family—and it might indeed be a family!—but a character might not be related by blood to the character in the previous game._
-        <br>
+        <br><br>
         At the end of each game of _Oath_, players may earn special powers, called **legacies**. You earn legacies by accomplishing specific goals, even if you didn't win the game. Many legacies will change critical rules in _Oath_, changing how the game is set up and played.
 
     - name: Eras
       pretext: >
         A sequence of games in _Oath_ is called an **era**. Eras allow players to play _Oath_ competitively over multiple games. After each game of _Oath_, the winner will score **lineage points**. These points are added to a running total of all of the points that lineage has scored during the era, tracked on the included era scorepad.
-        <br>
+        <br><br>
         _Winning the game will score you at least 3 lineage points, but you can earn more points if you have legacies. With a strong set of legacies, you might score 10 points or more!_
-        <br>
+        <br><br>
         When you start a new era, decide as a group when the era will end. You might decide to end the era after playing a number of games, once an amount of real-life time has passed, or once a player passes a threshold of lineage points. If you're unsure, end the era at **20 lineage points**.
-        <br>
+        <br><br>
         _The end point should suit your group's play pattern: for instance, if you're playing Oath at a convention, you might decide to end the era after the last scheduled game of the convention._
-        <br>
+        <br><br>
         Unlike in other campaign games, you do not need the same players to play in every game—players may join and leave as they wish. However, it's wise to agree at the start of an era how the group will handle these situations.
-        <br>
+        <br><br>
         _For example, you might agree that new players should start a totally new lineage rather than take over a previous player's, but you might agree to start them with lineage points equal to the player in last place._
 
 - name: Setup for First Game
@@ -149,7 +149,7 @@
     - name: Set Up Sites
       pretext: >
         Shuffle the relic cards. Taking from the Recent Sites side of the Atlas box, place one site each in the eight site slots on the map.
-        <br>
+        <br><br>
         For each site, do the following.
 
           - Place favor `symbol:favor` and secrets `symbol:secret` on the site as shown in its top-left corner. _It might not show any._
@@ -162,31 +162,31 @@
     - name: Set Up Cards
       pretext: >
         Collect 10 denizens of each suit—Arcane `symbol:suit-arcane`, Hearth `symbol:suit-hearth`, Discord `symbol:suit-discord`, Order `symbol:suit-order`, Nomad `symbol:suit-nomad`, and Beast `symbol:suit-beast`—from their suited sections in the box. _Don't take from Edifices or Dispossessed. The Dispossessed starts with two of each suit, as described in the Welcome to New Foundations booklet._
-        <br>
+        <br><br>
         Shuffle these denizens to make a stack of 60.
-        <br>
+        <br><br>
         Deal 2 denizens from this stack facedown into the three **discard piles** on the map.
-        <br>
+        <br><br>
         Deal 3 denizens from this stack facedown to each **player**.
-        <br>
+        <br><br>
         Split the remaining stack into one stack of 10 denizens and another stack of 15 denizens.
-        <br>
+        <br><br>
         Shuffle 2 random Vision cards into the stack of 10, and the other 3 Visions into the stack of 15.
-        <br>
+        <br><br>
         Place the stack with 2 Visions on top of the stack with 3 Visions, then place them both on top of the remaining denizens. Place this stack on the **World Deck** slot on the map.
 
     - name: Set Up Map
       pretext: >
         Place 3 favor `symbol:favor` `symbol:favor` `symbol:favor` each in the 6 favor banks.
-        <br>
+        <br><br>
         Add 1 extra favor `symbol:favor` to each favor bank if you have 5 or more players.
-        <br>
+        <br><br>
         For each edifice card on the map, add 1 extra favor `symbol:favor` to the favor bank of the same suit.
-        <br>
+        <br><br>
         Find the Round track in the bottom-left corner. Place the Round marker on its first space and the Usurper Limiter marker on its fourth space.
-        <br>
+        <br><br>
         Place the Visions Drawn marker on the leftmost space ("0") of the Visions Drawn track.
-        <br>
+        <br><br>
         Place the remaining relic cards not at sites onto the Relic Deck space.
 
     - name: Set Up Players
@@ -232,15 +232,15 @@
           - Place their Supply marker on the leftmost space of their Supply track.
 
         **The Chancellor** takes the Chancellor board and the purple pieces instead of their normal color. They take the Grand Scepter and choose a relic from the Reliquary to take facedown. _Notably, the Chancellor usually takes the Oathkeeper title as well, except if certain legacies are in play._
-        <br>
+        <br><br>
         **If there's no Chancellor,** a random Citizen becomes the Chancellor first. If there are no Citizens to become Chancellor, do not set up the Chancellor, skip the Empire setup (`rule:4.3`) and use Setup With No Empire instead.
 
     - name: Empire
       pretext: >
         **If you have a Chancellor, sites ruled by the Empire return to the map, as follows.**
-        <br>
+        <br><br>
         Fill site slots going **Hinterward**—top to bottom in the Cradle, then top to bottom in the Provinces, then top to bottom in the Hinterland. **Stop when you reach the Empire divider.**
-        <br>
+        <br><br>
         To fill a slot, take the front site from the Recent Sites side of the Atlas box, along with any cards stored on top of it, place it on the map, and populate it:
 
           - Edifices stored with it start on their intact side _(icon with chain in top-left corner)_. Other denizens start faceup.
@@ -257,7 +257,7 @@
         - name: Sites.
           text: >
             Fill site slots going Hinterward _(see above)_ from the Recent Sites side of the Atlas box. Stop when you reach the Empire divider.
-            <br>
+            <br><br>
             Populate each site as follows:
 
               - Edifices stored with it flip to their **ruined side** _(icon with no chain in the top-left corner)_. Other denizens start faceup.
@@ -287,12 +287,12 @@
       children:
         - name: 'Foundation I: Imperial Maps'
           text: >
-            Resolve this only if the Chancellor is in play.
-            <br>
+            <br>Resolve this only if the Chancellor is in play.
+            <br><br>
             The Chancellor fills the remaining empty site slots going **Hinterward**, _same order as in `rule:4.3`._
-            <br>
+            <br><br>
             They fill **all** these slots from either the Recent or Forgotten Sites side of the Atlas box, but not both.
-            <br>
+            <br><br>
             When you place a site, populate it as follows:
 
               - Edifices stored with it flip to their **ruined side** _(icon with no chain in top-left corner)_. Other denizens start faceup.
@@ -302,73 +302,73 @@
 
         - name: 'Altered Foundation I: Wide Horizons'
           text: >
-            **Do not fill the remaining empty site slots!**
-            <br>
+            <br>**Do not fill the remaining empty site slots!**
+            <br><br>
             In this game, players can take the **Explore** action, which works as follows. _It is not a Travel action!_
-            <br>
+            <br><br>
             You may spend 1 Supply to Explore if your pawn is at the **Hintermost** site. _This is the site furthest in Hinterward order (`rule:4.3`)._
-            <br>
+            <br><br>
             Resolve this like the Recover action (`rule:7.7`) with a **difficulty of 4**. _Roll two defense dice. Any number of times, you may spend 1 Supply again to roll two more defense dice and add them to the previously rolled dice._
-            <br>
+            <br><br>
             If you succeed, place a site _(from Recent or Forgotten)_ in the next Hinterward slot, populate it as in Foundation I, and place your pawn on that site.
 
         - name: 'Foundation II: Powerful Tribes'
           text: >
-            Place 3 favor `symbol:favor` `symbol:favor` `symbol:favor` on each suit's favor bank. Add 1 extra favor `symbol:favor` with five or more players.
-            <br>
+            <br>Place 3 favor `symbol:favor` `symbol:favor` `symbol:favor` on each suit's favor bank. Add 1 extra favor `symbol:favor` with five or more players.
+            <br><br>
             Then, for each denizen on the map, add 1 extra favor `symbol:favor` to the matching favor bank.
 
         - name: 'Altered Foundation II: Movers and Shakers'
           text: >
-            Each player takes 5 more favor `symbol:favor` `symbol:favor` `symbol:favor` `symbol:favor` `symbol:favor` from the shared bank. _Players usually start with 6._
-            <br>
+            <br>Each player takes 5 more favor `symbol:favor` `symbol:favor` `symbol:favor` `symbol:favor` `symbol:favor` from the shared bank. _Players usually start with 6._
+            <br><br>
             Then, for each denizen on the map, add 1 extra favor `symbol:favor` to the matching favor bank.
 
         - name: 'Foundation III: Quiet Ambitions'
-          text: Each player draws 2 legacy cards, keeps one facedown in their play area, and returns the other to the box.
+          text: <br>Each player draws 2 legacy cards, keeps one facedown in their play area, and returns the other to the box.
 
         - name: 'Altered Foundation III: Public Ambitions'
           text: >
-            Deal 4 legacy cards to a faceup row near the map.
-            <br>
+            <br>Deal 4 legacy cards to a faceup row near the map.
+            <br><br>
             Everyone competes to activate these public legacies in the Chronicle Phase. For these, the outgoing Chancellor breaks ties between Imperials alone. Discard public legacies that aren't activated.
 
         - name: 'Foundation IV: Ties of Fellowship'
           text: >
-            Each player who has no starting advisers draws 3 denizens facedown from the starting denizen stack.
-            <br>
+            <br>Each player who has no starting advisers draws 3 denizens facedown from the starting denizen stack.
+            <br><br>
             _You will choose one as a starting adviser later. Players sometimes carry over advisers from the previous game._
-            <br>
+            <br><br>
             Then, deal 2 denizens from the starting denizen stack facedown to each discard pile.
 
         - name: 'Altered Foundation IV: Teeming World'
           text: >
-            Each player draws facedown denizens from the starting denizen stack until they have three facedown starting advisers.
-            <br>
+            <br>Each player draws facedown denizens from the starting denizen stack until they have three facedown starting advisers.
+            <br><br>
             Discard the rest of the starting denizen stack as evenly as possible, going from Cradle to Provinces to Hinterland. _The world deck will only have Visions!_
 
         - name: "Foundation V: Mob's Favor"
           text: >
-            Set the People's Favor on its **Mob** side. Place 1 favor `symbol:favor` on it from the shared bank.
-            <br>
+            <br>Set the People's Favor on its **Mob** side. Place 1 favor `symbol:favor` on it from the shared bank.
+            <br><br>
             If the Oathkeeper goal is the People's Favor, give the People's Favor to the Chancellor, if there is one. Otherwise, place it in the shared bank.
 
         - name: 'Altered Foundation V: Grand Council'
           text: >
-            Flip the People's Favor to its **Grand Council** side.
-            <br>
+            <br>Flip the People's Favor to its **Grand Council** side.
+            <br><br>
             Otherwise, set it up exactly as in Foundation V.
 
         - name: 'Foundation VI: Wandering Flame'
           text: >
-            Set the Darkest Secret on its **Wandering Flame** side. Place 1 secret `symbol:secret` on it from the shared bank.
-            <br>
+            <br>Set the Darkest Secret on its **Wandering Flame** side. Place 1 secret `symbol:secret` on it from the shared bank.
+            <br><br>
             If the Oathkeeper goal is the Darkest Secret, give the Darkest Secret to the Chancellor, if there is one. Otherwise, place it in the shared bank.
 
         - name: 'Altered Foundation VI: Festival'
           text: >
-            Flip the Darkest Secret to its **Festival side** and place the Festival marker near the area of play.
-            <br>
+            <br>Flip the Darkest Secret to its **Festival side** and place the Festival marker near the area of play.
+            <br><br>
             Otherwise, set it up exactly as in Foundation VI.
 
     - name: Sites and World Deck
@@ -380,11 +380,11 @@
         - name: Build World Deck
           pretext: >
             From the starting denizen stack, deal a stack of 10 denizens and a stack of 15 denizens.
-            <br>
+            <br><br>
             Shuffle the 5 Visions. Shuffle 2 Visions facedown into the stack of 10 denizens, and shuffle 3 Visions facedown into the stack of 15 denizens.
-            <br>
+            <br><br>
             Place the stack with 2 Visions on top of the stack with 3 Visions, then place that combined stack on top of the remaining denizens from the starting stack. Place all of this on the World Deck slot.
-            <br>
+            <br><br>
             **If there are fewer than 25 denizens in total,** shuffle all of the Visions together with all the denizens to form the world deck. _This often happens with the Teeming World foundation._
 
     - name: Player Choices
@@ -394,7 +394,7 @@
         - name: Place Pawn
           pretext: >
             If you are an Exile, place your pawn on the Hintermost site ruled by the Empire **or** any site ruled by bandits. _"Hintermost" is the furthest site in Hinterward order (`rule:4.3`)._
-            <br>
+            <br><br>
             If you are the Chancellor or a Citizen, place your pawn at a site ruled by the Empire.
 
         - name: Choose Adviser
@@ -420,7 +420,7 @@
     - name: Your Pawn, Board, & Resources
       pretext: >
         Each player has a single **pawn** they can move around the map. When the game refers to **your site**, this is the site your pawn is at.
-        <br>
+        <br><br>
         Each player also has a **player board**, which shows the various resources held by your pawn.
       children:
         - name: You can spend Supply to take actions.
@@ -464,9 +464,7 @@
 
     - name: Using Powers
       pretext: >
-        Various cards in _Oath_ give you new powers to use.
-        <br>
-        _Some card types, particularly battle plans, break the rules listed here. Powers are described in full detail in `rule:9`._
+        Various cards in _Oath_ give you new powers to use. _Some card types, particularly battle plans, break the rules listed here. Powers are described in full detail in `rule:9.`._
       children:
         - name: To use a power, you must have access to it.
           text: You have access to cards at your site, which is the site with your pawn. You also have access to cards at sites you rule, and everything in your play area near your player board—your relics, banners, advisers, and legacies.
@@ -480,7 +478,7 @@
     - name: The Oathkeeper
       pretext: >
         The Oathkeeper title is one way that you can win the game.
-        <br>
+        <br><br>
         You gain the title when you meet its goal, listed on the Oathkeeper goal tile.
       children:
         - name: There are four Oathkeeper goals, but each game only has one.
@@ -501,7 +499,7 @@
         - name: Exiles can win by becoming the Usurper.
           text: >
             If an Exile starts their turn as the Oathkeeper, their title flips to Usurper. If they remain the Usurper until their next turn, they win!
-            <br>
+            <br><br>
             **In games with no Empire,** such as your very first game, the Oathkeeper can only flip to Usurper in the fourth round and later.
 
         - name: Flip the Usurper over if it changes hands.
@@ -519,7 +517,7 @@
         - name: Each game always has four true Visions.
           text: >
             Their goals mirror the four possible Oathkeeper titles, with one extra requirement: at least three Visions must have been drawn from the world deck over the course of the game.
-            <br>
+            <br><br>
             _This limit basically gives players a moment to breathe and prepare._
 
         - name: There is a fifth, false Vision—the Conspiracy.
@@ -529,7 +527,7 @@
   color: '#000000'
   pretext: >
     In each round, each player takes a turn, starting with the Chancellor and going clockwise. If there is no Chancellor, the round starts with the first player _(with the first player marker)_.
-    <br>
+    <br><br>
     On your turn, resolve three phases: Wake, Act, then Rest. Once each player has taken a turn, the round ends. Keep playing like this until someone wins!
   children:
     - name: The Wake Phase
@@ -573,15 +571,15 @@
         - name: Second, clean up favor and secrets.
           text: >
             Favor tokens on denizens return to the favor banks on the map, going to the bank that matches the card's suit. Secret tokens on denizens and relics return to your player board. Facedown secret tokens on your board flip faceup.
-            <br>
+            <br><br>
             _Secrets can be hard to get, so it's often a good idea to trade for one, and it's often a bad idea to get rid of your last secret early in the game._
-            <br>
+            <br><br>
             _Your secrets flip facedown when they are spent outside of your turn._
 
         - name: Third, refresh your Supply.
           text: >
             Move your Supply marker to the space on its track showing the number of warbands in your warband bank.
-            <br>
+            <br><br>
             _Your "warband bank" is the area near your player board, not on the map or on the player board itself. The fewer warbands you've mustered and need to feed, the more Supply you'll have for yourself!_
 
         - name: You save any unspent Supply.
@@ -590,7 +588,7 @@
     - name: Ending a Round with No Empire
       pretext: >
         _In your very first game and some later ones, you won't have an Empire._
-        <br>
+        <br><br>
         A round ends when each player has taken a turn. At the end of the round, advance the round marker one space.
       children:
         - name: After round three, the Oathkeeper can flip to Usurper.
@@ -602,7 +600,7 @@
     - name: Ending a Round with the Empire
       pretext: >
         _In most games after the first, you will have an Empire led by the Chancellor, possibly with some Citizens._
-        <br>
+        <br><br>
         A round ends when each player has taken a turn. At the end of the round, check whether the game ends as follows, then advance the round marker one space.
       children:
         - name: Stable Regime
@@ -645,7 +643,7 @@
     - name: Search
       pretext: >
         `symbol:action-search` For denizens and Visions
-        <br>
+        <br><br>
         **Cost: 2–4 Supply**
       children:
         - name: Choose draw source.
@@ -676,13 +674,13 @@
                 - name: You can play to your advisers faceup or down.
                   text: >
                     Unlike playing to a site, you may play cards to your advisers facedown.
-                    <br>
+                    <br><br>
                     _Think of facedown advisers like a hand of cards—you can even hold site-only cards `symbol:restrictiontree` facedown. While facedown, they don't have a suit, power, or play restrictions. Later, as a minor action (`rule:8.1`), you can flip facedown advisers up and play them like you just drew them!_
 
                 - name: You can have up to three advisers.
                   text: >
                     Both faceup and facedown advisers count toward your adviser limit. If you would ever gain an adviser that exceeds this limit, you must first discard an adviser.
-                    <br>
+                    <br><br>
                     _If a card is locked `symbol:locked`, it cannot be discarded (`rule:9.2.3`)._
 
             - name: Playing Visions
@@ -696,7 +694,7 @@
     - name: Travel
       pretext: >
         `symbol:action-travel` To a new site
-        <br>
+        <br><br>
         **Cost: 1–4 Supply**
       children:
         - name: Choose destination site.
@@ -731,7 +729,7 @@
     - name: Campaign
       pretext: >
         `symbol:action-campaign` Against an enemy's sites or pawn
-        <br>
+        <br><br>
         **Cost: 2 Supply**
       children:
         - name: Choose campaign type and targets.
@@ -744,7 +742,7 @@
         - name: Gather dice pools.
           text: >
             The attacker gathers attack dice `symbol:dicer` up to the number of warbands on their player board, called their **force**, into their **attack pool**. The defender gathers the number of defense dice `symbol:diceb` shown on the attacker's targets into their **defense pool**.
-            <br>
+            <br><br>
             _Raiding always adds two defense dice for the pawn, as shown on the defender's player board._
 
         - name: Use battle plans.
@@ -778,13 +776,13 @@
         - name: Kill defeated warbands.
           text: >
             Kill **half** of the warbands in the defeated player's force, rounding down. Move the remaining warbands in their force to their player board.
-            <br>
+            <br><br>
             If you defeated the bandits, kill **all** bandit warbands at the targeted sites.
 
         - name: Resolve conquest victory.
           text: >
             If a conquest was victorious, the attacker may place any number of their warbands _(even zero)_ from their force onto the targeted sites.
-            <br>
+            <br><br>
             _Then, fill sites that have no warbands with bandit warbands equal to their capacity._
 
         - name: Resolve raid victory.
@@ -813,7 +811,7 @@
     - name: Muster
       pretext: >
         `symbol:action-muster` Warbands
-        <br>
+        <br><br>
         **Cost: 1 Supply**
       children:
         - name: Place favor.
@@ -825,9 +823,9 @@
     - name: Trade
       pretext: >
         `symbol:action-trade` For favor or secrets
-        <br>
+        <br><br>
         **Cost: 1 Supply**
-        <br>
+        <br><br>
         You can either trade for favor or for secrets, as follows:
 
           - **To trade for favor,** place a secret `symbol:secret` on an empty denizen at your site. Gain one favor `symbol:favor`, and gain **another** favor `symbol:favor` for each faceup adviser you have matching the card you placed the secret on. This favor comes from the favor bank matching the card you placed the secret on.
@@ -836,9 +834,9 @@
     - name: Forge
       pretext: >
         `symbol:action-forge` A relic
-        <br>
+        <br><br>
         **Cost: 1 Supply**
-        <br>
+        <br><br>
         To take this action, you must rule your site, the site must have a Forge icon in its bottom-right corner, and it must have 3 empty denizens.
       children:
         - name: Place resources.
@@ -847,13 +845,13 @@
         - name: Draw a relic.
           text: >
             Draw a relic from the relic deck and place it **facedown** by your player board.
-            <br>
+            <br><br>
             _Facedown relics can be revealed with a minor action (`rule:8.3`)._
 
     - name: Recover
       pretext: >
         `symbol:action-recover` A relic at your site
-        <br>
+        <br><br>
         **Cost: 1 Supply**
       children:
         - name: Roll dice.
@@ -872,7 +870,7 @@
     - name: Challenge
       pretext: >
         `symbol:action-challenge` For a banner
-        <br>
+        <br><br>
         **Cost: 1 Supply**
       children:
         - name: Choose a banner.
@@ -908,7 +906,7 @@
     - name: Play/Discard Facedown Adviser
       pretext: >
         Play one of your facedown advisers faceup, or discard it, as if you searched (`rule:7.1`).
-        <br>
+        <br><br>
         _Play restrictions and Search modifiers still apply (`rule:9.2`). If you discard, remember to discard to the next region: Provinces if you're in the Cradle, and so on. You can peek at your facedown advisers._
 
     - name: Use Action Power
@@ -917,32 +915,32 @@
     - name: Reveal/Peek at Relics
       pretext: >
         Peek at relics at your site. You may now peek at these relics at any time if they're still at the site.
-        <br>
+        <br><br>
         You may also flip a facedown relic in your play area faceup. _You can peek at your facedown relics._
 
     - name: Move Warbands To/From Your Site
       pretext: >
         Move any number of your warbands **except the last one** from your site to your board.
-        <br>
+        <br><br>
         If you rule your site, you may move any number of warbands from your board to your site.
 
     - name: Negotiate
       pretext: >
         Negotiate with any number of players whose pawns are at your site. The negotiators may give each other **favor** and **relics** _(but not banners or secrets)._ They may also show each other hidden information they can peek at _(like facedown advisers, their relics, and relics they've peeked at)_.
-        <br>
+        <br><br>
         _Players are otherwise free to discuss the game and may make non-binding promises about future actions at any time! However, we do strongly recommend agreeing on some communication limits (`rule:15.8`)._
 
 - name: Cards in Detail
   color: '#000000'
   pretext: >
-    **Visit cards.buriedgiant.com for a detailed card database!**
+    **Visit [here](cards.buriedgiant.com) for a detailed card database!**
   children:
     - name: Powers
       children:
         - name: To use a power, you must have access to it.
           text: >
             You have access to faceup powers that are at your site and faceup powers that you rule: those at sites you rule and those in your play area.
-            <br>
+            <br><br>
             _Battle plans (`rule:9.5`) require rule._
 
         - name: You must pay its cost, if any.
@@ -975,7 +973,7 @@
         - name: Locked.
           text: >
             Cards with a chain restriction, once played, cannot be discarded, moved, flipped, or swapped.
-            <br>
+            <br><br>
             _"Burying" cards explicitly ignores the locked restriction._
 
     - name: Standard Powers
@@ -1038,9 +1036,9 @@
     - name: Edifices
       pretext: >
         Edifices are a special type of denizen with two sides: **intact** and **ruined**. The intact side is locked `symbol:locked` and the ruined side is not.
-        <br>
+        <br><br>
         Edifices **cannot** be added to a player's advisers _(such as with a swap power)_.
-        <br>
+        <br><br>
         If an edifice is removed from the map in any way, place it intact on the bottom of the edifice deck _(counting on the intact side)_. The edifice deck is kept behind the Edifices divider in the box, with the same facing for all cards.
 
     - name: Grand Scepter
@@ -1049,7 +1047,7 @@
     - name: The Conspiracy
       pretext: >
         The Conspiracy is a special Vision card that does not give a new victory goal, but instead gives a special action.
-        <br>
+        <br><br>
         When you play it faceup, take one relic or banner from a player whose pawn is at your site, then return the Conspiracy to the box.
       children:
         - name: The Chancellor and Citizens can play the Conspiracy.
@@ -1124,9 +1122,9 @@
     - name: Taking Banners
       pretext: >
         When a banner is taken, adjust the favor `symbol:favor` or secrets `symbol:secret` on it. **Round down** when adjusting by half.
-        <br>
+        <br><br>
         In a Challenge, resolve the left ribbon from top to bottom.
-        <br>
+        <br><br>
         In a Campaign, resolve the right ribbon from top to bottom.
 
           - `symbol:banner-returnfavor` Return favor `symbol:favor` to the banner's previous holder. If the banner was in the shared bank, return favor `symbol:favor` to the favor banks as described below.
@@ -1142,7 +1140,7 @@
         - name: Mob (People's Favor)
           pretext: >
             When playing a card to a site, you may first discard a denizen from the site.
-            <br>
+            <br><br>
             _Ruined edifices that are discarded return to the edifice deck._
 
         - name: Grand Council (People's Favor)
@@ -1151,22 +1149,22 @@
         - name: Wandering Flame (Darkest Secret)
           pretext: >
             As an action, you may place your pawn at any site with a secret on it. _Not a Travel action._
-            <br>
+            <br><br>
             As an action, you may place a secret onto your site.
 
         - name: Festival (Darkest Secret)
           pretext: >
             In your Rest Phase, you must place the festival marker over the cards at your site.
-            <br>
+            <br><br>
             The festival has the following persistent power:
-            <br>
+            <br><br>
             Your enemies cannot place favor or secrets on denizens at the site with the festival marker, and cannot use their powers unless they're persistent powers. _They can still peek at and recover relics. You may give enemies consent to ignore the festival, and they ignore it if you forget to enforce it!_
 
 - name: Legacies in Detail
   color: '#000000'
   pretext: >
     In setup, each player normally draws 2 legacy cards and keeps one, discarding the other.
-    <br>
+    <br><br>
     The legacy you keep is **dormant** (facedown). It will be lost in the Chronicle Phase at the end of the game unless you activate it, flipping it faceup, by meeting its **goal**:
 
       - `symbol:legacy-scepter` Hold the Grand Scepter. _If none, win._
@@ -1199,13 +1197,13 @@
   color: '#000000'
   pretext: >
     The Chancellor and Citizens are **Imperial players** _("Imperials" for short)_. Sites with Imperial warbands are called **Imperial sites**.
-    <br>
+    <br><br>
     **With the Chancellor and Citizens in the game, players can win in two more ways:** Stable Regime and Successor victories (`rule:6.5`).
   children:
     - name: Becoming a Citizen
       pretext: >
         Exiles can become Citizens in various ways. Most often, the player holding the Grand Scepter relic may offer Citizenship to an Exile, including themself, during a Negotiate action (`rule:8.5`).
-        <br>
+        <br><br>
         If a player becomes a Citizen, do the following:
 
           - Flip their board to its Citizen side.
@@ -1218,7 +1216,7 @@
         - name: Citizenship in Games with No Empire
           pretext: >
             In games with no Empire, powers that let a player become a Citizen instead let them become the Chancellor if there isn't one yet. This works like becoming a Citizen, except the player swaps their player board for the Chancellor board and takes the Grand Scepter.
-            <br>
+            <br><br>
             However, if you are playing your very first game, we recommend ignoring these powers.
 
     - name: Exiling from the Empire
@@ -1271,15 +1269,15 @@
         - name: First, Resolve Legacies.
           pretext: >
             Reveal all facedown relics held by players.
-            <br>
+            <br><br>
             Players flip their dormant legacies whose goals they meet to active, and they discard their dormant legacies whose goals they don't meet, returning them to the legacy deck.
-            <br>
+            <br><br>
             If active legacies alter foundations, flip those setup cards to their altered sides.
-            <br>
+            <br><br>
             Then, **Exiles** _(not Imperials)_ flip their active legacies whose goals they do not meet to dormant. These are called **newly dormant** in the rest of these rules. _This doesn't flip foundations!_
-            <br>
+            <br><br>
             Next, if any players have more than three active legacies, they discard excess active legacies in turn order, returning them to the legacy deck. _This does not flip foundations!_
-            <br>
+            <br><br>
             Finally, shuffle the legacy deck.
 
               - `symbol:legacy-scepter` Hold the Grand Scepter. _If none, win._
@@ -1334,39 +1332,39 @@
         - name: Second, Shape Empire.
           pretext: >
             You may remove any of your warbands from sites, except the last warband of yours on the map. If you don't rule any sites, remove all warbands from the site with your pawn, and place a warband of yours on it.
-            <br>
+            <br><br>
             Then, discard denizens **that you don't rule** except for intact edifices.
-            <br>
+            <br><br>
             _Ruined edifices that are discarded go to the bottom of the edifice deck._
-            <br>
+            <br><br>
             _Cards at Enduring sites are not discarded in Shape Empire._
 
         - name: Third, Build Edifice.
           pretext: >
             Take the edifice deck out of the box. Find the topmost edifice of each suit and set them aside: these edifices are **available** to build.
-            <br>
+            <br><br>
             You may bury a denizen at a site you rule to place the matching available edifice at the site.
-            <br>
+            <br><br>
             _You can bury locked `symbol:locked` cards, including edifices! Buried denizens except for edifices go on the bottom of the world deck. Buried edifices go on the bottom of the edifice deck._
-            <br>
+            <br><br>
             Shuffle the remaining available edifices back into the edifice deck, and return it to the box.
 
         - name: Fourth, Stock Reliquary.
           pretext: >
             Add all of the relics you have, except the Grand Scepter, to the Reliquary facedown.
-            <br>
+            <br><br>
             Then, if the Reliquary has more than 5 relics, discard relics you choose from it until it has 5.
 
         - name: Fifth, Scatter Relics.
           pretext: >
             Set aside the Grand Scepter and the Reliquary with its relics.
-            <br>
+            <br><br>
             Shuffle together all discarded relics and relics held by players. Deal them facedown to empty relic slots on sites going Hinterward: go top to bottom in the Cradle, then top to bottom in the Provinces, then top to bottom in the Hinterland. Return the rest to the relic deck.
 
         - name: Sixth, Score Lineage Points.
           pretext: >
             The winner scores 3 lineage points for winning plus points from their legacies: each legacy scores 1 lineage point per matching card at sites they rule. _Do not include advisers._
-            <br>
+            <br><br>
             Record the new lineage point scores on the score sheet in this game's column. Circle the Chancellor's score and underline Citizens' scores.
           children:
             - name: The winner may give away lineage points.
@@ -1387,17 +1385,17 @@
         - name: Second, Gather Denizens.
           pretext: >
             Shuffle together all denizens from the discard piles and players' advisers.
-            <br>
+            <br><br>
             Return all but 9 denizens of these to the world deck. _Don't look at the cards yet._
-            <br>
+            <br><br>
             Split these 9 denizens into three stacks of 3 denizens each. Flip **two** of these stacks faceup.
-            <br>
+            <br><br>
             _In some exceptionally rare situations where there are fewer than 9 denizens, take the difference from the world deck. If this happens, please write to us and explain what went wrong._
 
         - name: Third, Protect and Dispossess.
           pretext: >
             Choose one faceup denizen stack to protect: Secretly choose 1 denizen as a facedown starting adviser you keep for the next game, and add the other 2 denizens facedown to the world deck.
-            <br>
+            <br><br>
             Place the other two stacks, 6 denizens in total, behind the Dispossessed divider in the box.
 
     - name: 'Task 4: The Beacon'
@@ -1406,7 +1404,7 @@
         - name: First, Introduce Newcomers.
           pretext: >
             Choose three different suits and find those denizen stacks in the box. _Do not take from the Dispossessed or Edifices sections._
-            <br>
+            <br><br>
             Draw three random denizens of the first suit, two of the second, and one of the third.
           children:
             - name: 'If there are not enough cards of any desired suit, the Dispossessed return:'
@@ -1423,21 +1421,21 @@
         - name: First, Write in the Stars.
           pretext: >
             The winner draws and names any constellation they would like on the back of the era scorepad. We suggest using 3 to 8 stars near each other.
-            <br>
+            <br><br>
             We also encourage your group to record the story of the game however you want, such as by using the supplemental Chronicle Booklet.
 
         - name: Second, Archive Rival Sites.
           pretext: >
             For each site **not ruled by the winner**, remove any pieces on it, and stack all remaining cards at the site _(relics and intact edifices)_ on top of the site card.
-            <br>
+            <br><br>
             Then, stack sites **not ruled by the winner** going Hinterward: go from the top to bottom in the Cradle, then top to bottom in the Provinces, then top to bottom in the Hinterland. _The Cradlemost site that is not ruled by the winner should be at the top._
-            <br>
+            <br><br>
             Place the Empire divider on top of this stack, then slide this stack and divider into the Atlas box on its Recent Sites side, so that the stack is on top of the sites already in the Atlas box. _All cards in the Atlas box should face the same way._
 
         - name: Third, Clean Up.
           pretext: >
             Return all pieces to their banks. _This includes favor, secrets, warbands, and pawns. Basically anything that is not a card or the map._
-            <br>
+            <br><br>
             Consolidate all sites ruled by the winner: shift them Cradleward along with all their cards _(denizens, relics)_ so the only empty site slots are Hinterward.
 
         - name: Fourth, Play Again or Store.
@@ -1462,7 +1460,7 @@
     - name: Interpreting Rules
       pretext: >
         Text in _italics_ is a reminder or clarification, which is superseded by the non-italicized text it references.
-        <br>
+        <br><br>
         Powers can add new actions and trigger effects, but they follow Glossary terms. _For example, when you use a power that lets you swap, you must follow the restrictions in the "Swap" Glossary definition._
 
     - name: The Iron Rule
@@ -1474,41 +1472,41 @@
     - name: Must, If Able, Cannot, and Ignore
       pretext: >
         Rules with "must" override other rules. Rules with "cannot" override other rules, even "must" rules. Rules with "ignore" override "must" and "cannot" rules if those rules are named.
-        <br>
+        <br><br>
         _For example, you_ **must** _discard an adviser when playing one above your adviser limit, but the Pied Piper card says to_ **ignore** _the adviser limit, so it supersedes the core rule. Likewise, the "bury" term ignores the locked restriction._
-        <br>
+        <br><br>
         If a rule with "must" also says "if able," you must fulfill it if you can, but if you cannot, then you don't have to fulfill it and you're not penalized.
 
     - name: Component Limits and Capacity
       pretext: >
         Oath is component-limited except for favor, secrets, dice, and bandit warbands. If you are prompted to gain or take components, but the source of that component does not have enough, gain or take as many as possible.
-        <br>
+        <br><br>
         Banks and boards can hold any number of a given component unless prompted otherwise.
 
     - name: Public and Private Information
       pretext: >
         In play, the following information is private: the card backs of cards in the world deck beyond the first, and the card fronts of any facedown cards outside your player area, including in discard piles. **All** other information in play is public. _This includes the card backs and number of cards in discard piles, and favor, secrets, and warbands on boards. You can't change the order of facedown advisers._
-        <br>
+        <br><br>
         In the Atlas box, all information is private except the first site on the Recent Sites side and denizens and edifices stored with it. _Not relics!_
-        <br>
+        <br><br>
         Cards in the Dispossessed and behind the suited dividers are private.
-        <br>
+        <br><br>
         Players may discuss and lie about private information.
 
     - name: Consent
       pretext: >
         Some effects involve giving or asking for consent from players—in particular, various persistent powers (`rule:9.6`), the Pass (`rule:10.5.6`), and various Imperial Laws (`rule:13.3`).
-        <br>
+        <br><br>
         If a player forgets to enforce this need for consent and the turn has continued a reasonable amount, keep playing as if consent was received. However, the bandits always enforce the Pass and persistent powers and never give consent to ignore them.
 
     - name: Limits on Table Talk
       pretext: >
         We have found that adding the following limits on communication speeds up the game, especially at higher player counts, and gives richer context for negotiations. While your group should decide together whether you want to use these limits, we strongly recommend them.
-        <br>
+        <br><br>
         First, communication is public. Players may discuss the game state at any time and remark on their own position and the positions of other players. The active player should generally narrate their actions and describe new cards that are added to the game.
-        <br>
+        <br><br>
         Second, players may only communicate with each other directly and coordinate actions while their pawns are at the same site or they are in a negotiation (`rule:8.5`), including remote negotiations from card powers. Promises of future actions are non-binding. Players may always ask for and give consent when prompted by the rules (see above), but this does not let them coordinate freely.
-        <br>
+        <br><br>
         Outside of those cases, players cannot coordinate, including asking someone to come to their site for a future negotiation. Citizens in different regions cannot plot the downfall of the Chancellor. While players can kibitz and cajole, they cannot coordinate. You may encounter edge cases that need adjudication—we trust your good judgment.
 
 - name: Glossary
@@ -1597,43 +1595,9 @@
     - name: Warband Bank
       pretext: >
         The collection of your warbands beside your player board. If you are a Citizen, it is the collection beside the Chancellor's board.
-        <br>
+        <br><br>
         _Generally, this holds all of your warbands that are not on your player board or the map. Even though the Chancellor holds the purple warband bank, it acts as the warband bank for all Imperials._
     - name: You Have / You Hold (Pieces)
       pretext: Shorthand for the pieces in your **play area**.
     - name: Your Site/Region
       pretext: The site or region that your pawn is in.
-
-- name: Weird Things About Oath
-  color: '#000000'
-  pretext: These rules are important but can lead to some confusions.
-  children:
-    - name: Draw three cards, unless...
-      text: Whether you're drawing from your region's discard pile or the world deck, draw three cards. Stop drawing if you draw a Vision from the deck or if there are no cards left to draw, but don't stop drawing if you draw a Vision from a discard pile!
-
-    - name: When you play a card, pay attention to its restrictions.
-      text: If it shows a tree `symbol:restrictiontree` under its suit, it can only be played to your site. If it shows a person `symbol:restrictionperson`, it can only be played to your advisers. Only Exiles can play the true Visions faceup, but anyone can play the Conspiracy.
-
-    - name: You can always play a card as a facedown adviser.
-      text: Doesn't matter whether it has a tree `symbol:restrictiontree`. Doesn't matter whether it's a Vision and you're Chancellor. You can always play it facedown!
-
-    - name: Discard cards facedown.
-      text: Even though most games have faceup discard piles, _Oath_ doesn't.
-
-    - name: Discard to the next region out.
-      text: Cards from the Cradle always discard to the top of the Provinces discard pile. Cards from the Provinces discard to the Hinterland. Cards from the Hinterland discard to the Cradle. Don't discard a card to the same region it came from!
-
-    - name: You can use the powers of cards at your pawn's site and all cards you rule,
-      text: whether they're in your advisers or at remote sites. This is different from the Trade and Muster actions, which say "your site," meaning the site where your pawn is, not other sites you rule. Basically, if you're taking the actions on your board, you're doing stuff at the site where your pawn is.
-
-    - name: You can't pay for a power if the power's card already has favor or secrets on it.
-      text: Likewise, you can't trade or muster on a card that has favor or secrets on it.
-
-    - name: Battle plans break these rules.
-      text: You can _only_ use a battle plan if you rule it, not simply by having your pawn at its site. Also, you _can_ put favor or secrets on a battle plan to pay its cost even if it already has favor or secrets on it—you still can't trade or muster on it, though!
-
-    - name: You don't keep a hand of cards.
-      text: Instead, you can hold up to three cards in your advisers. If it helps, think of your facedown advisers as a sort of hand. When you reveal a facedown adviser, it's exactly like finishing a Search action—you can play it faceup or even discard it.
-
-    - name: You can't discard faceup advisers unless you are forced to.
-      text: Once you've played an adviser faceup, you cannot get rid of it just because you want to—you'll only discard an adviser when you already have three and you want to play another, or when the game otherwise tells you to.
