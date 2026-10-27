@@ -259,7 +259,6 @@
             Fill site slots going Hinterward _(see above)_ from the Recent Sites side of the Atlas box. Stop when you reach the Empire divider.
             <br><br>
             Populate each site as follows:
-
               - Edifices stored with it flip to their **ruined side** _(icon with no chain in the top-left corner)_. Other denizens start faceup.
               - Relics stored with it are placed facedown.
               - **Bandits** are placed equal to its capacity.
@@ -267,7 +266,6 @@
         - name: Relics.
           text: >
             Set up relics as follows:
-
               - Set the Grand Scepter aside.
               - Discard all relics from the Reliquary. _They return in the Chronicle Phase._
               - **Fill all empty relic slots** at sites by drawing relics from the relic deck.
@@ -956,9 +954,7 @@
 
         - name: Locked.
           text: >
-            Cards with a chain restriction, once played, cannot be discarded, moved, flipped, or swapped.
-            <br><br>
-            _"Burying" cards explicitly ignores the locked restriction._
+            Cards with a chain restriction, once played, cannot be discarded, moved, flipped, or swapped. _"Burying" cards explicitly ignores the locked restriction._
 
     - name: Standard Powers
       pretext: "Standard powers have no action icons on the card's braid:"
@@ -1159,22 +1155,22 @@
       - `symbol:legacy-relic` Hold the relic of the highest value.
   children:
     - name: Bandits don't compete for legacy goals.
-      text: Only compare the sites and cards ruled by players.
+      pretext: Only compare the sites and cards ruled by players.
 
     - name: Players can have three active legacies.
-      text: If you ever have more, you must discard active legacies until you have three. You may hold any number of dormant legacies.
+      pretext: If you ever have more, you must discard active legacies until you have three. You may hold any number of dormant legacies.
 
     - name: Exiles must maintain their legacies.
-      text: In the Chronicle Phase, Exiles must meet the goals of their active legacies or else they become dormant. These legacies can be flipped back to active if they become Imperial in that Chronicle Phase.
+      pretext: In the Chronicle Phase, Exiles must meet the goals of their active legacies or else they become dormant. These legacies can be flipped back to active if they become Imperial in that Chronicle Phase.
 
     - name: For legacy goals, Imperial sites are ruled by all Imperial players.
-      text: Likewise, all Imperials rule the cards at Imperial sites for the purpose of legacy goals.
+      pretext: Likewise, all Imperials rule the cards at Imperial sites for the purpose of legacy goals.
 
     - name: Some legacies alter foundations.
-      text: When one is activated, flip the foundation in your setup cards to its altered side immediately. If this legacy is discarded, do not flip the foundation back! Altered foundations can only return to normal during the Beacon (`rule:14.4.3`).
+      pretext: When one is activated, flip the foundation in your setup cards to its altered side immediately. If this legacy is discarded, do not flip the foundation back! Altered foundations can only return to normal during the Beacon (`rule:14.4.3`).
 
     - name: Legacies aren't suited.
-      text: The suit is only used for counting bonus points. For example, a legacy showing `symbol:suit-order` is not an Order card.
+      pretext: The suit is only used for counting bonus points. For example, a legacy showing `symbol:suit-order` is not an Order card.
 
 
 - name: The Empire
@@ -1308,10 +1304,10 @@
       pretext: The **player holding the Throne task** resolves these steps.
       children:
         - name: First, Offer Citizenship.
-          pretext: You may offer Citizenship to any Exiles. If an Exile becomes a Citizen, flip their newly dormant legacies to active, and replace warbands at sites they rule with one Imperial warband on each. _Don't worry about running out—you can take excess Imperial warbands from other sites._
-          children:
-            - name: If the former Chancellor accepts Citizenship,
-              text: place one Imperial warband on each site that was previously Imperial. _In other words, place them on sites with no warbands._
+          pretext: >
+            You may offer Citizenship to any Exiles. If an Exile becomes a Citizen, flip their newly dormant legacies to active, and replace warbands at sites they rule with one Imperial warband on each. _Don't worry about running out—you can take excess Imperial warbands from other sites._
+            <br><br>
+            If the former Chancellor accepts Citizenship, place one Imperial warband on each site that was previously Imperial. _In other words, place them on sites with no warbands._
 
         - name: Second, Shape Empire.
           pretext: >
@@ -1390,9 +1386,8 @@
             Choose three different suits and find those denizen stacks in the box. _Do not take from the Dispossessed or Edifices sections._
             <br><br>
             Draw three random denizens of the first suit, two of the second, and one of the third.
-          children:
-            - name: 'If there are not enough cards of any desired suit, the Dispossessed return:'
-              text: before drawing, return all cards from the Dispossessed, except the 6 denizens just added by the World, to their respective box sections behind their suited dividers _(Hearth, Order, etc.)_.
+            <br><br>
+            If there are not enough cards of any desired suit, the Dispossessed return: before drawing, return all cards from the Dispossessed, except the 6 denizens just added by the World, to their respective box sections behind their suited dividers _(Hearth, Order, etc.)_.
 
         - name: Second, Welcome a Stranger.
           pretext: Look at the drawn denizens. Choose one to keep as a facedown starting adviser for the next game, and add the others facedown to the world deck.
