@@ -782,9 +782,10 @@
           children:
             - text: >
                 The attacker takes targeted relics and banners. If a banner is taken, adjust its resources following its right ribbon, as follows for their starting Mob and Wandering Flame sides:
-
-                  - **People's Favor.** Return all favor `symbol:favor` from the banner to the favor banks on the map. Return the favor one at a time to the favor bank with the fewest favor. On a tie, return it to the leftmost favor bank with the fewest favor.
-                  - **Darkest Secret.** Burn all secrets `symbol:secretb` from the banner. _They return to the shared bank._
+                <br><br>
+                **People's Favor.** Return all favor `symbol:favor` from the banner to the favor banks on the map. Return the favor one at a time to the favor bank with the fewest favor. On a tie, return it to the leftmost favor bank with the fewest favor.
+                <br><br>
+                **Darkest Secret.** Burn all secrets `symbol:secretb` from the banner. _They return to the shared bank._
 
             - text: Discard the defender's facedown advisers and facedown relics, including all battle plans that started facedown but were played faceup in step 3. _These relics are removed from the game until the Chronicle Phase. If the Conspiracy is discarded, the holder returns it to the box._
 
@@ -915,7 +916,7 @@
 - name: Cards in Detail
   color: '#000000'
   pretext: >
-    **Visit [here](cards.buriedgiant.com) for a detailed card database!**
+    **Visit [here](https://cards.buriedgiant.com) for a detailed card database!**
   children:
     - name: Powers
       children:
