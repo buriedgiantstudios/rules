@@ -11,6 +11,9 @@ products:
   oath:
     name: Oath
 
+  oathnf:
+    name: Oath New Foundations
+
   paxpamir:
     name: Pax Pamir
 
