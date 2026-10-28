@@ -773,9 +773,7 @@
 
         - name: Resolve conquest victory.
           text: >
-            If a conquest was victorious, the attacker may place any number of their warbands _(even zero)_ from their force onto the targeted sites.
-            <br><br>
-            _Then, fill sites that have no warbands with bandit warbands equal to their capacity._
+            If a conquest was victorious, the attacker may place any number of their warbands _(even zero)_ from their force onto the targeted sites. _Then, fill sites that have no warbands with bandit warbands equal to their capacity._
 
         - name: Resolve raid victory.
           text: 'If a raid was victorious, do the following in order:'
@@ -861,9 +859,7 @@
             Choose the People's Favor or the Darkest Secret. If an enemy holds it, your pawn must be at the same site as their pawn. You cannot choose a banner you hold.
 
               - To challenge the People's Favor, you must have **more** favor `symbol:favor` than the favor on it.
-              - To challenge the Darkest Secret, you must have **more** secrets `symbol:secret` than the secrets on it.
-
-            _Facedown secrets do not count toward this._
+              - To challenge the Darkest Secret, you must have **more** secrets `symbol:secret` than the secrets on it. _Facedown secrets do not count toward this._
 
         - name: Take the banner.
           text: >
@@ -916,7 +912,7 @@
 - name: Cards in Detail
   color: '#000000'
   pretext: >
-    **Visit [here](https://cards.buriedgiant.com) for a detailed card database!**
+    **[Click here](https://cards.buriedgiantstudios.com/search?q=game:oath) for a detailed card database!**
   children:
     - name: Powers
       children:
@@ -936,7 +932,9 @@
               - `symbol:secretb` Burn a faceup secret, returning it to the shared bank.
 
         - name: If it has a cost, the card must be empty.
-          text: You cannot put favor or secrets on a card with favor or secrets on it. _Battle plans (`rule:9.5`) are less restricted._
+          text: You cannot put favor or secrets on a card with favor or secrets on it. 
+                <br><br>
+                _Battle plans (`rule:9.5`) are less restricted._
 
         - name: If you pay a cost outside of your turn,
           text: such as using a battle plan while defending, move paid favor to the matching favor bank immediately, and flip paid secrets facedown, keeping them on your board. You cannot remove facedown secrets from your board _(such as to pay costs)_ but enemies can _(such as by stealing or burning them with powers)_.
@@ -1070,31 +1068,31 @@
     - name: 'Site Power'
       pretext: See the list of powers below.
       children:
-        - name: Plains
+        - name: Plains.
           text: This site has no power.
 
-        - name: Coast
+        - name: Coast.
           text: Traveling from here to a Coast or Island costs only 1 Supply and ignores other Travel modifiers _(Mountain, Pass, etc.)_.
 
-        - name: Island
+        - name: Island.
           text: This site has the Coast power. Traveling to it costs 2 Supply more than its normal Travel cost unless you're traveling from a Coast or Island. _Also, the Sunken Isles site has no capacity, so it cannot usually be targeted in a Campaign (see full rules at `rule:9.10.5`)._
 
-        - name: River
+        - name: River.
           text: '**Wake:** You may place your pawn at another River. _This is not a Travel action._'
 
-        - name: Mountain
+        - name: Mountain.
           text: Traveling to this site costs one more Supply than its normal Travel cost. _Do not add this Supply cost if this site also has the Coast power and you're traveling to it from a Coast._
 
-        - name: Pass
+        - name: Pass.
           text: If your pawn is outside this region, you **cannot** travel to other sites in this region or target other sites in this region in campaigns, unless you have the consent of the Pass's ruler. _You can ignore this power if you rule the Pass. The bandits never consent._
 
-        - name: Enduring
+        - name: Enduring.
           text: Cards at this site are not discarded in the Chronicle Phase during the Shape Empire step.
 
-        - name: Homeland
+        - name: Homeland.
           text: There is a Homeland of each suit. When playing a card of its Homeland suit to this site, you may discard a card from the site first _(even one of matching suit)_.
 
-        - name: Dual Powers
+        - name: Dual Powers.
           text: Some sites have two powers instead of one. _For example, the Tidal Marshes is both a River and a Coast._
 
 - name: Banners in Detail
@@ -1194,7 +1192,7 @@
           - End their Act Phase if it is their turn.
           - Refresh their Supply to its leftmost space.
       children:
-        - name: Citizenship in Games with No Empire
+        - name: Citizenship in Games with No Empire.
           pretext: >
             In games with no Empire, powers that let a player become a Citizen instead let them become the Chancellor if there isn't one yet. This works like becoming a Citizen, except the player swaps their player board for the Chancellor board and takes the Grand Scepter.
             <br><br>
