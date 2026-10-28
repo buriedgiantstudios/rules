@@ -1,0 +1,6 @@
+- text: >
+    The fallback condition should be 'burn the secret,' as described in Banners in Detail (`rule:11.1`), not 'place all of its secrets onto sites instead.' (To be fixed in 2nd printing.)
+  versions:
+    - v1
+  rules:
+    - '7.8.2'
