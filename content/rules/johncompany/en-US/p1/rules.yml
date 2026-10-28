@@ -1022,11 +1022,21 @@
             - name: If Successful.
               text: >
                 If successful, perform the following steps:<br>
-                \- **Take Trophies.** Take one trophy token for each level in the targeted region's
+                \- **1. Divide Loot.** Gather cash from the bank based on the target region: each Tower Level gives +£4, and the Loot Modifier gives +£4 to +£9 if faceup. 
+                If there is less cash than the number of officers + 1 (that were used in this action and that survived),
+                increase it by the difference from the bank. Distribute this cash among those that **participated and survived** the 
+                Deploy action. First, give yourself £1 (the Commander’s share) and £1 for each of your officers. Then continue clockwise to the next player
+                and give them £1 for each of their officers. Continue clockwise in this
+                fashion until all players with officers have been paid or no further
+                cash remains. After paying players, if cash remains, give £1 to the
+                bank for each regiment and local alliance (regardless of strength). If
+                cash remains, continue distributing as described, starting with your
+                Commander’s share and officers.
+                \- **2. Take Trophies.** Take one trophy token for each level in the targeted region's
                 tower *(since you are the Commander)*. Then, remove the tower and dome. If it was a
                 capital, remove all matching flags.<br>
-                \- **Impose Order.** Open all orders and remove any unrest in the region.<br>
-                \- **Form Governorship.** If the region is not Company-controlled, move the region's
+                \- **3. Impose Order.** Open all orders and remove any unrest in the region.<br>
+                \- **4. Form Governorship.** If the region is not Company-controlled, move the region's
                 loot/control token to the space above the President's box with the region symbol side
                 faceup. This region is now associated with this President. Place the matching
                 Governor overlay in the region. Finally, take the matching Governor card from the
