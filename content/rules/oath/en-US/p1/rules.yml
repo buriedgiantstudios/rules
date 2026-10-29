@@ -768,6 +768,14 @@
       pretext: When traveling from here, the Travel cost is 2 Supply, and you **ignore** the Narrow Pass and The Hidden Place powers. If an enemy rules here, you travel to the site of the ruler's choice _(Chancellor's choice if ruled by the Empire)_, even if another player is making you travel.
     - name: Narrow Pass
       pretext: 'When traveling from another region to this region, you **must** travel to this site. When campaigning, if you declare any targets in this region and your pawn is in a different region, you **must** target this site unless you rule it.'
+    - name: Great Slums
+      pretext: 'When playing or moving a card to this site, you may discard a card here first.'
+    - name: Marshes
+      pretext: 'When searching, you **must** draw one fewer card if your pawn is here.'
+    - name: Buried Giant
+      pretext: 'When traveling from here, you may flip one secret on your board facedown to spend no Supply and **ignore** the Narrow Pass power. _(Facedown secrets cannot be used to pay a cost.)_'
+    - name: The Hidden Place
+      pretext: 'You **cannot** travel to here or declare campaign targets here unless you flip one secret on your board facedown.'
     - name: The Tribunal
       pretext: >
         **Action**: If you rule this site or your pawn is here, negotiate a binding exchange of `symbol:favor` and `symbol:secret` as well as binding actions at any future time, in any combination, with any player. _(Be as creative as you want with your agreement and your agreed-upon penalties if someone breaks it!)_'
