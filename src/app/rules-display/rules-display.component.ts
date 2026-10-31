@@ -24,6 +24,10 @@ export class RulesDisplayComponent {
   public rulesService = inject(RulesService);
   public paramService = inject(ParamService);
 
+  public get searchParams() {
+    return window.location.search;
+  }
+
   public allRules = computed(() => this.rulesService.formattedRules());
   public ruleIndexes = computed(() => this.rulesService.indexRuleHash());
 
