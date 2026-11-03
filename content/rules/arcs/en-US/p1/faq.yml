@@ -9,12 +9,29 @@
     and Ransack for the first city before Outrage, then Ransack for the next. In the campaign, resolve all hits first
     before resolving effects that trigger from **harm**.
   rules:
-    - '7.7.1'
+ - '7.7.1'
+ 
+  - q: Do I still deal all hits to the defender if all my attacking ships are destroyed?
+  a: >
+    Yes. The only penalty is the inability to raid if your ships are all destroyed.
+    rules:
+   - '7.7.1.4.3'
 
+  - q: May I still raid if all defending buildings are destroyed?
+  a: >
+    Yes.
+    rules:
+   - '7.7.1.4.5'
+   
 - q: Can I Cede Control while I am a Flagship?
   a: You can Cede Control of buildings on the map, but not buildings on your Flagship, and not your Flagship itself. Other players can also Cede buildings to you.
   rules:
     - '17.2.1.1'
+    
+- q: In a 2 player game, how many ships go in 1C and 2C?
+  a: 2 in each system. (Some Leaders place different amounts in those systems. Still place that amount in each C system).
+  rules:
+    - '3.1.2.3'
 
 - q: If I have more than two resource slots open, can I put my starting resources in different slots?
   a: No. They always go in your two leftmost slots.
@@ -161,6 +178,13 @@
       No. You cannot even be forced to give them away with a returned Favor.
   rules:
     - '17.2.1.4'
+
+- q: Can anyone force an Outlaw to join the Empire in this way?
+  a: >
+      No. This action can only be forced by an Outlaw returning the First Regent's Favor in the Call to Order, forcing the First Regent to target 
+      that Outlaw with the action, causing that Outlaw to become a Regent.
+  rules:
+    - '17.2.1.5'
  
 - q: Can I see a summary of ending a chapter in the Blighted Reach campaign?
   a: >
@@ -182,6 +206,11 @@
 - q: Do my frozen resources count as 'resources I have' for the purpose of [Monopolies](https://cards.buriedgiantstudios.com/card/ARCS-F318), etc.?
   a: >
       Yes!
+ - q: Can Rivals take and steal frozen resources?
+  a: >
+      Yes, including for the Imperial Demand. (This was stated in the original rulebook, and is still true by implication.)
+      A First Regent who has the frozen resource, however, cannot take those resources for the Demand. 
+      The restriction applies to the resource's holder, not their Rivals. 
   rules:
     - '13.3.1'
 
@@ -262,3 +291,46 @@
      No. Gain is the only keyword that lets you add a piece to your play area directly from a supply.
   rules: 
     - '23.1.12'
+
+- q: Exactly which card (or cards) can I (or must I) secure with Ransack?
+  a: >
+     You must secure exactly 1 card with at least 1 of the Rival's agents (if such a card exists), even if you do not have the most agents on the card.
+  rules: 
+    - '7.7.4.2'
+
+- q: When exactly is an attachment "forced"?
+  a: >
+      An attach is forced when an automatic effect like an Edict or Crisis causes a card to attach, without giving players
+     a choice not to attach. Conversely, when a player chooses to resolve an effect whose text includes attaching a card,
+     that is not forced. Therefore, the Claims of Nobility Crisis is a forced attach, but its When Secured action is not. 
+     The first requirement to ignore is the requirement to attach to a card that has no attached cards. Thus, when forced,
+     you attach a second card to the card with an attached card.
+  
+  - q: What exactly is meant here by "ignoring the fewest requirements to attach it"?
+  a: >
+     To date, all forced attachments are resolved by ignoring the rule that you attach to a card without a previously attached card.
+     Therefore, when forced to attach to a card that already has an attached card, simply attach the new card as a second attachment.
+  rules: 
+    - '13.2.3'
+    
+  - q: Does this mean I can or must conceal how many cards are in my hand?
+  a: >
+     No. It only prevents revealing the face of your action cards, not their backs or how many you have. Card backs in your hand
+     are important public information in the campaign. 
+   - q: Does this imply everything else not face down or in a deck is public information?
+  a: >
+     Yes, unless otherwise specified.
+     rules:
+    - '22.6.1'
+
+  - q: Do damaged buildings still perform actions like taxing or building ships?
+  a: >
+      Yes. Those rules are not restricted to fresh pieces.
+    rules:
+    - '4.6.2'
+
+  - q: Do I still flip ambition markers between chapters in the campaign.
+  a: >
+      Yes. This does not change that rule at all.
+     rules:
+    - '3.3.1'
