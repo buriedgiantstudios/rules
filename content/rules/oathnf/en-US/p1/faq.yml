@@ -1,0 +1,4 @@
+- q: Do I choose whether or not to use these battle plans in this step?
+  a: No, you need to choose whether or not to use battle plans in step 3. This is only telling you when you resolve the effects of these battle plans.
+  rules:
+    - '7.3.11'
