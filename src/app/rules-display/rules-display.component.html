@@ -15,7 +15,7 @@
         <span class="index major">{{ rule.indexDisplay }}</span>
         <a
           [innerHTML]="rule.formattedName | highlight: searchTerm : rule.index"
-          [href]="'#' + indexesToRules[rule.index]"
+          [href]="searchParams + '#' + indexesToRules[rule.index]"
         ></a>
       </div>
 
@@ -41,7 +41,7 @@
                 childRule.formattedName
                   | highlight: searchTerm : childRule.index
               "
-              [href]="'#' + indexesToRules[childRule.index]"
+              [href]="searchParams + '#' + indexesToRules[childRule.index]"
             ></a>
 
             @if (childRule.text) {
@@ -91,7 +91,7 @@
                       grandchildRule.formattedName
                         | highlight: searchTerm : grandchildRule.index
                     "
-                    [href]="'#' + indexesToRules[grandchildRule.index]"
+                    [href]="searchParams + '#' + indexesToRules[grandchildRule.index]"
                   ></a>
                   <span
                     class="text child"
@@ -142,7 +142,7 @@
                               descRule.formattedName
                                 | highlight: searchTerm : descRule.index
                             "
-                            [href]="'#' + indexesToRules[descRule.index]"
+                            [href]="searchParams + '#' + indexesToRules[descRule.index]"
                           >
                             <span
                               class="index-link"
@@ -203,7 +203,7 @@
                                           : descDescRule.index
                                     "
                                     [href]="
-                                      '#' + indexesToRules[descDescRule.index]
+                                      searchParams + '#' + indexesToRules[descDescRule.index]
                                     "
                                   >
                                     <span
