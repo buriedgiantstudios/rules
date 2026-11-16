@@ -875,7 +875,7 @@
               - If you took the People's Favor, place **more** favor `symbol:favor` on it than it had previously.
               - If you took the Darkest Secret, place **more** secrets `symbol:secret` on it than it had previously.
       posttext: >
-        _For a full description of the banners, see Banners in Detail (`rule:11`)._
+        _For a full description of the banners, see Banners in Detail (`rule:11.`)._
 
 
 - name: Minor Actions
@@ -1021,7 +1021,7 @@
         If an edifice is removed from the map in any way, place it intact on the bottom of the edifice deck _(counting on the intact side)_. The edifice deck is kept behind the Edifices divider in the box, with the same facing for all cards.
 
     - name: Grand Scepter
-      pretext: The Grand Scepter is a special relic that cannot be discarded or buried in any way. Its holder can offer Citizenship and exile Citizens (`rule:13`).
+      pretext: The Grand Scepter is a special relic that cannot be discarded or buried in any way. Its holder can offer Citizenship and exile Citizens (`rule:13.`).
 
     - name: The Conspiracy
       pretext: >
@@ -1639,7 +1639,7 @@
 
         - name: 'Altered Foundation I: Wide Horizons'
           text: >
-            <br>If the Servant would travel to an unexplored site, do not roll dice to explore. Instead, sacrifice their next action (see Recover, `rule:22.9`) and move them to the site.
+            <br>If the Servant would travel to an unexplored site, do not roll dice to explore. Instead, sacrifice their next action (see Recover, `rule:21.9`) and move them to the site.
             <br><br>
             Place priority tokens on site slots by treating empty site slots as sites with bandits.
 
@@ -1680,8 +1680,8 @@
             place Servant pawns on the map as follows:
 
               - If the Servant is **Chancellor**, place their pawn on the top Cradle site.
-              - If the Servant is a **Citizen**, place their pawn on the most Cradleward site (`rule:19.1`) ruled by the **Empire**. It cannot have another pawn unless all these sites have pawns.
-              - If the Servant is an **Exile**, place their pawn on the most Cradleward site (`rule:19.1`) ruled by **bandits**. It cannot have another pawn unless all these sites have pawns.
+              - If the Servant is a **Citizen**, place their pawn on the most Cradleward site (`rule:18.1`) ruled by the **Empire**. It cannot have another pawn unless all these sites have pawns.
+              - If the Servant is an **Exile**, place their pawn on the most Cradleward site (`rule:18.1`) ruled by **bandits**. It cannot have another pawn unless all these sites have pawns.
 
         - name: To choose a starting adviser,
           text: Servants each discard random denizens they have until they have one, assuming they drew in the Ties of Fellowship foundation (IV).
@@ -1698,7 +1698,7 @@
         <br><br>
         The first action is always either a **Star or Moon action**, which are shown on the Star and Moon cards on the display board. _Typically, the Star action makes a Servant compete for the Oathkeeper goal, and the Moon action makes them compete for a Vision goal._
         <br><br>
-        This is followed by three rows of **command actions** and **boost actions**. The Servant always takes the command actions, and they might take boost actions, which you'll learn about later. These actions are described starting in `rule:22`.
+        This is followed by three rows of **command actions** and **boost actions**. The Servant always takes the command actions, and they might take boost actions, which you'll learn about later. These actions are described starting in `rule:21.`.
         <br><br>
         Their last action is always the **Reap action**. Like the Star and Moon actions, their Reap action is shown by the Reap card on the display board. _Typically, Reap makes them gain resources._
 
@@ -1722,9 +1722,9 @@
 
     - name: Zeal
       pretext: >
-        Each command card has a **Zeal** value in its bottom-right corner. When the Servant would campaign (`rule:23`), they only perform the action if they have warbands equal to or greater than their Zeal.
+        Each command card has a **Zeal** value in its bottom-right corner. When the Servant would campaign (`rule:22.`), they only perform the action if they have warbands equal to or greater than their Zeal.
         <br><br>
-        If they don't, they muster warbands (`rule:22.4`) instead.
+        If they don't, they muster warbands (`rule:21.4`) instead.
 
     - name: Stance Card
       pretext: >
@@ -1772,7 +1772,7 @@
         <br><br>
         To resolve the **Star**, **Moon**, and **Reap** icons, follow the Star, Moon, and Reap cards on the display board, respectively.
         <br><br>
-        For all other icons, reference the action list starting in `rule:22`.
+        For all other icons, reference the action list starting in `rule:21.`.
       children:
         - name: Boost Actions
           pretext: After the Servant performs an action, if it shows a second action to its right, immediately check whether they perform it. This is called a **boost action**.
@@ -1808,15 +1808,15 @@
     <br><br>
     Complete each action to the greatest extent possible.
     <br><br>
-    **If an action has no effect,** the Servant takes a Gain Favor `symbol:favor` action (`rule:22.6`) instead. _This includes boost actions that are triggered but have no effect._
+    **If an action has no effect,** the Servant takes a Gain Favor `symbol:favor` action (`rule:21.6`) instead. _This includes boost actions that are triggered but have no effect._
   children:
-    - name: Adviser
+    - name: Adviser `symbol:servant-adviser`
       pretext: >
         **If the Servant has a facedown adviser,** play the card to the Servant's site. If this is not possible, play the card as a faceup adviser. Resolve this as if the Servant took the Search action. _Resolve any When Played power._
         <br><br>
         **If the Servant has no facedown advisers,** search the world deck and play a random drawn denizen as a facedown adviser. _Discard the other two cards._ If they already have 3 facedown advisers, follow the full Search rules (see below).
 
-    - name: Search
+    - name: Search `symbol:servant-searchdiscard` `symbol:servant-searchworld`
       pretext: >
         The Search action says whether the Servant draws from the world deck or from the discard pile of their region. If the discard pile is empty, use the world deck instead.
         <br><br>
@@ -1860,36 +1860,36 @@
             - text: The People's Favor if a revealed Vision or Oathkeeper goal requires it.
             - text: The relic with the highest value _(number under the name)_. If there are only facedown relics, the player with the Eye chooses which they prioritize, and they flip it faceup.
 
-    - name: Travel
+    - name: Travel `symbol:servant-travel`
       pretext: >
         Roll 2 defense dice `symbol:diceb` `symbol:diceb` and count the number of shields `symbol:shield`, ignoring doublers `symbol:x2`.
         <br><br>
         Move the Servant's pawn to the site whose priority token equals the rolled shields `symbol:shield` **plus 1**.
         <br><br>
-        **Servants ignore all direct Travel limits, such as the Pass site power. However, they still must pay Travel costs of favor or secrets prompted by powers, and they will not travel if they cannot pay the cost—they Gain Favor (`rule:22.6`) instead.**
+        **Servants ignore all direct Travel limits, such as the Pass site power. However, they still must pay Travel costs of favor or secrets prompted by powers, and they will not travel if they cannot pay the cost—they Gain Favor (`rule:21.6`) instead.**
 
-    - name: Muster
+    - name: Muster `symbol:servant-muster`
       pretext: >
         If the Servant has any favor, they travel to the site with an empty card that would gain them the most warbands, then muster on it: they place 1 favor on it to gain 1 warband plus 1 for each adviser they have matching the suit of the card. _This includes suits on their Stance card._
         <br><br>
         **If multiple cards gain the most warbands,** they travel to the one at the highest-priority site.
 
-    - name: Kill
+    - name: Kill `symbol:servant-kill`
       pretext: Kill a player's warband at the Servant's site. If there is none, kill one on the player board of the player with the Eye. _Otherwise, the player holding the Eye chooses a player's warband to kill._
 
-    - name: Gain Favor
+    - name: Gain Favor `symbol:servant-gainfavor1` `symbol:servant-gainfavor2`
       pretext: >
         Gain the number of favor shown by this action.
         <br><br>
         One by one, take favor from the favor bank with favor that is furthest to the left on the current command card.
 
-    - name: Gain Secret
+    - name: Gain Secret `symbol:servant-gainsecret`
       pretext: Gain 1 secret.
 
-    - name: Trade Favor for Secrets
+    - name: Trade Favor for Secrets `symbol:servant-tradefavor`
       pretext: If the Servant has 3 favor, place 1 favor each into the favor banks of the three leftmost suits on the command card and gain 2 secrets.
 
-    - name: Recover
+    - name: Recover `symbol:servant-recover`
       pretext: >
         They recover a relic from their site. If they cannot, they first travel to the highest-priority site with a relic they can recover.
         <br><br>
@@ -1903,9 +1903,9 @@
 
         **If they recover the relic,** they take it faceup.
         <br><br>
-        **If they cannot recover a relic in any way,** they instead campaign (`rule:23`), targeting a relic held by the player with the Eye. If they cannot, they choose anyone _(even a Servant)_ who holds a relic to target.
+        **If they cannot recover a relic in any way,** they instead campaign (`rule:22.`), targeting a relic held by the player with the Eye. If they cannot, they choose anyone _(even a Servant)_ who holds a relic to target.
 
-    - name: Challenge
+    - name: Challenge `symbol:servant-challenge`
       children:
         - name: 'Step 1: Determine the target'
           pretext: "The Servant targets the first banner on this list they can challenge and don't hold:"
@@ -1922,32 +1922,32 @@
             <br><br>
             The Servant places the minimum favor or secrets needed to challenge the banner.
             <br><br>
-            **If they cannot challenge this banner,** the Servant skips this step and will instead campaign (`rule:23`) and target this banner. _If it's in the shared bank, they muster instead (`rule:22.4`)._
+            **If they cannot challenge this banner,** the Servant skips this step and will instead campaign (`rule:22.`) and target this banner. _If it's in the shared bank, they muster instead (`rule:21.4`)._
 
-    - name: Challenge Banner
+    - name: Challenge Banner `symbol:servant-challengesecret` `symbol:servant-challengefavor`
       pretext: >
         If anyone holds the prompted banner, the Servant will travel to the site with the holder's pawn. They challenge this banner, placing the fewest favor or secrets needed to take it.
         <br><br>
         **If the Servant already holds this banner,** they instead place 1 favor or 1 secret from their player board onto the banner.
         <br><br>
-        **If they cannot challenge this banner,** the Servant will campaign (`rule:23`) and target this banner instead. _If the banner is in the shared bank, they muster instead (`rule:22.4`)._
+        **If they cannot challenge this banner,** the Servant will campaign (`rule:22.`) and target this banner instead. _If the banner is in the shared bank, they muster instead (`rule:21.4`)._
 
-    - name: Campaign for Current Site
-      pretext: Campaign (`rule:23`) and target the site with the Servant's pawn.
+    - name: Campaign for Current Site `symbol:servant-campaignsite`
+      pretext: Campaign (`rule:22.`) and target the site with the Servant's pawn.
 
-    - name: Campaign for Unruled Priority Site
-      pretext: Campaign (`rule:23`) and target the highest-priority site that is not ruled by any Servant.
+    - name: Campaign for Unruled Priority Site `symbol:servant-campaignpriority`
+      pretext: Campaign (`rule:22.`) and target the highest-priority site that is not ruled by any Servant.
 
-    - name: Campaign for Scepter
+    - name: Campaign for Scepter `symbol:servant-campaignscepter`
       pretext: >
-        Campaign (`rule:23`) and target the Grand Scepter.
+        Campaign (`rule:22.`) and target the Grand Scepter.
         <br><br>
-        _If the Servant already has the Grand Scepter, they muster instead (`rule:22.4`)._
+        _If the Servant already has the Grand Scepter, they muster instead (`rule:21.4`)._
 
 - name: Servant Campaigns
   color: '#8C5A2B'
   pretext: >
-    **If a Servant cannot campaign for any reason,** including not having enough warbands for their Zeal (below) or having nothing to target, they muster instead (`rule:22.4`).
+    **If a Servant cannot campaign for any reason,** including not having enough warbands for their Zeal (below) or having nothing to target, they muster instead (`rule:21.4`).
   children:
     - name: Check Zeal
       pretext: Check whether the Servant has warbands on their player board at least equal to their **Zeal**, shown on their command card. If they do, continue the campaign.
@@ -1980,7 +1980,7 @@
           pretext: If attacking a site ruled by bandits, the Servant is victorious.
 
         - name: Attacking Servant
-          pretext: If attacking a Servant, the attacking Servant is victorious if their force has equal or greater warbands than the defending force. _If they don't have enough warbands, they muster (`rule:22.4`) instead._
+          pretext: If attacking a Servant, the attacking Servant is victorious if their force has equal or greater warbands than the defending force. _If they don't have enough warbands, they muster (`rule:21.4`) instead._
 
     - name: Resolve Victory
       pretext: If the Servant is victorious, resolve this section.
@@ -2293,9 +2293,9 @@
   pretext: >
     This is a list of the actions on the Queen's shadow and darkness cards.
     <br><br>
-    If the Queen takes an action with a darkness icon `symbol:darkness` but the action has no effect, Darkness increases (`rule:29.8`). **Darkness cannot increase on the Queen's first turn of the game.**
+    If the Queen takes an action with a darkness icon `symbol:darkness` but the action has no effect, Darkness increases (`rule:27.8`). **Darkness cannot increase on the Queen's first turn of the game.**
   children:
-    - name: Minion
+    - name: Minion `symbol:queen-minion`
       children:
         - name: 'If the site is ruled by the Queen of Shadows:'
           text: >
@@ -2307,7 +2307,7 @@
 
         - name: 'If this site is ruled by an Adventurer:'
           text: >
-            Check the Zeal on the current shadow card. If she has at least as many minions on her board as her Zeal, she campaigns against this site (`rule:34.`).
+            Check the Zeal on the current shadow card. If she has at least as many minions on her board as her Zeal, she campaigns against this site (`rule:32.`).
             <br><br>
             If she does not have enough minions to meet her Zeal, she gains minions until her board has minions equal to her Zeal.
 
@@ -2319,46 +2319,46 @@
             <br><br>
             Place a lock token on each denizen and edifice at this site without one.
 
-    - name: Recall
+    - name: Recall `symbol:queen-recall`
       pretext: If there are 3 or more minions at this site, return 1 minion from this site to the Queen's player board.
 
-    - name: Swap
+    - name: Swap `symbol:queen-swap`
       pretext: >
         Swap the action token on this site with the action token that has the number printed on this icon. _So if the action icon says "3" and it is in row 1, swap the #3 and #1 action tokens on the map._
 
-    - name: Favor
+    - name: Favor `symbol:queen-favor`
       pretext: >
         The Queen gains 1 favor from the bank matching the suit of each prisoner in this region.
         <br><br>
         **If she gains no favor** and the action has a darkness icon `symbol:darkness`, Darkness increases.
 
-    - name: Secret
+    - name: Secret `symbol:queen-secret`
       pretext: >
         If the Queen rules this site, she gains 1 secret.
         <br><br>
         **If she gains no secrets** and the action has a darkness icon `symbol:darkness`, Darkness increases.
 
-    - name: Relic
+    - name: Relic `symbol:queen-relic`
       pretext: >
         If there is a relic at this site, the Queen takes it faceup. If there is more than one relic, the active player chooses which one she takes. If there is a forge at this site, and the Queen has the resources, she will take the Forge action, ignoring the need for rule.
         <br><br>
-        **If this site has no relics, but an Adventurer's pawn who holds a relic is there,** the Queen checks if she has minions on her board at least equal to her Zeal. If she does, she campaigns (`rule:34.`) and targets a relic there of the active player's choice.
+        **If this site has no relics, but an Adventurer's pawn who holds a relic is there,** the Queen checks if she has minions on her board at least equal to her Zeal. If she does, she campaigns (`rule:32.`) and targets a relic there of the active player's choice.
         <br><br>
         **If the Queen cannot take a relic or campaign for one,** and this action has a darkness icon `symbol:darkness`, Darkness increases.
 
-    - name: Altar
+    - name: Altar `symbol:queen-altar`
       pretext: >
         **If there is no altar at this site,** draw an altar from the draw bag and place it here.
         <br><br>
         **If there is already an altar at this site,** return it to the draw bag.
 
-    - name: Kidnap
+    - name: Kidnap `symbol:queen-kidnap`
       pretext: The active player must move one of their **faceup** advisers _(even if locked)_ to this site, then place a lock token on it. It is now a prisoner. _Ignore site capacity for this._
 
-    - name: Kill
+    - name: Kill `symbol:queen-kill`
       pretext: Kill an Adventurer's warband at this site. If there are none at this site, kill one on the active player's board, if possible.
 
-    - name: Rob
+    - name: Rob `symbol:queen-rob`
       pretext: >
         An Adventurer whose pawn is in the region must give either 2 favor or 1 secret, except their last secret, to the Queen.
         <br><br>
@@ -2366,16 +2366,16 @@
         <br><br>
         **If the Queen gains no favor or secrets** and this action has a darkness icon `symbol:darkness`, Darkness increases.
 
-    - name: Seize
-      pretext: Move a random unclaimed title card to this site. It cannot be claimed while it is at this site. _It does not count against capacity and can be returned to the available row with Excavate (`rule:33.4`)._
+    - name: Seize `symbol:queen-seize`
+      pretext: Move a random unclaimed title card to this site. It cannot be claimed while it is at this site. _It does not count against capacity and can be returned to the available row with Excavate (`rule:31.4`)._
 
-    - name: Ambush
+    - name: Ambush `symbol:queen-ambush`
       pretext: >
         If the Queen rules this site and the active player's pawn is there, she checks whether she has at least as many minions on her board as the Zeal on her current shadow card. _If she does not have enough minions, skip this action._
         <br><br>
-        If she does, she campaigns (`rule:34.`), targeting the active player's pawn _(not relics or banners)._
+        If she does, she campaigns (`rule:32.`), targeting the active player's pawn _(not relics or banners)._
 
-    - name: Banner
+    - name: Banner `symbol:queen-banner`
       pretext: >
         The Queen will do the following for **both** the People's Favor and the Darkest Secret. _This action does not change based on the row number._
         <br><br>
@@ -2387,7 +2387,7 @@
   color: '#5E3B76'
   pretext: The Adventurers have many new actions that they can take on their turn, as follows.
   children:
-    - name: Replace
+    - name: Replace `symbol:adventurer-replace`
       pretext: >
         **Cost: 1 Supply**
         <br><br>
@@ -2409,7 +2409,7 @@
 
     - name: Excavate
       pretext: >
-        Take a **faceup** relic or title card from your site by spending any combination of 3 favor, secrets, and warbands. _Titles are placed on the map by the Queen's Seize action (`rule:32.11`)._
+        Take a **faceup** relic or title card from your site by spending any combination of 3 favor, secrets, and warbands. _Titles are placed on the map by the Queen's Seize action (`rule:30.11`)._
 
           - Flip spent secrets facedown on your board.
           - Place spent favor in the favor banks with the least favor. Break ties to the leftmost bank.
@@ -2447,28 +2447,28 @@
       children:
         - name: Altar Actions
           children:
-            - name: Altar of Devotion.
+            - name: Altar of Devotion. `symbol:altar-devotion`
               text: Place 2 favor in a favor bank matching one of your faceup advisers to gain 1 secret.
 
-            - name: Altar of Banishment.
+            - name: Altar of Banishment. `symbol:altar-banishment`
               text: Discard an adviser to gain 1 secret. You may discard an adviser of any Adventurer with a pawn at this site.
 
-            - name: Altar of Labor.
+            - name: Altar of Labor. `symbol:altar-labor`
               text: Spend 3 Supply to gain 1 secret. You may split this Supply cost among any Adventurers with a pawn at this site.
 
-            - name: Altar of Darkness.
+            - name: Altar of Darkness. `symbol:altar-darkness`
               text: Discard the top 3 cards from the world deck to gain 1 secret. Discard them one at a time facedown, advancing the Visions Drawn marker once for each Vision you discard.
 
-            - name: Altar of Blood.
+            - name: Altar of Blood. `symbol:altar-blood`
               text: Sacrifice 1 warband, except the last, from any site ruled by an Adventurer whose pawn is at this site to gain 1 secret.
 
-            - name: Altar of Treasures.
+            - name: Altar of Treasures. `symbol:altar-treasures`
               text: Bury a relic held by an Adventurer whose pawn is at this site to gain 1 secret. _("Bury" means place it on the bottom of the relic deck.)_
 
-            - name: Altar of Secrets.
+            - name: Altar of Secrets. `symbol:altar-secrets`
               text: If a player holds the Darkest Secret and their pawn is at this site, or if the Queen rules this site and she holds the Darkest Secret, take 1 secret from the Darkest Secret. You cannot take its last secret.
 
-            - name: Altar of Favor.
+            - name: Altar of Favor. `symbol:altar-favor`
               text: If a player holds the People's Favor and their pawn is at this site, or if the site is ruled by the Queen and she holds the People's Favor, take 1 favor from the People's Favor. You cannot take its last favor.
 
 - name: The Queen's Campaigns
