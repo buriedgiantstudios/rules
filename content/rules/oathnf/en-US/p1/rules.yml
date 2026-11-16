@@ -1580,25 +1580,7 @@
     - name: Your Site/Region
       pretext: The site or region that your pawn is in.
 
-- name: Components
-  color: '#8C5A2B'
-  pretext: >
-    **Use the Stance, command, and action cards for New Foundations, not the base game.** Their card IDs in the bottom-right corner will include "-NF."
-  children:
-    - name: 5 Stance Cards
-
-    - name: 19 Command Cards (4 Basic, 3 Conquest, 3 Rebellion, 3 Faith, 3 Sanctuary, 3 Scepter)
-
-    - name: 13 Action Cards (Star, Moon, and Reap; Double-Sided)
-
-    - name: 1 Display Board
-
-    - name: 8 Action Tokens
-
-    - name: 1 Eye Token (Double-Sided)
-      pretext: The closed side of the Eye token is not used in these rules. It is used in games with the Queen of Shadows.
-
-- name: Introduction
+- name: Introduction - Clockwork Servant
   color: '#8C5A2B'
   pretext: >
     In a solo or multiplayer game, players can compete against one or more automated opponents called **Servants**. A Servant can play as any role: Chancellor, Exile, or Citizen.
@@ -2123,3 +2105,464 @@
       children:
         - name: Write in the Stars.
           text: If a Servant wins the game, they will circle and name a single star. Choose the available star that is the most centrally located. Each time they name a star, they will name it Nova, followed by a number that matches the total number of stars they have named so far, e.g. Nova 001, Nova 002, etc.
+
+- name: Introduction - Queen of Shadows
+  color: '#5E3B76'
+  pretext: >
+    In this mode, you face the **Queen of Shadows**. The Queen starts with the upper hand, bending the world of Oath to her will and bringing darkness to its land and peoples. Together you must defeat her, or your world will be depleted and its denizens imprisoned.
+    <br><br>
+    Players are no longer Chancellors, Citizens, or Exiles. Instead, everyone plays an **Adventurer**.
+    <br><br>
+    When facing the Queen, you can play solo or cooperate with other players. This mode is compatible with both Oath: New Foundations and the base game.
+
+- name: Core Concepts
+  color: '#5E3B76'
+  children:
+    - name: Victory
+      pretext: >
+        The Queen of Shadows can win exactly like the Chancellor does: through a Stable Regime die roll or from War Exhaustion at the end of the game.
+        <br><br>
+        The Adventurers win immediately if **every Adventurer has gained a title card** and **no prisoners are on the map**. You will learn about both titles and prisoners now.
+
+    - name: Game Flow
+      pretext: The Queen of Shadows takes a turn at the start of **each Adventurer's Wake Phase**, before they do anything. Otherwise, the players take turns as normal.
+
+    - name: Titles
+      pretext: >
+        In each game, there are six **title cards** that players can gain by completing their listed goal. _One Keeper of Keys title is set aside based on whether you're playing base game or New Foundations._
+        <br><br>
+        At the start of an Adventurer's Wake Phase, just after the Queen takes her turn, they check whether they meet the goal on any available title card. If so, they may take it and flip it to its Victory side. Each Adventurer may only hold one title.
+        <br><br>
+        Just like Exiles, the Adventurers can play Visions faceup, take the Oathkeeper title, and flip it to Usurper. Generally, they will gain titles by meeting the Oathkeeper and Vision goals.
+
+    - name: Prisoners
+      pretext: Denizens and edifices on the map with a **lock token** are **prisoners** of the Queen. The game begins with some, and the Queen will take more prisoners over time.
+      children:
+        - name: Prisoners are not denizens or edifices.
+          text: They have no card power, cannot be used to trade or muster, and cannot be moved or removed in any way.
+
+        - name: Prisoners do not count against site capacity.
+          text: That is, a site can have any number of prisoners on top of the normal number of cards it can hold.
+
+        - name: Prisoners can be freed to gain keys.
+          text: When a prisoner is freed, the player freeing them takes the lock token and flips it to its **key side**. Keys may be spent during the game to take special actions.
+
+    - name: Minions
+      pretext: >
+        The Queen's **minions** are warbands: they rule sites they are on and they add to the Queen's force in Campaign actions.
+        <br><br>
+        Additionally, Minions show where the Queen is located. The Queen has no pawn on the map, but her pawn is considered to be located **at every site that she rules**. When she is acting at a specific site, she is at that site for that action. _This affects things like discarding cards._
+
+    - name: Shadow Cards
+      pretext: >
+        On her turn, the Queen takes actions based on her current **shadow card**.
+        <br><br>
+        She takes actions at every site on the map—the eight numbers on the shadow card correspond to the 8 **action tokens** placed on the eight sites.
+        <br><br>
+        Every shadow card also shows a **Zeal** value in its bottom-right corner. In various aggressive actions, the Queen checks whether she has enough minions compared to her Zeal to act—you'll learn about this later.
+        <br><br>
+        Shadow cards come in two border colors: blue for easier cards, and red for difficult ones. The Queen starts with a deck full of blue cards, but during the Chronicle Phase she may replace blue cards with red cards to make her harder in later games.
+
+    - name: Altars
+      pretext: >
+        As the Queen takes her turn, Altars might be placed on the map. _This represents aid from friends who also oppose the Queen._
+        <br><br>
+        Altars can help you access the resources you need. However, if you don't use an altar in time, the Queen may discover and remove it.
+
+    - name: Darkness Track
+      pretext: >
+        Some of the Queen's actions show a darkness icon `symbol:darkness`. If she cannot take one of these actions, **Darkness increases**: advance her pawn on the Darkness track once to the right. Darkness cannot increase beyond "8" and cannot increase on the Queen's very first turn of the game.
+        <br><br>
+        When she reaches the top of her Darkness track, she draws a purple **darkness card** and takes an extra turn that is particularly aggressive.
+
+    - name: A Greedy, Imperious Queen
+      pretext: >
+        When an Adventurer loses the Oathkeeper title or a banner, it does not return to the shared bank—instead, the Queen takes it unless another Adventurer took it.
+        <br><br>
+        The Queen will never negotiate with the Adventurers.
+        <br><br>
+        The Queen prevents Adventurers from giving relics to each other.
+        <br><br>
+        The Queen has no advisers.
+
+    - name: Friendly Adventurers
+      pretext: The Adventurers are not enemies to each other. They cannot campaign against each other.
+
+    - name: Card Powers
+      pretext: >
+        On her turn, the Queen **cannot** use card powers and she ignores card powers held by Adventurers. She **cannot** use battle plans.
+        <br><br>
+        The Adventurers always follow card powers, and the Adventurers can use card powers during their turns to affect the Queen.
+        <br><br>
+        The Queen and Adventurers are players but are not Exiles, Citizens, or the Chancellor, so card powers that specifically affect Exiles, Citizens, or the Chancellor do not affect them.
+
+    - name: The Eye
+      pretext: >
+        One player starts with the Eye token.
+        <br><br>
+        This player takes the first turn of each round in place of the Chancellor.
+        <br><br>
+        When the Queen must make a choice that is not specified by these rules, the player holding the Eye chooses. _For example, if the Queen takes the People's Favor, the player with the Eye chooses how to break ties._
+
+- name: Setup
+  color: '#5E3B76'
+  pretext: This section lists the additions and changes to setup in the base game and New Foundations.
+  children:
+    - name: Players
+      pretext: >
+        Each player flips their board to Exile and takes an Adventurer aid card. _There is no Chancellor._
+        <br><br>
+        Each Adventurer gains 1 extra secret. _They each start with 2 secrets in total._
+        <br><br>
+        Return the Grand Scepter and Reliquary to the box. If the Reliquary has any relics, place them on top of the relic deck.
+        <br><br>
+        Flip all active legacies to dormant. _You are in a dark age._
+
+    - name: Sites
+      pretext: >
+        Do not set up the Empire. Instead, use winner's preserved sites in front of the Empire divider in the Atlas box. If starting in the middle of an era, treat Imperial sites as preserved.
+        <br><br>
+        **If there are preserved sites,** use them to fill empty site slots going Hinterward, place 1 minion on each, and flip their edifices to **ruined**. Then, fill remaining empty site slots from Forgotten Sites as in Imperial Maps (`rule:4.5.1`). If there are fewer than 3 preserved sites, place 1 minion on each Cradle site and the top Provinces site instead.
+        <br><br>
+        **If there are no preserved sites** _(such as in your first game)_, fill the map as in Setup With No Empire (`rule:4.4`), but place 1 minion on each Cradle site and the top Provinces site instead of bandits.
+        <br><br>
+        Place a random action token on each site.
+        <br><br>
+        Place 1 denizen from the starting denizen stack at each site with a minion but no denizens. Ignore placement restrictions _(such as adviser only)_ and the site's capacity.
+        <br><br>
+        Place a lock token on each denizen on the map. These denizens are now **prisoners**—they do not add extra favor to their matching favor banks and do not have Setup powers.
+
+    - name: Foundations
+      pretext: >
+        Set all of the foundations to their normal sides, even if an active legacy affects one.
+        <br><br>
+        Only resolve Foundations II and IV. _In Foundation II, prisoners don't add favor to favor banks._
+
+    - name: Player Choices
+      pretext: >
+        Give the Eye token on its Open side to a random player. They are the first player. _You may also give them the first player marker if you desire._
+        <br><br>
+        When placing pawns, treat players as Exiles and treat sites with minions as Imperial.
+
+    - name: Queen of Shadows
+      children:
+        - text: Give the Oathkeeper title and both banners to the Queen. _Remember to place `symbol:favor` on the People's Favor and `symbol:secret` on the Darkest Secret from the shared bank._
+        - text: Draw 1 relic from the relic deck and give it to the Queen faceup.
+        - text: Place 1 secret, **2 favor**, and 3 minions on the Queen of Shadows board.
+        - text: >
+            Shuffle the shadow deck and place it on the Shadow Deck slot of her board.
+
+              - If this is your first Queen of Shadows game, shuffle the 18 blue-bordered shadow cards, return 2 random cards facedown to the box, and use the remaining 16 cards.
+              - If not, use the mix of shadow cards you stored from your previous game.
+        - text: Deal 2 shadow cards faceup to the empty card slots on her board.
+        - text: If you're playing solo, add all 9 altar tokens to the draw bag. If you're not playing solo, add them all except the second copy of the Altar of Darkness _(showing three cards)_.
+        - text: Place the 7 title cards faceup nearby. Return the "New Foundations" Keeper of Keys title to the box if playing the base game, or return the "Base" title if playing New Foundations.
+        - text: Place the Darkness track nearby and place the Queen of Shadows pawn on the "1" space, or on the "4" space if you are playing solo. Shuffle the 8 darkness cards and place them on the deck slot on the Darkness track.
+
+- name: The Queen's Turn
+  color: '#5E3B76'
+  pretext: >
+    The Queen of Shadows takes a turn at the start of **each Adventurer's Wake Phase**, before they do anything. _She takes a turn on every player's turn, and she does not have a Wake Phase or Rest Phase._
+    <br><br>
+    After her turn, the Adventurer finishes their turn.
+  children:
+    - name: Take Actions
+      pretext: >
+        The Queen takes the actions shown on the shadow card in the **rightmost** slot on her board.
+        <br><br>
+        Going from top row to bottom row, she tries to perform all actions in the row. If a row has multiple actions, perform them from left to right.
+        <br><br>
+        She performs each action at the site that has the action token matching the action's row.
+
+    - name: Discard and Draw
+      pretext: >
+        Discard the resolved shadow card to a discard pile beside her board.
+        <br><br>
+        Then, move the other shadow card on her board from the left to the right slot, and refill the left slot by drawing a shadow card from the shadow deck.
+        <br><br>
+        If the deck is empty, first shuffle the discard pile to create a new facedown shadow deck.
+
+    - name: Check Darkness & Flip Secrets
+      pretext: >
+        If the Queen's pawn is on the "8" space of the Darkness track, reset it to its starting space—the "4" space if you're playing solo or "1" if not—then draw a darkness card and resolve it just like a shadow card, then discard it to a **separate** discard pile next to the Darkness track.
+        <br><br>
+        Flip any facedown secrets on the Queen's board faceup.
+
+- name: The Queen's Actions
+  color: '#5E3B76'
+  pretext: >
+    This is a list of the actions on the Queen's shadow and darkness cards.
+    <br><br>
+    If the Queen takes an action with a darkness icon `symbol:darkness` but the action has no effect, Darkness increases (`rule:29.8`). **Darkness cannot increase on the Queen's first turn of the game.**
+  children:
+    - name: Minion
+      children:
+        - name: 'If the site is ruled by the Queen of Shadows:'
+          text: >
+            Check her Zeal in the bottom-right corner of the current shadow card.
+            <br><br>
+            If there are fewer minions on this site than her Zeal, move 1 minion from the Queen's board to this site, and place a lock token on each denizen and edifice at this site without one.
+            <br><br>
+            If there are equal or more minions at this site than her Zeal, or if she has no minions on her board, she gains 2 minions.
+
+        - name: 'If this site is ruled by an Adventurer:'
+          text: >
+            Check the Zeal on the current shadow card. If she has at least as many minions on her board as her Zeal, she campaigns against this site (`rule:34.`).
+            <br><br>
+            If she does not have enough minions to meet her Zeal, she gains minions until her board has minions equal to her Zeal.
+
+        - name: 'If the site is ruled by bandits:'
+          text: >
+            Replace as many bandits as possible with minions from the Queen's board, and remove the rest. If the Queen cannot replace at least one bandit, she gains 2 minions and skips this action.
+            <br><br>
+            If this site has no denizens, edifices, or prisoners, draw the top card of the world deck and place it at the site, ignoring its power and icons. If a Vision is drawn, discard it and draw until a denizen is drawn.
+            <br><br>
+            Place a lock token on each denizen and edifice at this site without one.
+
+    - name: Recall
+      pretext: If there are 3 or more minions at this site, return 1 minion from this site to the Queen's player board.
+
+    - name: Swap
+      pretext: >
+        Swap the action token on this site with the action token that has the number printed on this icon. _So if the action icon says "3" and it is in row 1, swap the #3 and #1 action tokens on the map._
+
+    - name: Favor
+      pretext: >
+        The Queen gains 1 favor from the bank matching the suit of each prisoner in this region.
+        <br><br>
+        **If she gains no favor** and the action has a darkness icon `symbol:darkness`, Darkness increases.
+
+    - name: Secret
+      pretext: >
+        If the Queen rules this site, she gains 1 secret.
+        <br><br>
+        **If she gains no secrets** and the action has a darkness icon `symbol:darkness`, Darkness increases.
+
+    - name: Relic
+      pretext: >
+        If there is a relic at this site, the Queen takes it faceup. If there is more than one relic, the active player chooses which one she takes. If there is a forge at this site, and the Queen has the resources, she will take the Forge action, ignoring the need for rule.
+        <br><br>
+        **If this site has no relics, but an Adventurer's pawn who holds a relic is there,** the Queen checks if she has minions on her board at least equal to her Zeal. If she does, she campaigns (`rule:34.`) and targets a relic there of the active player's choice.
+        <br><br>
+        **If the Queen cannot take a relic or campaign for one,** and this action has a darkness icon `symbol:darkness`, Darkness increases.
+
+    - name: Altar
+      pretext: >
+        **If there is no altar at this site,** draw an altar from the draw bag and place it here.
+        <br><br>
+        **If there is already an altar at this site,** return it to the draw bag.
+
+    - name: Kidnap
+      pretext: The active player must move one of their **faceup** advisers _(even if locked)_ to this site, then place a lock token on it. It is now a prisoner. _Ignore site capacity for this._
+
+    - name: Kill
+      pretext: Kill an Adventurer's warband at this site. If there are none at this site, kill one on the active player's board, if possible.
+
+    - name: Rob
+      pretext: >
+        An Adventurer whose pawn is in the region must give either 2 favor or 1 secret, except their last secret, to the Queen.
+        <br><br>
+        **If multiple pawns are in the region,** the Adventurers decide which of them pays. _You cannot choose an Adventurer who cannot pay anything unless no one can._
+        <br><br>
+        **If the Queen gains no favor or secrets** and this action has a darkness icon `symbol:darkness`, Darkness increases.
+
+    - name: Seize
+      pretext: Move a random unclaimed title card to this site. It cannot be claimed while it is at this site. _It does not count against capacity and can be returned to the available row with Excavate (`rule:33.4`)._
+
+    - name: Ambush
+      pretext: >
+        If the Queen rules this site and the active player's pawn is there, she checks whether she has at least as many minions on her board as the Zeal on her current shadow card. _If she does not have enough minions, skip this action._
+        <br><br>
+        If she does, she campaigns (`rule:34.`), targeting the active player's pawn _(not relics or banners)._
+
+    - name: Banner
+      pretext: >
+        The Queen will do the following for **both** the People's Favor and the Darkest Secret. _This action does not change based on the row number._
+        <br><br>
+        **If the Queen holds the banner,** she will add 1 favor or secret from her board to it, as appropriate.
+        <br><br>
+        **If the active player holds the banner,** and the Queen has enough favor or secrets to challenge it, she will do so, regardless of whether she rules the active player's site. _The player holding the Eye decides when breaking ties or choosing a starting favor bank._
+
+- name: New Adventurer Actions
+  color: '#5E3B76'
+  pretext: The Adventurers have many new actions that they can take on their turn, as follows.
+  children:
+    - name: Replace
+      pretext: >
+        **Cost: 1 Supply**
+        <br><br>
+        Replace another Adventurer's warbands at your site with warbands from your board, returning theirs to their board. You must have enough warbands to replace all of theirs.
+
+    - name: Trick
+      pretext: >
+        This action costs two keys, returning them to the shared bank. _You gain keys by freeing prisoners._
+        <br><br>
+        When you take this action, swap the action token at your site with the action token on a different site in your region.
+        <br><br>
+        This action can only be used **once per game** by any player. When it is used, flip the Eye token to the Closed side as a reminder.
+
+    - name: Stash
+      pretext: >
+        Place a relic you hold at your site **faceup**, ignoring the site's capacity.
+        <br><br>
+        Place a key token on it from the shared bank to cover its power.
+
+    - name: Excavate
+      pretext: >
+        Take a **faceup** relic or title card from your site by spending any combination of 3 favor, secrets, and warbands. _Titles are placed on the map by the Queen's Seize action (`rule:32.11`)._
+
+          - Flip spent secrets facedown on your board.
+          - Place spent favor in the favor banks with the least favor. Break ties to the leftmost bank.
+          - Move spent warbands from your board to your warband bank _(off your board)_.
+
+        If you take a title card, place it back in the row of available titles near the map. If you take a relic, return its key token to the shared bank.
+
+    - name: Negotiate
+      pretext: Players whose pawns are at the same site can exchange favor. This replaces the Negotiate minor action in New Foundations—players cannot exchange relics in this version!
+
+    - name: Free Prisoner
+      pretext: >
+        Free a prisoner at your site by spending any combination of 3 favor, secrets, and warbands.
+
+          - Flip secrets you spend facedown on your board.
+          - Place favor you spend in the favor bank matching the **prisoner's suit**.
+          - Move warbands you spend from your board to your warband bank _(off your board)_.
+      children:
+        - name: 'Take Key:'
+          text: Take the lock token from the prisoner and flip it to its key side.
+
+        - name: 'Humiliate the Queen:'
+          text: Move 1 favor from the Queen of Shadows board to the favor bank matching the suit of the freed prisoner.
+
+        - name: 'Play or Discard Card:'
+          text: Take the freed card and play or discard it as if you had just searched. If it is an edifice, it remains at the site, whether intact or ruined. If the site is now over capacity, discard denizens of your choice from the site until it is back at capacity.
+
+    - name: Ritual
+      pretext: >
+        When your pawn is at a site with an altar, you may use the altar's action, as described below.
+        <br><br>
+        Any number of times, you may use the altar **again** by burning a key token you hold. _You still pay all of the action's costs._
+        <br><br>
+        After using the altar, return it to the draw bag.
+      children:
+        - name: Altar Actions
+          children:
+            - name: Altar of Devotion.
+              text: Place 2 favor in a favor bank matching one of your faceup advisers to gain 1 secret.
+
+            - name: Altar of Banishment.
+              text: Discard an adviser to gain 1 secret. You may discard an adviser of any Adventurer with a pawn at this site.
+
+            - name: Altar of Labor.
+              text: Spend 3 Supply to gain 1 secret. You may split this Supply cost among any Adventurers with a pawn at this site.
+
+            - name: Altar of Darkness.
+              text: Discard the top 3 cards from the world deck to gain 1 secret. Discard them one at a time facedown, advancing the Visions Drawn marker once for each Vision you discard.
+
+            - name: Altar of Blood.
+              text: Sacrifice 1 warband, except the last, from any site ruled by an Adventurer whose pawn is at this site to gain 1 secret.
+
+            - name: Altar of Treasures.
+              text: Bury a relic held by an Adventurer whose pawn is at this site to gain 1 secret. _("Bury" means place it on the bottom of the relic deck.)_
+
+            - name: Altar of Secrets.
+              text: If a player holds the Darkest Secret and their pawn is at this site, or if the Queen rules this site and she holds the Darkest Secret, take 1 secret from the Darkest Secret. You cannot take its last secret.
+
+            - name: Altar of Favor.
+              text: If a player holds the People's Favor and their pawn is at this site, or if the site is ruled by the Queen and she holds the People's Favor, take 1 favor from the People's Favor. You cannot take its last favor.
+
+- name: The Queen's Campaigns
+  color: '#5E3B76'
+  pretext: The Queen rolls all attack dice she can collect, but does not use battle plans. She will sacrifice the minimum number of minions she needs to be victorious, **after** defense dice are rolled.
+  children:
+    - name: When victorious against a site,
+      pretext: she places as many minions on the site as she can, up to three, and places a lock token on denizens and edifices at the site. If there are none, she first places a denizen at the site from the top of the world deck, discarding Visions drawn.
+
+    - name: When victorious against a pawn,
+      pretext: "she moves the pawn to the next faceup site in number order: from #1 to #8 in ascending order, wrapping from #8 to #1. _So if the pawn is at the #4 site, she moves it to the #5 site if it's faceup. She also burns the loser's favor, and she discards all their facedown cards if playing New Foundations._"
+
+- name: Writing the Chronicle
+  color: '#5E3B76'
+  pretext: 'After playing a game, Adventurers gather the Chronicle task cards specific to the Queen of Shadows and resolve them. Here are the changes:'
+  children:
+    - name: 'Task 0: The Queen'
+      children:
+        - name: Adjust the Shadow Deck.
+          text: To make the deck more difficult, replace as many random blue cards as you like with random red cards. To make the deck less difficult, replace as many random red cards as you like with random blue cards. _You can store your shadow deck in the included tuckbox._
+
+        - name: Burn Keys.
+          text: >
+            In turn order, players may do the following any number of times:
+
+              - **Move Denizen.** Burn 2 keys to move a denizen at a site to a different site or their advisers. _Follow normal restrictions. You cannot move prisoners._
+              - **Protect Adviser.** Burn 3 keys to shuffle an adviser into the world deck. _This is helpful if you want to prevent it from becoming Dispossessed._
+
+        - name: Return Locks and Keys.
+          text: Return any lock tokens on the map and key tokens held by players to the shared bank.
+
+    - name: 'Task 1: The Sun'
+      children:
+        - name: Resolve Legacies.
+          text: Adventurers cannot activate legacies—_they are in the midst of a dark age._ If they lose the game, each Adventurer discards a random dormant legacy—_their family memories fade_.
+
+        - name: Crown Chancellor.
+          text: The winner does not become Chancellor.
+
+        - name: Assign Tasks.
+          text: The player holding the Eye token takes the Throne task. Give the World task to the Adventurer with the People's Favor, and give the Beacon task to the player with the Darkest Secret. _If one Adventurer holds both the Beacon task and the World task, they must give one to another player, if able. If the Queen holds a task, the player with the Eye gives it to a player without one, if able._
+
+    - name: 'Task 2: The Throne'
+      pretext: The player holding the Throne task resolves these steps.
+      children:
+        - name: Offer Citizenship.
+          text: Skip this step. _The Empire does not yet exist._
+
+        - name: Shape Empire.
+          children:
+            - name: 'Shadow Victory:'
+              text: If the Queen won, preserve all sites ruled by the Queen for the next game—these will go in front of the Empire divider. Discard all denizens _(including ruined edifices)_ except intact edifices from sites not ruled by the Queen.
+
+            - name: 'Adventurer Victory:'
+              text: If the Adventurers won, preserve all sites ruled by players for the next game—these will go in front of the Empire divider. Discard all denizens _(including ruined edifices)_ except intact edifices from sites not ruled by Adventurers.
+
+        - name: Build Edifice.
+          text: Skip this step. _You can build a lasting monument when you have defeated evil!_
+
+        - name: Stock Reliquary.
+          text: Skip this step. _There is no Reliquary._
+
+        - name: Scatter Relics.
+          text: Flip any faceup relics at sites facedown. Shuffle together all discarded relics and relics held by players **and the Queen of Shadows**. Deal them facedown to empty relic slots on sites going Hinterward. Return the rest to the relic deck.
+
+        - name: Score Points.
+          text: >
+            If the Adventurers won, they collectively score Adventurer points:
+
+              - 3 points for winning the game.
+              - 1 point for each site ruled by Adventurers where there is at least 1 denizen.
+              - 1 point for every 2 red cards in the shadow deck. _For example, if the shadow deck has 3 red cards in it, score 1 point._
+
+        - name: Swear an Oath.
+          text: If the Queen won, choose a random Oath. If the Adventurers won, they choose the next Oath together. _The player with the Eye resolves disagreements._ In both cases, the Oath must be different from the current one.
+      posttext: >
+        **Returning to Competitive Play.** If your group has played a total of five games against the Queen of Shadows, you reach the end of this dark age: either reset your points to 0 and continue the dark age, or return to competitive play. If you return to competitive play, return all Queen of Shadows components to the box. If you have 45+ points, collectively choose one player to be the Chancellor; the sites they rule become the Empire for the next game, and the other players become Citizens. If you have fewer than 45 points, your next game won't have a Chancellor.
+
+    - name: 'Task 3: The World'
+      pretext: Complete this task as normal.
+
+    - name: 'Task 4: The Beacon'
+      pretext: Complete steps 1 and 2 as normal. Skip the Shape Foundation step.
+
+    - name: 'Task 5: The Stars'
+      children:
+        - name: Write in the Stars.
+          text: If Adventurers won, they may circle and name a single star. If the Queen of Shadows won, choose one star for her. Name her first one Regina I, the second Regina II, and so on.
+
+        - name: Archive Rival Sites.
+          text: Complete this step as normal, but archive sites **not ruled by the winning side** _(the Queen or all of the Adventurers)_.
+
+        - name: Clean Up.
+          text: Return all pieces to their banks. _This includes favor, secrets, warbands, and pawns. Basically anything that is not a card or the map._ Consolidate the winner's sites going Cradleward.
+
+        - name: Play Again or Store.
+          text: Complete this task as normal, but follow the Queen of Shadows setup instructions if you intend to play again.
