@@ -26,6 +26,22 @@
 }
 
 .rule {
+  &.major, &.minor {
+    display: flex;
+    align-items: center;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      ::ng-deep .inline-icon {
+        max-height: 32px;
+        max-width: 32px;
+      }
+    }
+  }
+
   &.major {
     font-size: 36px;
     font-weight: bold;
