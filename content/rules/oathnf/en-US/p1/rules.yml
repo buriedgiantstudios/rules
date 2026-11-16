@@ -1579,3 +1579,547 @@
       pretext: Shorthand for the pieces in your **play area**.
     - name: Your Site/Region
       pretext: The site or region that your pawn is in.
+
+- name: Components
+  color: '#8C5A2B'
+  pretext: >
+    **Use the Stance, command, and action cards for New Foundations, not the base game.** Their card IDs in the bottom-right corner will include "-NF."
+  children:
+    - name: 5 Stance Cards
+
+    - name: 19 Command Cards (4 Basic, 3 Conquest, 3 Rebellion, 3 Faith, 3 Sanctuary, 3 Scepter)
+
+    - name: 13 Action Cards (Star, Moon, and Reap; Double-Sided)
+
+    - name: 1 Display Board
+
+    - name: 8 Action Tokens
+
+    - name: 1 Eye Token (Double-Sided)
+      pretext: The closed side of the Eye token is not used in these rules. It is used in games with the Queen of Shadows.
+
+- name: Introduction
+  color: '#8C5A2B'
+  pretext: >
+    In a solo or multiplayer game, players can compete against one or more automated opponents called **Servants**. A Servant can play as any role: Chancellor, Exile, or Citizen.
+    <br><br>
+    Servants play their turn much like humans: they perform a Wake Phase, draw a **command card** from the command deck and take the actions on it, then resolve their Rest Phase.
+    <br><br>
+    **If you play the game with multiple Servants,** each Servant takes their own turn in the normal turn order.
+    <br><br>
+    For the rest of this rulebook, Servants will be called "Servants," and human players will be called "players."
+
+- name: Setup
+  color: '#8C5A2B'
+  pretext: >
+    Choose how many Servants are in the game. _For a solo game, we recommend one or two._
+    <br><br>
+    Each Servant replaces a human player: they can be the Chancellor, an Exile or a Citizen.
+    <br><br>
+    Give them a player board, the pieces of its color, and its starting favor, secrets, and warbands shown on the board.
+  children:
+    - name: Map
+      pretext: 'Set up the map as usual, then place the priority tokens from #1 to #8 on each site in this order:'
+      children:
+        - text: Sites ruled by players.
+        - text: Sites ruled by bandits.
+        - text: Sites ruled by Servants.
+      posttext: 'If multiple sites meet the same condition, place the token on the **Cradlemost** tied site: go from top to bottom in the Cradle, then top to bottom in the Provinces, then top to bottom in the Hinterland.'
+
+    - name: Display Board
+      pretext: >
+        Place the display board near the map.
+        <br><br>
+        Find the **Star, Reap, Stance, and Moon cards** showing the **gold Oathkeeper goal icon** and place them onto the matching slots of the display board.
+        <br><br>
+        Stack the remaining Stance and Moon cards under these Stance and Moon cards.
+        <br><br>
+        Return the remaining Star and Reap cards to the box.
+
+    - name: Command Deck
+      pretext: >
+        To form the starting **command deck**, shuffle together these command cards:
+
+          - The 4 command cards showing the gear icon.
+          - The 3 command cards showing the Oathkeeper goal icon for this game.
+          - If any Citizens are in play, the 3 command cards showing the Successor goal icon for this game.
+
+        Place the command deck near the display board, and set aside the remaining command cards for later use.
+
+    - name: The Eye
+      pretext: Give the Eye token to a random player. _It doesn't matter which side it's on._
+
+    - name: Foundations
+      pretext: 'Servants will adapt to the game''s foundations as follows:'
+      children:
+        - name: 'Foundation I: Imperial Maps'
+          text: <br>If a Servant is Chancellor, fill the map as usual. They always take sites from the Forgotten Sites side of the Atlas.
+
+        - name: 'Altered Foundation I: Wide Horizons'
+          text: >
+            <br>If the Servant would travel to an unexplored site, do not roll dice to explore. Instead, sacrifice their next action (see Recover, `rule:22.9`) and move them to the site.
+            <br><br>
+            Place priority tokens on site slots by treating empty site slots as sites with bandits.
+
+        - name: 'Foundation II: Powerful Tribes'
+          text: <br>No special rules.
+
+        - name: 'Altered Foundation II: Movers and Shakers'
+          text: <br>No special rules.
+
+        - name: 'Foundation III: Quiet Ambitions'
+          text: <br>Servants each draw 2 legacies and keep **both** facedown.
+
+        - name: 'Altered Foundation III: Public Ambitions'
+          text: <br>No special rules.
+
+        - name: 'Foundation IV: Ties of Fellowship'
+          text: <br>No special rules.
+
+        - name: 'Altered Foundation IV: Teeming World'
+          text: <br>When a Servant takes a Search action, they always search the discard pile in their region.
+
+        - name: "Foundation V: Mob's Favor"
+          text: <br>No special rules.
+
+        - name: 'Altered Foundation V: Grand Council'
+          text: <br>No special rules.
+
+        - name: 'Foundation VI: Wandering Flame'
+          text: <br>No special rules.
+
+        - name: 'Altered Foundation VI: Festival'
+          text: <br>The Servant treats cards with the Festival marker as if they have favor or secrets on them.
+
+    - name: Servants
+      children:
+        - name: When placing pawns in setup,
+          text: >
+            place Servant pawns on the map as follows:
+
+              - If the Servant is **Chancellor**, place their pawn on the top Cradle site.
+              - If the Servant is a **Citizen**, place their pawn on the most Cradleward site (`rule:19.1`) ruled by the **Empire**. It cannot have another pawn unless all these sites have pawns.
+              - If the Servant is an **Exile**, place their pawn on the most Cradleward site (`rule:19.1`) ruled by **bandits**. It cannot have another pawn unless all these sites have pawns.
+
+        - name: To choose a starting adviser,
+          text: Servants each discard random denizens they have until they have one, assuming they drew in the Ties of Fellowship foundation (IV).
+
+        - name: Don't place the Supply marker on their Supply track.
+          text: They don't track Supply, but you will use their Supply marker to track their actions on their command card during their turn.
+
+- name: Key Concepts
+  color: '#8C5A2B'
+  children:
+    - name: The Servant's Actions
+      pretext: >
+        On their turn, the Servant draws a **command card** from the command deck and resolves its actions from top to bottom.
+        <br><br>
+        The first action is always either a **Star or Moon action**, which are shown on the Star and Moon cards on the display board. _Typically, the Star action makes a Servant compete for the Oathkeeper goal, and the Moon action makes them compete for a Vision goal._
+        <br><br>
+        This is followed by three rows of **command actions** and **boost actions**. The Servant always takes the command actions, and they might take boost actions, which you'll learn about later. These actions are described starting in `rule:22`.
+        <br><br>
+        Their last action is always the **Reap action**. Like the Star and Moon actions, their Reap action is shown by the Reap card on the display board. _Typically, Reap makes them gain resources._
+
+    - name: Choices
+      pretext: Often, the Servant's rules will specify targets. However, when there is a tie between targets or the target is not specified, the Servant makes choices as follows.
+      children:
+        - name: Suit choices are shown on the command card.
+          text: If the Servant must choose a suit from multiple options, they choose the **leftmost** suit from those options shown in the **suit row** at the bottom of their current command card.
+
+        - name: Player choices depend on who has the Eye.
+          text: If a Servant must choose among players to target, the Servant will target the player holding the Eye if possible. If this is not possible, the player holding the Eye token chooses the target player.
+
+        - name: Site and region choices depend on priority tokens.
+          text: If a Servant must choose a site or region from multiple options, they choose the site or region of highest priority, as shown by the priority tokens. The "1" priority token has the highest priority, and the "8" priority token has the lowest priority.
+
+        - name: Facedown relics are chosen randomly.
+          text: If a Servant has a choice of facedown relics, shuffle them and choose one at random.
+
+        - name: A Servant won't negotiate agreements.
+          text: It doesn't matter whether they're binding or not.
+
+    - name: Zeal
+      pretext: >
+        Each command card has a **Zeal** value in its bottom-right corner. When the Servant would campaign (`rule:23`), they only perform the action if they have warbands equal to or greater than their Zeal.
+        <br><br>
+        If they don't, they muster warbands (`rule:22.4`) instead.
+
+    - name: Stance Card
+      pretext: >
+        The Servant always has a Stance card, which can change as Visions are revealed. When the Stance card changes, the Moon card also changes to match it. _A moon is shown on the Stance card as a reminder._
+        <br><br>
+        The Stance card has two main uses: the Servant can place favor or secrets on its suits to take various actions, and these suits add to their advisers for card powers and Muster actions.
+
+    - name: Visions
+      pretext: >
+        Unlike human players, **Exile Servants can reveal multiple Visions and can win with any of them.**
+        <br><br>
+        Servants also change their strategy in response to revealed Visions. When any Exile, including a Servant, reveals a Vision card, follow these steps:
+      children:
+        - text: Change the Stance and Moon cards so their icons match the revealed Vision.
+        - text: If the replaced Stance card has favor on its suits, place the favor in the favor banks matching those suits. Flip any secrets on it facedown and place them on the active Servant's player board.
+        - text: Find the 3 command cards showing the icon of the revealed Vision, shuffle them into the command deck, and shuffle all discarded command cards into it. _Don't remove cards from the deck!_ **Skip this step if these command cards were added earlier in the game.**
+
+    - name: Card Powers & Restrictions
+      pretext: >
+        Servants try to use card powers as naturally as possible. A Servant is affected by the powers of denizens and sites just like players are, unless these rules say otherwise.
+        <br><br>
+        However, there are some key changes to know about:
+
+          - Servants will not play locked advisers `symbol:locked`. If they ever try to play one, they discard it.
+          - If a power says that a Servant "may" do something, they will not do it.
+          - If a power says that a Servant "must" choose between two or more options, they choose the first listed option that they can resolve.
+          - A Servant ignores powers on relics they hold and relics held by other Servants. _However, the Servant is still affected by relics held by the_ **players**, _and the players must follow the rules of powers on relics held by Servants._
+
+- name: The Servant's Turn
+  color: '#8C5A2B'
+  pretext: >
+    On a Servant's turn, they resolve three phases in order: Wake, Act, then Rest.
+    <br><br>
+    If there are multiple Servants, they take their own turns in the normal turn order. Their turns do not overlap in any way.
+  children:
+    - name: Wake Phase
+      pretext: >
+        Resolve the Wake Phase as normal for a player. _For example, if the Servant's pawn is at a site with favor or secrets on it, and no other pawn is there, they take 1 resource._ If they could take either favor or secrets from their site, they take a secret from it.
+        <br><br>
+        If the acting Servant is an Exile or Chancellor, and no Citizen player meets the Successor goal, flip their **Star and Reap cards** to show the gold goal icon. If they are a **Citizen**, or if any Citizen currently meets the Successor goal, flip them to show the **purple** goal icon.
+
+    - name: Act Phase
+      pretext: >
+        Draw the top card from the command deck and perform all of the actions in its left column from top to bottom. _You can track which action you are resolving using the Supply marker._
+        <br><br>
+        To resolve the **Star**, **Moon**, and **Reap** icons, follow the Star, Moon, and Reap cards on the display board, respectively.
+        <br><br>
+        For all other icons, reference the action list starting in `rule:22`.
+      children:
+        - name: Boost Actions
+          pretext: After the Servant performs an action, if it shows a second action to its right, immediately check whether they perform it. This is called a **boost action**.
+          children:
+            - name: The Servant must use a matching card.
+              pretext: 'Every boost action shows a specific suit. If the Servant has access to a matching card and places a resource on it, they perform the boost action. Otherwise, they skip it. They choose a card using the following priority order:'
+              children:
+                - text: A matching card in their advisers.
+                - text: A matching card at their site.
+                - text: A matching card at a site they rule, _breaking ties with the highest-priority site._
+                - text: A matching suit on the Stance card on the display board.
+
+            - name: This card must be empty.
+              text: It cannot already have favor or secrets on it. If using the Stance card, only the matching suit on it needs to be empty _(instead of the entire card)_.
+
+            - name: The Servant must place a favor or secret on it.
+              text: 'The Servant places 1 secret on the chosen card. If they have no secrets, they place 1 favor instead. If placing on their Stance card, they reverse this order: they place 1 favor on the matching suit, and if they have no favor then they place 1 secret instead.'
+
+    - name: Rest Phase
+      pretext: >
+        Discard the command card faceup to a discard pile near the command deck.
+        <br><br>
+        If the discarded card says "Reshuffle" on the bottom, then shuffle the entire discard pile back into the command deck.
+        <br><br>
+        Move any secrets `symbol:secret` to the Servant's player board, and move any favor `symbol:favor` on the Stance card, denizens, and edifices to the matching favor banks. If there are any facedown secrets on the Servant's player board, flip them faceup.
+        <br><br>
+        Complete the Rest Phase as normal, then pass the Eye to the next player in clockwise order.
+
+- name: The Servant's Actions
+  color: '#8C5A2B'
+  pretext: >
+    This section describes all of the actions that can appear on the command cards except for the Star, Moon, and Reap actions, which are listed on their respective cards on the display board.
+    <br><br>
+    Complete each action to the greatest extent possible.
+    <br><br>
+    **If an action has no effect,** the Servant takes a Gain Favor `symbol:favor` action (`rule:22.6`) instead. _This includes boost actions that are triggered but have no effect._
+  children:
+    - name: Adviser
+      pretext: >
+        **If the Servant has a facedown adviser,** play the card to the Servant's site. If this is not possible, play the card as a faceup adviser. Resolve this as if the Servant took the Search action. _Resolve any When Played power._
+        <br><br>
+        **If the Servant has no facedown advisers,** search the world deck and play a random drawn denizen as a facedown adviser. _Discard the other two cards._ If they already have 3 facedown advisers, follow the full Search rules (see below).
+
+    - name: Search
+      pretext: >
+        The Search action says whether the Servant draws from the world deck or from the discard pile of their region. If the discard pile is empty, use the world deck instead.
+        <br><br>
+        Draw three cards facedown, one at a time. _Draw as many as possible if fewer than three._
+        <br><br>
+        If the Servant draws a Vision from the world deck, stop drawing. If the Servant is an Exile, they play the Vision. If they are a Citizen or the Chancellor, they discard the Vision.
+      children:
+        - name: 'If a Vision Is Not Played:'
+          text: >
+            Shuffle the drawn cards facedown, reveal one, and discard the others.
+            <br><br>
+            **Servants will not play locked advisers. If a Servant reveals one, discard it and reveal another card.**
+            <br><br>
+            The Servant plays the revealed card to their site and gains 1 favor from the matching bank.
+            <br><br>
+            **If they cannot play it to their site,** they play it as an adviser unless they have 3 advisers already. If they cannot play it as an adviser, they discard it _(and take the Gain Favor action)_.
+            <br><br>
+            **When a Servant is resolving a When Played power, if it says the Servant "may" do something, they will not do it. If the Servant "must" do something, they do the first listed option they can resolve.**
+
+        - name: 'If a Vision Is Played:'
+          text: >
+            The Servant plays the Vision faceup on their Revealed Vision slot and discards the other drawn cards. _If they have multiple Visions, fan them out so they are all visible._
+            <br><br>
+            Change the Stance and Moon cards so their icons match the revealed Vision.
+            <br><br>
+            If the replaced Stance card has favor on its suits, place the favor in the favor banks matching those suits. Flip any secrets on it facedown and place them on the active Servant's player board.
+            <br><br>
+            Find the 3 command cards showing the icon of the revealed Vision, shuffle them into the command deck, and shuffle all discarded command cards into it. _Don't remove cards from the deck!_ **Skip this step if these command cards were added earlier in the game.**
+            <br><br>
+            **A Servant can have multiple revealed Visions! Servants ignore limits on playing Visions, such as Sacred Ground.**
+
+        - name: 'If the Conspiracy Is Played:'
+          pretext: >
+            The Servant takes a relic or banner from a player whose pawn is at their site.
+            <br><br>
+            **If there are no relics or banners there to take,** the Conspiracy does nothing but still returns to the box.
+            <br><br>
+            **If there are multiple relics and banners to take,** they prioritize in the following order:
+          children:
+            - text: The Darkest Secret if a revealed Vision or Oathkeeper goal requires it.
+            - text: The People's Favor if a revealed Vision or Oathkeeper goal requires it.
+            - text: The relic with the highest value _(number under the name)_. If there are only facedown relics, the player with the Eye chooses which they prioritize, and they flip it faceup.
+
+    - name: Travel
+      pretext: >
+        Roll 2 defense dice `symbol:diceb` `symbol:diceb` and count the number of shields `symbol:shield`, ignoring doublers `symbol:x2`.
+        <br><br>
+        Move the Servant's pawn to the site whose priority token equals the rolled shields `symbol:shield` **plus 1**.
+        <br><br>
+        **Servants ignore all direct Travel limits, such as the Pass site power. However, they still must pay Travel costs of favor or secrets prompted by powers, and they will not travel if they cannot pay the cost—they Gain Favor (`rule:22.6`) instead.**
+
+    - name: Muster
+      pretext: >
+        If the Servant has any favor, they travel to the site with an empty card that would gain them the most warbands, then muster on it: they place 1 favor on it to gain 1 warband plus 1 for each adviser they have matching the suit of the card. _This includes suits on their Stance card._
+        <br><br>
+        **If multiple cards gain the most warbands,** they travel to the one at the highest-priority site.
+
+    - name: Kill
+      pretext: Kill a player's warband at the Servant's site. If there is none, kill one on the player board of the player with the Eye. _Otherwise, the player holding the Eye chooses a player's warband to kill._
+
+    - name: Gain Favor
+      pretext: >
+        Gain the number of favor shown by this action.
+        <br><br>
+        One by one, take favor from the favor bank with favor that is furthest to the left on the current command card.
+
+    - name: Gain Secret
+      pretext: Gain 1 secret.
+
+    - name: Trade Favor for Secrets
+      pretext: If the Servant has 3 favor, place 1 favor each into the favor banks of the three leftmost suits on the command card and gain 2 secrets.
+
+    - name: Recover
+      pretext: >
+        They recover a relic from their site. If they cannot, they first travel to the highest-priority site with a relic they can recover.
+        <br><br>
+        To recover, the Servant sacrifices later actions on their turn. They can sacrifice boost actions, but only ones **they can perform** _(can access boost suit and have a resource)_.
+        <br><br>
+        The number of actions they sacrifice depends on the relic's Recover Difficulty, shown on the site in its bottom-right corner, as follows.
+
+          - **Recover Difficulty 2–3:** 1 action sacrificed.
+          - **Recover Difficulty 4–5:** 2 actions sacrificed.
+          - **Recover Difficulty 6:** 3 actions sacrificed.
+
+        **If they recover the relic,** they take it faceup.
+        <br><br>
+        **If they cannot recover a relic in any way,** they instead campaign (`rule:23`), targeting a relic held by the player with the Eye. If they cannot, they choose anyone _(even a Servant)_ who holds a relic to target.
+
+    - name: Challenge
+      children:
+        - name: 'Step 1: Determine the target'
+          pretext: "The Servant targets the first banner on this list they can challenge and don't hold:"
+          children:
+            - text: Darkest Secret if a revealed Vision or Oathkeeper goal requires it
+            - text: People's Favor if a revealed Vision or Oathkeeper goal requires it
+            - text: Darkest Secret
+            - text: People's Favor
+          posttext: "**If the Servant already holds both banners,** they place 1 favor onto the People's Favor and 1 secret onto the Darkest Secret from their board."
+
+        - name: 'Step 2: Challenge the Banner'
+          pretext: >
+            If anyone holds the target banner, the Servant will travel to the site with the holder's pawn.
+            <br><br>
+            The Servant places the minimum favor or secrets needed to challenge the banner.
+            <br><br>
+            **If they cannot challenge this banner,** the Servant skips this step and will instead campaign (`rule:23`) and target this banner. _If it's in the shared bank, they muster instead (`rule:22.4`)._
+
+    - name: Challenge Banner
+      pretext: >
+        If anyone holds the prompted banner, the Servant will travel to the site with the holder's pawn. They challenge this banner, placing the fewest favor or secrets needed to take it.
+        <br><br>
+        **If the Servant already holds this banner,** they instead place 1 favor or 1 secret from their player board onto the banner.
+        <br><br>
+        **If they cannot challenge this banner,** the Servant will campaign (`rule:23`) and target this banner instead. _If the banner is in the shared bank, they muster instead (`rule:22.4`)._
+
+    - name: Campaign for Current Site
+      pretext: Campaign (`rule:23`) and target the site with the Servant's pawn.
+
+    - name: Campaign for Unruled Priority Site
+      pretext: Campaign (`rule:23`) and target the highest-priority site that is not ruled by any Servant.
+
+    - name: Campaign for Scepter
+      pretext: >
+        Campaign (`rule:23`) and target the Grand Scepter.
+        <br><br>
+        _If the Servant already has the Grand Scepter, they muster instead (`rule:22.4`)._
+
+- name: Servant Campaigns
+  color: '#8C5A2B'
+  pretext: >
+    **If a Servant cannot campaign for any reason,** including not having enough warbands for their Zeal (below) or having nothing to target, they muster instead (`rule:22.4`).
+  children:
+    - name: Check Zeal
+      pretext: Check whether the Servant has warbands on their player board at least equal to their **Zeal**, shown on their command card. If they do, continue the campaign.
+
+    - name: Travel
+      pretext: >
+        The Servant's pawn travels to the site with the target if they are not already at it.
+        <br><br>
+        **If a power at a site prevents the Servant from campaigning against the current target,** the Servant instead travels to that site and targets it.
+        <br><br>
+        **If a relic or banner prevents the Servant from campaigning against the current target,** the Servant instead travels to the site with the pawn holding it and targets it.
+
+    - name: Modify Targets
+      pretext: >
+        **If the Servant is targeting their site, but they rule it and a player pawn is there,** the Servant raids that pawn instead.
+        <br><br>
+        **If the Servant is targeting their site, but they rule it and no player pawns are there,** the Servant reinforces the site instead: they place 1 warband on the site from their board if the site has fewer than 3 warbands on it. Skip to the Resolve Priority step.
+
+    - name: Resolve Attack
+      children:
+        - name: Attacking Player
+          pretext: >
+            If attacking a player, the Servant rolls all of their collected attack dice. The defender collects and rolls defense dice, and may use battle plans, as in a normal campaign.
+            <br><br>
+            The Servant uses all red/gradient battle plans they rule that have no favor or secrets cost and have no choices _(such as Horse Archers)_. For each they cannot use, they collect one extra attack die instead.
+            <br><br>
+            The Servant sacrifices warbands to increase their attack value **after** defense dice are rolled. They sacrifice the minimum number they need to be victorious, but won't sacrifice if they cannot be victorious.
+
+        - name: Attacking Bandits
+          pretext: If attacking a site ruled by bandits, the Servant is victorious.
+
+        - name: Attacking Servant
+          pretext: If attacking a Servant, the attacking Servant is victorious if their force has equal or greater warbands than the defending force. _If they don't have enough warbands, they muster (`rule:22.4`) instead._
+
+    - name: Resolve Victory
+      pretext: If the Servant is victorious, resolve this section.
+      children:
+        - name: If targeting a player,
+          text: kill half the defeated force _(round down, as normal)_ and return the rest.
+
+        - name: If targeting a Servant,
+          text: kill only 1 warband in the defeated force and return the rest.
+
+        - name: If targeting bandits,
+          text: kill all the bandits on the site.
+
+        - name: If targeting a site,
+          text: place 1 warband from the Servant's board onto it.
+
+        - name: If targeting a pawn,
+          text: burn half of the defending player's favor and place their pawn on the lowest-priority site other than this one.
+
+        - name: If targeting a relic or banner,
+          text: take the relic or banner. If a banner is taken, adjust resources as the banner describes.
+
+    - name: Resolve Priority
+      pretext: >
+        **If the Servant rules their site,** that site becomes the Servant's lowest priority: move the #8 token to this site, then move the #7 token to the site that had the #8 token, and repeat in descending order until all sites have one priority token.
+        <br><br>
+        **If the Servant is defeated while targeting a site with a card preventing them from targeting a relic or banner,** that site becomes the Servant's highest priority: move the #1 priority token to that site, move the #2 token to the site that had the #1 token, and repeat in ascending order until all sites have a priority token.
+
+- name: Responses to Player Actions
+  color: '#8C5A2B'
+  children:
+    - name: Defending against Players
+      pretext: When a Servant is the defender in a campaign, the Servant uses all blue/gradient battle plans they rule that have no favor or secrets cost and have no choices. For each they cannot use, they collect one extra defense die instead.
+
+    - name: Players Taking Rule of Sites
+      pretext: When a player takes rule of a site away **from a Servant or the bandits**, swap that site's priority token with the highest-priority token on a site ruled by a Servant. _When a player takes rule of multiple sites at once, they choose the order in which they take rule, which affects how the priority tokens move. This does not trigger if the bandits take rule of a site._
+
+- name: Citizens and the Chancellor
+  color: '#8C5A2B'
+  children:
+    - name: Offering Citizenship
+      pretext: >
+        If the Servant is offered Citizenship, they will accept, unless they have the Oathkeeper title or meet a Vision goal.
+        <br><br>
+        If they accept, change the Stance and Moon cards to match the Successor goal and shuffle the matching command cards into the command deck. Follow the normal rules for accepting Citizenship, with one exception: **Don't discard their revealed Vision cards.**
+        <br><br>
+        If there are not enough purple warbands for a Servant who becomes a Citizen, the Chancellor determines which warbands to remove and which to replace.
+        <br><br>
+        A Servant Chancellor never offers Citizenship.
+
+    - name: Imperial Laws
+      children:
+        - name: Refreshing Supply.
+          text: If a player is a Citizen and a Servant is Chancellor, the player refreshes their Supply marker corresponding to the number of warbands in the Chancellor's personal bank. _This is the normal rule, even though the Servant does not use a Supply marker._
+
+        - name: Chancellor's Eye.
+          text: A Chancellor Servant will not allow players to move warbands from sites to their player board.
+
+        - name: Warband Transfers.
+          text: A Servant will accept Imperial warbands from another player, but will never transfer their own warbands to others.
+
+        - name: Imperial Tactics.
+          text: Imperial players and Servants may use the battle plans of Imperial Servants, and Imperial Servants will allow other Imperial players and Servants to use their battle plans.
+
+    - name: Exiling from the Empire
+      children:
+        - name: Exiling Player Citizens.
+          text: Anytime on a Servant's turn, if a Servant holds the Grand Scepter and has the required favor, they will exile a Citizen who is not a Servant. _The player holding the Eye token chooses which if there are multiple Citizen players._
+
+        - name: Servant Self-Exile.
+          text: Anytime on the Servant's turn, if the Servant is a Citizen and has the required favor, they will exile themself if they have a revealed Vision card, they meet the Vision's goal, and they do not meet the Successor goal.
+
+- name: Writing the Chronicle
+  color: '#8C5A2B'
+  pretext: During the Chronicle Phase, the Servants act as follows.
+  children:
+    - name: 'Task 1: The Sun'
+      children:
+        - name: Resolve Legacies.
+          text: For each Servant, consider all active legacies and facedown legacies. Servants activate all legacies they can. Discard legacies or flip them to their dormant side as normal. Servants will score lineage points for legacies, but do not use the legacy powers. If a Servant needs to discard legacies, discard them randomly.
+
+        - name: Assign Tasks.
+          text: If a Servant meets the prerequisite, carry out the assigned task for them according to the instructions below. Assign all other tasks to players. _If the Servant needs to choose between players, the player holding the Eye decides._
+
+    - name: 'Task 2: The Throne'
+      children:
+        - name: Offer Citizenship.
+          text: They won't offer Citizenship. If offered Citizenship, they accept.
+
+        - name: Build Edifice.
+          text: >
+            They bury a denizen at the Cradlemost site they rule to replace it with the topmost matching edifice from the edifice deck.
+            <br><br>
+            _If that site has multiple denizens, draw a command card and use the suit row. If there are multiple denizens of that suit, choose one at random._
+
+        - name: Score Lineage Points.
+          text: They score lineage points as normal. They never give away lineage points.
+
+        - name: Stock Reliquary.
+          text: They shuffle the collected relics, add all of them to the Reliquary, then discard random relics from the Reliquary until it has 5 relics.
+
+        - name: Swear an Oath.
+          text: Shuffle all available Oaths and choose randomly.
+
+    - name: 'Task 3: The World'
+      children:
+        - name: Dispossess and Protect.
+          text: Roll the purple end die. On a 1–3, the Servant protects the leftmost revealed stack. On a 4–6, the Servant protects the rightmost revealed stack. The Servant chooses a random protected card as a facedown starting adviser, and adds the other two to the world deck.
+
+    - name: 'Task 4: The Beacon'
+      children:
+        - name: Introduce Newcomers.
+          text: Use the 3 suits on the Stance card matching the new Oath to decide which suits the Servant will choose for this step. Draw 3 cards for the top suit on the card, then proceed clockwise for the second and third suits.
+
+        - name: Welcome a Stranger.
+          text: Shuffle the newly drawn cards and choose a random one for the Servant to keep as a starting adviser.
+
+        - name: Shape Foundation.
+          text: The Servant flips the lowest-numbered altered foundation card that is not affected by an active legacy from its altered side to its normal side.
+
+    - name: 'Task 5: The Stars'
+      children:
+        - name: Write in the Stars.
+          text: If a Servant wins the game, they will circle and name a single star. Choose the available star that is the most centrally located. Each time they name a star, they will name it Nova, followed by a number that matches the total number of stars they have named so far, e.g. Nova 001, Nova 002, etc.
