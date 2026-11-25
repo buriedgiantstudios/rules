@@ -2,3 +2,8 @@
   a: No, you need to choose whether or not to use battle plans in step 3. This is only telling you when you resolve the effects of these battle plans.
   rules:
     - '7.3.11'
+- q: What exactly can be discussed when I am trying to get consent? What does it look like in practice?
+  a: Ultimately, your group should agree on how you handle the specifics of communication. But we recommend keeping it as short and simple as possible, like "Can I use the Pass?" with an answer of yes or no, without discussion of why you're using the Pass or other coordination.
+  rules:
+    - '15.7'
+    - '7.2.4'

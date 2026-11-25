@@ -708,16 +708,16 @@
         - name: Travel Powers on Sites
           pretext: Many sites have a power that changes how you can travel between them, as listed below. There are more site powers than this—the full list of site powers is in `rule:10.5`.
           children:
-            - name: Coast
+            - name: Coast.
               text: Traveling from here to a Coast or Island costs only 1 Supply and ignores other Travel modifiers _(Mountain, Pass, etc.)_.
 
-            - name: Island
+            - name: Island.
               text: This site has the Coast power. Traveling to it costs 2 Supply more than its normal Travel cost unless you're traveling from a Coast or Island. _Also, the Sunken Isles has no capacity, so it cannot usually be targeted in a Campaign (`rule:9.10.5`)._
 
-            - name: Mountain
+            - name: Mountain.
               text: Traveling to this site costs one more Supply than its normal Travel cost. _Do not add this Supply cost if this site also has the Coast power and you're traveling to it from a Coast._
 
-            - name: Pass
+            - name: Pass.
               text: You **cannot** travel to other sites in this region if your pawn is outside this region, unless you have the consent of the Pass's ruler. _Ignore this power if you rule the Pass. The bandits never consent. The Pass also limits targeting sites in campaigns (`rule:10.5.6`)._
 
     - name: Campaign `symbol:action-campaign`
